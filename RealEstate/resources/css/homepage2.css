@@ -1,0 +1,66 @@
+body  {
+    font-family: 'Manrope', sans-serif;
+}
+.emri1{
+    font-weight: 10;
+    color:black;
+    text-align:center;
+    font-size:45px;
+    margin-top:290px;
+    margin-left:19%;
+    padding-bottom: 30px;
+}
+hr.colored {
+    border: 0;   /* in order to override TWBS stylesheet */
+    height: 5px;
+    margin-right:42.5%;    
+    margin-bottom:-270px;
+    margin-top:270px;
+    width : 10%;
+    background: rgb(255,162,0);
+
+    background: linear-gradient(90deg, rgba(255,162,0,1) 0%, rgba(121,61,9,1) 48%, rgba(0,0,0,1) 100%);
+
+}
+.text2 {
+    margin-left:48%;
+    padding-right:550px;
+    font-size:16px;
+    font-weight:normal;
+    font-family: 'Inter', sans-serif;
+    color: #797979;;
+    
+}
+
+.myButton {
+    background-color:#000000;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-size:16px;
+    padding:19px 31px;
+    margin-left:48%;
+    border-radius:0px 16px 0px   0px;
+}
+
+i {
+    padding-left:14px;
+    color:orange;
+}
+
+.divi11{
+    margin-top: -38%;
+}
+
+.foto1 {
+    width:30%;
+    margin-left:280px;
+    margin-top:10%;
+    border-radius:0px 50px 0px   0px;
+    border: 3px solid #18a0fb;
+    box-shadow: 0px 48px 35px 1px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 0px 48px 35px 1px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 48px 35px 1px rgba(0,0,0,0.28);
+
+}
