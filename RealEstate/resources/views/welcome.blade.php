@@ -18,7 +18,7 @@
 	    @include('navbar')
         @include('hero')
         @include('homepage2')
-        @include('listingpreview')
+        @include('listingspreview')
         @include('content')
         @include('cta')
     </body>
