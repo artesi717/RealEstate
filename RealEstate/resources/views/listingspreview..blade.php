@@ -8,10 +8,9 @@
 
 
 
-    <link href="./main.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
-    <link href="./main.css" rel="stylesheet" />
+    <link type="text/css" href="../css/main.css" rel="stylesheet" />
 
 
     <title>Document</title>
