@@ -21,5 +21,6 @@
         @include('listingspreview')
         @include('content')
         @include('cta')
+        @include('footer')
     </body>
 </html>
