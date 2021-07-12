@@ -66,7 +66,7 @@
   .v0_171 {
     width: 100%;
     height: 120px;
-    background: url("../../public/images/arrow-down-1.svg");
+    background: url("../images/arrow-down-1.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -117,7 +117,7 @@
   .v0_175 {
     width: 12px;
     height: 8px;
-    background: url("../../public/images/arrow-down-1.svg");
+    background: url("../images/arrow-down-1.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -161,7 +161,7 @@
   .v0_179 {
     width: 12px;
     height: 8px;
-    background: url("../../public/images/arrow-down-1.svg");
+    background: url("../images/arrow-down-1.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -205,7 +205,7 @@
   .v0_183 {
     width: 12px;
     height: 8px;
-    background: url("../../public/images/arrow-down-1.svg");
+    background: url("../images/arrow-down-1.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -249,7 +249,7 @@
   .v0_187 {
     width: 12px;
     height: 8px;
-    background: url("../../public/images/arrow-down-1.svg");
+    background: url("../images/arrow-down-1.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -363,6 +363,7 @@ border-radius: 25px;
     opacity: 1;
     position: absolute;
 height: 31px;
+top: 288px;
 left: 32px;
 right: 165px;
 
@@ -461,7 +462,7 @@ color: #000000;
   .v0_212 {
     width: 14px;
     height: 10px;
-    background: url("../../public/images/Shower.svg");
+    background: url("../images/Shower.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -563,7 +564,7 @@ border-radius: 25px;
   .v0_247 {
     width: 14px;
     height: 12px;
-    background: url("../../public/images/Bed.svg");
+    background: url("../images/Bed.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -603,6 +604,7 @@ border-radius: 25px;
     opacity: 1;
     text-align: left;
   }
+  
 
 
   .v0_251 {
@@ -630,7 +632,7 @@ border-radius: 25px;
   .v0_253 {
     width: 16px;
     height: 16px;
-    background: url("../../public/images/Shower.svg");
+    background: url("../images/Shower.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -686,7 +688,7 @@ border-radius: 25px;
   .v0_233 {
     width: 16px;
     height: 16px;
-    background: url("../../public/images/Size.svg");
+    background: url("../images/v0_233.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
