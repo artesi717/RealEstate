@@ -9,13 +9,10 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
+
         </style>
     </head>
     <body class="antialiased">
-	    @include('navbar')
         @include('hero')
         @include('homepage2')
         @include('listingspreview')
