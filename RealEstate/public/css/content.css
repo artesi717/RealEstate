@@ -60,70 +60,7 @@ font-family: 'Poppins',sans-serif;
     background-color: rgb(85, 80, 80);
     color: black;
 }
-*
-{
-    margin: 0;
-    padding: 0;
-    font-family: "open sans" sans-serif;
-}
-.content-section2
-{
-    width: 100%;
-    background: #4d3d1c;
-    padding: 40px 0;
-}
-.inner-width
-{
-    max-width: 1000px;
-    overflow: hidden;
-    padding: 0 20px;
-    margin: auto;
-}
-.content-section2 h1 
-{
-    text-align: center;
-}
-.border
-{
-    width: 100px;
-    height: 3px;
-    background: #271A00;
-    margin: 40px auto;
-}
-.content-section2-row 
-{
-    display: flex;
-    flex-wrap: wrap;
-}
-.content-section2-col
-{
-    flex: 50%;
-}
-.content2
-{
-    padding-right: 30px;
-}
-.content2 p
-{
-    text-align: justify;
-    margin-bottom: 20px;
-}
-.content2 a
-{
-    border-radius: 20px;
-    display: inline-block;
-    background: #e0f000;
-    color: #000000;
-    text-decoration: none;
-    border: 2px solid #000000;
-    padding: 8px 40px;
-    transition: 0.4s linear;
-}
-.content2 a:hover
-{
-    color: rgb(0, 0, 0);
-    background: #fff9f9;
-}
+
 @media screen and (max-width: 768px) {
     .container{
         width: 80%;
