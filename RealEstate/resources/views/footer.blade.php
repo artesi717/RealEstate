@@ -108,7 +108,6 @@ black);
 
 		<h1  class="h1shi"style="font-family: 'Roboto', sans-serif;align-self: left; margin-left:200px; flex-direction: row;">
 							Make your dreams a 
-						<div class="div3" style="background-color: #191409; width: 967px; height: 2px; position: absolute; top: 170px;"></div>
 
 
 		</h1>
