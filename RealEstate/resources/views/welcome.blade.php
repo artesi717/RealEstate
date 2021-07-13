@@ -21,11 +21,24 @@
     <div class="homepage2">
         @include('homepage2')
     </div>  
+<<<<<<< HEAD
     <div class="listingspreview">
         @include('listingspreview')
     </div>
+=======
+    <div class="listingspreview"> 
+        @include('listingspreview')
+    </div>
+    
+>>>>>>> 32d2fcc15e4b7cdb719395509c0d26baaa639262
     <div class="content">
         @include('content')
+    </div>
+    <div class="cta">
+        @include('cta')
+    </div>
+    <div class="footer">
+        @include('footer')
     </div>
     </body>
     <style>
@@ -33,7 +46,7 @@
             padding-bottom:200px;
         }
         .content{
-            padding-bottom:300px;
+            padding-top:1870px;
         }
         .listingspreview{
             padding-bottom:500px;
