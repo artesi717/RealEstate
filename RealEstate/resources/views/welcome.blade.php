@@ -21,10 +21,6 @@
     <div class="homepage2">
         @include('homepage2')
     </div>  
-    <div class="listingspreview">
-        @include('listingspreview')
-    </div>
-
     <div class="listingspreview"> 
         @include('listingspreview')
     </div>
@@ -43,13 +39,10 @@
             padding-bottom:200px;
         }
         .content{
-            padding-top:1100px;
-        }
-        .listingspreview{
-            padding-bottom:500px;
+            padding-top:1700px;
         }
         .cta{
-            padding-top: 300px;
+            padding-top: 400px;
         }
     </style>
 </html>
