@@ -87,7 +87,7 @@
 </head>
 <body>
 
-	<div class="bgc" style="width: 1500px;
+	<div class="bgc" style="width: 1550px;
 				min-height: 500px;
 			    background-image: linear-gradient(to bottom left, 
 rgb(33,21,1) , 
@@ -104,8 +104,6 @@ black);
 		
 
 
-<<<<<<< HEAD
-=======
 <div style="display: flex; align-items: center;" class="divi">
 
 		<h1  class="h1shi"style="font-family: 'Roboto', sans-serif;align-self: left; margin-left:200px; flex-direction: row;">
@@ -113,8 +111,6 @@ black);
 
 
 		</h1>
-
->>>>>>> 3f51b3861bfc8ce5d24395b33d78747efd5f0fc7
 		<h1 style="color: transparent;">a</h1>
 				<h1 class="realiteti" style="font-family: 'Roboto', sans-serif; align-self: left;color:#ffac12; "> reality</h1>
 	

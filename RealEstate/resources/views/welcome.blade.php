@@ -21,16 +21,13 @@
     <div class="homepage2">
         @include('homepage2')
     </div>  
-<<<<<<< HEAD
     <div class="listingspreview">
         @include('listingspreview')
     </div>
-=======
+
     <div class="listingspreview"> 
         @include('listingspreview')
     </div>
-    
->>>>>>> 32d2fcc15e4b7cdb719395509c0d26baaa639262
     <div class="content">
         @include('content')
     </div>
@@ -46,18 +43,13 @@
             padding-bottom:200px;
         }
         .content{
-            padding-top:1870px;
+            padding-top:1100px;
         }
-<<<<<<< Updated upstream
         .listingspreview{
             padding-bottom:500px;
         }
-
-=======
         .cta{
             padding-top: 300px;
         }
-       
->>>>>>> Stashed changes
     </style>
 </html>

@@ -25,7 +25,7 @@
 
 
 
-	<div class="bgc" style="width: 1500px;
+	<div class="bgc" style="width: 1550px;
 			    height: 600px;
 			    background-image: linear-gradient(to bottom left, #271901 , 
 #070605);	
