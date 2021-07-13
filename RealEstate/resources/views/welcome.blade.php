@@ -14,11 +14,22 @@
         </style>
     </head>
     <body class="antialiased">
+    <div class="hero">  
         @include('hero')
+    </div>  
+       
+    <div class="homepage2">
         @include('homepage2')
+    </div>  
+    
+    <div>
         @include('listingspreview')
-        @include('content')
-        @include('cta')
-        @include('footer')
+    </div>
+      
     </body>
+    <style>
+        .homepage2{
+            padding-bottom:200px;
+        }
+    </style>
 </html>
