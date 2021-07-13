@@ -22,14 +22,16 @@
         @include('homepage2')
     </div>  
     
-    <div>
-        @include('listingspreview')
+    <div class="content">
+        @include('content')
     </div>
-      
     </body>
     <style>
         .homepage2{
             padding-bottom:200px;
+        }
+        .content{
+            padding-bottom:300px;
         }
     </style>
 </html>
