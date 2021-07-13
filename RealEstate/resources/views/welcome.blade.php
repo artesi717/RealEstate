@@ -21,7 +21,9 @@
     <div class="homepage2">
         @include('homepage2')
     </div>  
-    
+    <div class="listingspreview">
+        @include('listingspreview')
+    </div>
     <div class="content">
         @include('content')
     </div>
@@ -33,5 +35,9 @@
         .content{
             padding-bottom:300px;
         }
+        .listingspreview{
+            padding-bottom:500px;
+        }
+
     </style>
 </html>

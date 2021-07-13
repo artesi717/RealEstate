@@ -22,9 +22,7 @@
         </a>
      <div>    
   <div class="collapse navbar-collapse" id="navbarResponsive">
-  <ul class="navbar-nav ml-auto" style="
-    margin: 31px;
-    margin-left: 23px;">
+  <ul class="navbar-nav ml-auto" style="margin: 31px; margin-left: 23px;">
         <li class="nav-item">
           <a class="nav-link" href="#">Nav link</a>
         </li>
@@ -39,11 +37,9 @@
         </li>
         
       </ul>
-      <ul class="nav navbar-nav navbar-right"style="  margin: 35px -59px 39px -3px;
-    left: 74px;">
-        <a href="" class="mybtn">Work with us<i class="fas fa-long-arrow-alt-right"></i></a></a></li>
+      <ul class="nav navbar-nav navbar-right"style="margin:-68px -59px 39px -3px; left: 74px;">
+        <a href="" class="mybtn">Work with us <img src="/images/Path.png" alt=""> </a></a></li>
       </ul>
-    
     </div>
   </div>
 </div>
