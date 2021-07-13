@@ -24,22 +24,22 @@
                 <div class="v0_172"></div>
                 <div class="v0_173"><span class="v0_174">Looking for</span>
                     <div class="v0_175">
-                        <div class="v0_176"></div>
+                      
                     </div>
                 </div>
                 <div class="v0_177"><span class="v0_178">Location</span>
                     <div class="v0_179">
-                        <div class="v0_180"></div>
+                       
                     </div>
                 </div>
                 <div class="v0_181"><span class="v0_182">Property Type</span>
                     <div class="v0_183">
-                        <div class="v0_184"></div>
+                       
                     </div>
                 </div>
                 <div class="v0_185"><span class="v0_186">Price</span>
                     <div class="v0_187">
-                        <div class="v0_188"></div>
+                       
                     </div>
                 </div>
                 <div class="v0_189"></div>
@@ -47,7 +47,7 @@
                 <div class="v0_191"></div>
             </div><span class="v0_192">Find your next place to live</span>
             <div class="v0_193">
-                <div class="v0_194"></div>
+               
             </div>
         </div>
         <div class="v0_196">
@@ -57,8 +57,7 @@
             <div class="v0_227">
                 <div class="v0_246">
                     <div class="v0_247">
-                        <div class="v0_248"></div>
-                        <div class="v0_249"></div>
+        
                     </div><span class="v0_250">4</span>
                 </div>
             </div>
@@ -96,8 +95,7 @@
             <div class="v0_227">
                 <div class="v0_246">
                     <div class="v0_247">
-                        <div class="v0_248"></div>
-                        <div class="v0_249"></div>
+                      
                     </div><span class="v0_250">4</span>
                 </div>
             </div>
@@ -134,8 +132,7 @@
             <div class="v0_227">
                 <div class="v0_246">
                     <div class="v0_247">
-                        <div class="v0_248"></div>
-                        <div class="v0_249"></div>
+                       
                     </div><span class="v0_250">4</span>
                 </div>
             </div>
@@ -171,8 +168,7 @@
             <div class="v0_227">
                 <div class="v0_246">
                     <div class="v0_247">
-                        <div class="v0_248"></div>
-                        <div class="v0_249"></div>
+                       
                     </div><span class="v0_250">4</span>
                 </div>
             </div>
@@ -208,8 +204,7 @@
             <div class="v0_227">
                 <div class="v0_246">
                     <div class="v0_247">
-                        <div class="v0_248"></div>
-                        <div class="v0_249"></div>
+                       
                     </div><span class="v0_250">4</span>
                 </div>
             </div>
@@ -246,8 +241,7 @@
             <div class="v0_227">
                 <div class="v0_246">
                     <div class="v0_247">
-                        <div class="v0_248"></div>
-                        <div class="v0_249"></div>
+                       
                     </div><span class="v0_250">4</span>
                 </div>
             </div>

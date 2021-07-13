@@ -21,9 +21,18 @@
     <div class="homepage2">
         @include('homepage2')
     </div>  
+    <div class="listingspreview"> 
+        @include('listingspreview')
+    </div>
     
     <div class="content">
         @include('content')
+    </div>
+    <div class="cta">
+        @include('cta')
+    </div>
+    <div class="footer">
+        @include('footer')
     </div>
     </body>
     <style>
@@ -31,7 +40,7 @@
             padding-bottom:200px;
         }
         .content{
-            padding-bottom:300px;
+            padding-top:1870px;
         }
     </style>
 </html>
