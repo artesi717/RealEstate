@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< Updated upstream
 <title>Page Title</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +13,13 @@
 
 
 
+=======
+	<title>Content</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="{{ URL::asset('/css/content.css') }}">
+>>>>>>> Stashed changes
 </head>
 <body>
    
