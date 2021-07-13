@@ -87,7 +87,7 @@
 </head>
 <body>
 
-	<div class="bgc" style="width: 100%;
+	<div class="bgc" style="width: 1500px;
 				min-height: 500px;
 			    background-image: linear-gradient(to bottom left, 
 rgb(33,21,1) , 

@@ -48,9 +48,16 @@
         .content{
             padding-top:1870px;
         }
+<<<<<<< Updated upstream
         .listingspreview{
             padding-bottom:500px;
         }
 
+=======
+        .cta{
+            padding-top: 300px;
+        }
+       
+>>>>>>> Stashed changes
     </style>
 </html>
