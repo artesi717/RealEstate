@@ -1,0 +1,97 @@
+body {
+    padding:0;
+}
+
+.footer {
+  
+    width: 133%;
+    height:600px;
+    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 70.25%);
+
+}
+
+.footerclass1 {
+    font-family: DM Sans;
+    padding-top:90px;
+    margin-left:290px;
+    height: 55px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 55px;
+    /* identical to box height */
+    letter-spacing: 1.05538px;
+    color: #FFFFFF;
+}
+
+
+.myButton6 {
+    background-color:#FFAC12;
+    display:inline-block;
+    cursor:pointer;
+    color:black;
+    font-family: 'Manrope', sans-serif;
+    font-size:16px;
+    padding:23px 41px;
+    margin-left:51%;
+    border-radius:0px 16px 0px   0px;
+}
+
+.hr121 {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    width: 1250px;
+    height: 1px;
+    margin-left:11%;
+}
+
+.foto123 {
+    margin-left :230px;
+}
+
+.icona112 {
+    margin-left:10.5%;
+    font-size:200%;
+}
+
+.emricolumn {
+    font-family: DM Sans;
+    height: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.376923px;
+    color: #FFFFFF;
+}
+
+.column121 {
+    margin-left:35%;
+    margin-top:-180px;
+}
+
+.column122 {
+    margin-left:45%;
+    margin-top:-189px;
+}
+
+
+.column124 {
+    margin-left:55%;
+    margin-top:-189px;
+}
+.link1 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.376923px;
+    color: #979797;
+}
+
+.reality33{
+    color:#FFAC12;
+    letter-spacing: -1.05538px;
+}

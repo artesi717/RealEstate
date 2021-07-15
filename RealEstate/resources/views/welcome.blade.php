@@ -44,5 +44,8 @@
         .cta{
             padding-top: 400px;
         }
+        body {
+            overflow-x: hidden; /* Hide horizontal scrollbar */
+        }
     </style>
 </html>

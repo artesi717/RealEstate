@@ -1,0 +1,92 @@
+.class66 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: -1.25641px;
+    color: #FFFFFF;
+    float:center;
+}
+
+.class81 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.502564px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    padding-left:730px;
+    padding-right:730px;
+
+}
+
+.container54 {
+    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+    width: 133%;
+    padding-top:9%;
+    padding-bottom:9%;
+
+}
+
+.amell {
+    width:10%;
+    border:0px;
+    float:center;
+    margin-right:45%;
+    height: 4px;
+    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    border-radius: 2px;
+
+}
+
+
+i {
+    padding-left:14px;
+    color:white;
+}
+
+.myButton3 {
+    background-color:#FFAC12;
+    display:inline-block;
+    cursor:pointer;
+    color:black;
+    font-family: 'Manrope', sans-serif;
+    font-size:16px;
+    padding:23px 41px;
+    margin-left:44.5%;
+    border-radius:0px 16px 0px   0px;
+}
+
+.evga11 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31px;
+    line-height: 31px;
+    letter-spacing: -0.603077px;
+    text-align: left;
+    color: #000000;
+    padding-left:770px;
+    padding-right:250px;
+}
+
+.amell2 {
+    width:388px;
+    border:0px;
+    float:center;
+    margin-right:19.8%;
+    height: 4px;
+    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    border-radius: 2px;
+}
+
+.pjesa2 {
+    padding-top:190px;
+    padding-bottom:190px;
+}
