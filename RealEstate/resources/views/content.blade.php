@@ -14,7 +14,7 @@
     <img class="foto2" src="http://holtzmanpartners.com/wp-content/uploads/2021/06/Advisory.jpg" alt="">
     
     <div class="div11">
-    <hr class="colored1" />
+    <hr class="colored1"/>
     <h1 class="emri2">You're in good hands</h1>
     <p class="text21">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
     dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
