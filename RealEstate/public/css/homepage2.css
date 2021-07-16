@@ -1,10 +1,10 @@
 body  {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'DM Sans' sans-serif;
 
 }
 .emri1{
     font-weight: 10;
-    font-family: 'Manrope', sans-serif;
+    font-family: 'DM Sans' sans-serif;
     color:black;
     text-align:center;
     font-size:45px;
@@ -29,7 +29,13 @@ hr {
     color: #797979;;
     
 }
-
+hr {
+    width:10%;
+    margin-right:28%;
+    height: 4px;
+      background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    border-radius: 2px;
+}
 .myButton {
     background-color:#000000;
     display:inline-block;
