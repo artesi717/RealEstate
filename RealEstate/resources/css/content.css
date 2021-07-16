@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Poppins',sans-serif;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color:  #F2F2F2;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .content{
+    margin-top: 20px;
+    color: #5d5d5d;
+}
+.content-section .content{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.content-section .content .button{
+    margin-top: 30px;
+}
+.content-section .content .button a{
+    border-radius: 20px;
+    background-color: black;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+    background-color: rgb(85, 80, 80);
+    color: black;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "open sans" sans-serif;
+}
+.content-section2
+{
+    width: 100%;
+    background: #4d3d1c;
+    padding: 40px 0;
+}
+.inner-width
+{
+    max-width: 1000px;
+    overflow: hidden;
+    padding: 0 20px;
+    margin: auto;
+}
+.content-section2 h1 
+{
+    text-align: center;
+}
+.border
+{
+    width: 100px;
+    height: 3px;
+    background: #271A00;
+    margin: 40px auto;
+}
+.content-section2-row 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-section2-col
+{
+    flex: 50%;
+}
+.content2
+{
+    padding-right: 30px;
+}
+.content2 p
+{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.content2 a
+{
+    border-radius: 20px;
+    display: inline-block;
+    background: #e0f000;
+    color: #000000;
+    text-decoration: none;
+    border: 2px solid #000000;
+    padding: 8px 40px;
+    transition: 0.4s linear;
+}
+.content2 a:hover
+{
+    color: rgb(0, 0, 0);
+    background: #fff9f9;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float: left;
+        width: 55%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: left;
+        width: 55%;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 19px;
+    }
+    .content-section .content .button{
+       text-align: center;
+    }
+    .content-section .content .button a{
+        padding: 9px 30px;
+    }
+
+}
