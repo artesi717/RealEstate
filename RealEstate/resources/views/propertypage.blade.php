@@ -11,9 +11,13 @@
 
     </head>
     <body class="antialiased">
-    <div class="propertypageinfo">  
-        @include('propertypageinfo')
-    </div>  
+ 
+    <div class="s">
+        @include('similarlistings')
+    </div>
+
+    
+
        
  
 </html>
