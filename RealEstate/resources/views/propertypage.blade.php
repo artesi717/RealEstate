@@ -8,16 +8,18 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        
 
     </head>
     <body class="antialiased">
- 
-    <div class="s">
+    <div class="propertypageinfo">  
+        @include('propertypageinfo')
+    </div>  
+    <div class="propertypageinfo">  
+        @include('propertydescription')
+    </div>  
+    <div class="propertypageinfo">  
         @include('similarlistings')
-    </div>
-
-    
-
-       
+    </div> 
  
 </html>
