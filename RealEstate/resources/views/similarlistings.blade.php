@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="{{ URL::asset('css/similar.css') }}">
-
-    <title>similar Listings</title>
- 
-</head>
-
-<body>
-    <div class="v0_694">
+<div class="v0_694">
         <div class="v0_695"><span class="v0_696">Similar listings</span>
             <div class="v0_697">
                 <div class="v0_698"></div>
@@ -109,6 +97,3 @@
        </div>
        
     </div>
-</body>
-
-</html>

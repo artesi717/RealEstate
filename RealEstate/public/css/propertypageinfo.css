@@ -2,15 +2,12 @@
     background: #F2F2F2;
     font-family: 'DM Sans', sans-serif;
   }
-
-  .container{
-    margin-top: 288px;
-  }
-
+    .container{
+      margin-left: 145px;
+    }
     .mySwiper {
       margin-top: 21px;
       
-
     }
 
     .mySwiper .swiper-slide {
@@ -24,7 +21,9 @@
       width: 100%!important;
       border-radius: 0px 16px 0px 0px;
     }
-
+    .swiper-slider{
+      width: 704px;
+    }
     .mySwiper .swiper-slide img:hover {
       cursor: pointer;
     }
@@ -57,7 +56,6 @@
     right: 53.72%;
     margin-left: -28.36%;
     list-style-type: none;
-
     font-family: DM Sans;
     font-style: normal;
     font-weight: normal;
@@ -76,14 +74,13 @@
     list-style-type: none;
     margin-right: 53.38%;
     margin-top: calc(50% - 17px/2 + 11.5px);
-
     font-family: DM Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 13px;
     line-height: 17px;
     /* identical to box height */
-
+    text-decoration: none;
     letter-spacing: -0.326667px;
 
     color: #FFAC12;
@@ -94,7 +91,7 @@
     height: 520px;
     margin-top: 288px;
     border-radius: 10px;
-    margin-left: 32px; ;
+    margin-left: -20px; ;
 
     }
     .contact-form .contact-content {
@@ -176,6 +173,7 @@
     margin-left: -42px;
     margin-top: -7px;
     border-radius:0px 16px 0px   0px;
+    text-decoration: none;
     }
     .btn_p{
     margin-top: 20px;
@@ -189,4 +187,190 @@
     list-style-type: none;
     }
 
+    .cards2{
+      width: 704px;
+      height: 147px;
+      background: rgba(255, 255, 255, 1);
+      opacity: 1;
+      position: absolute;
+      left: 145px;
+      top: 40px;
+      overflow: hidden;
+      border: 0px solid rgba(150,150,150,1);
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.13371394574642181);
+      overflow: hidden;
+    }
 
+    .v_694 {
+      width: 1440px;
+      margin-left: 185px;
+      
+      margin-bottom: 150px;
+      height: 700px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .v_695 {
+      width: 329px;
+      height: 86px;
+      background: #f2f2f2;
+    
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .v_696 {
+      width: 330px;
+      color: rgba(0, 0, 0, 1);
+      position: absolute;
+      top: 2
+      1px;
+      left: 0px;
+      font-family: DM Sans;
+      font-weight: Bold;
+      font-size: 50px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v_697 {
+      width: 169px;
+      height: 4px;
+      background: url("../images/Rectangle.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .v_701 {
+      width: 36px;
+      height: 22px;
+      background: rgba(255, 255, 255, 1);
+      opacity: 1;
+      position: absolute;
+      top: 105px;
+      left: 258px;
+      overflow: hidden;
+    }
+    .v_702 {
+      width: 16px;
+      height: 16px;
+      background: url("../images/Size.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 3px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .v_714 {
+      width: 10px;
+      color: rgba(0, 0, 0, 1);
+      position: absolute;
+      top: 0px;
+      left: 26px;
+      font-family: DM Sans;
+      font-weight: Bold;
+      font-size: 17px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v_715 {
+      width: 35px;
+      height: 22px;
+      background: rgba(255, 255, 255, 1);
+      opacity: 1;
+      position: absolute;
+      top: 105px;
+      left: 39px;
+      overflow: hidden;
+    }
+    .v_716 {
+      width: 14px;
+      height: 12px;
+      background: url("../images/Bed.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .v_719 {
+      width: 11px;
+      color: rgba(0, 0, 0, 1);
+      position: absolute;
+      top: 0px;
+      left: 24px;
+      font-family: DM Sans;
+      font-weight: Bold;
+      font-size: 17px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v_720 {
+      width: 36px;
+      height: 22px;
+      background: rgba(255, 255, 255, 1);
+      opacity: 1;
+      position: absolute;
+      top:105px;
+      left: 150px;
+      overflow: hidden;
+    }
+    .v_721 {
+      width: 40px;
+      color: rgba(0, 0, 0, 1);
+      position: absolute;
+      bottom: 12px;
+      left: 26px;
+      font-family: DM Sans;
+      font-weight: Bold;
+      font-size: 17px;
+      opacity: 1;
+      text-align: left;
+    }
+    .v_722 {
+      width: 16px;
+      height: 16px;
+      background: url("../images/Shower.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 2px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .v_729 {
+      width: 139px;
+      color: rgba(0, 0, 0, 1);
+      position: absolute;
+      top: 28px;
+      left: 30px;
+      font-family: DM Sans;
+      font-weight: Bold;
+      font-size: 24px;
+      opacity: 1;
+      text-align: left;
+    }
