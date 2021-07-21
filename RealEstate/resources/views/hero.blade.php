@@ -39,13 +39,11 @@
               </li>
 
             </ul>
+            @if(auth()->check())
             <div class="user">
               {{auth()->user()->name}}
             </div>
-            @if(auth()->check())
-            <ul class="nav navbar-nav navbar-right" style="margin:-68px -80px 39px -3px; left: 74px;">
-              <a href="/" class="">{{auth()->user()->name}}</a>
-            </ul>
+          
             <ul class="nav navbar-nav navbar-right" style="margin:-68px -80px 39px -3px; left: 74px;">
               <form action="/logout" method="POST">
               @csrf
