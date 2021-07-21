@@ -68,6 +68,26 @@ i {
   border-radius: 0px 16px 0px 0px;
 
 }
+.user
+{
+position: absolute;
+height: 22px;
+right: 58.75%;
+top: 50px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 20px;
+border-bottom: 1px solid rgb(8, 8, 8);
+
+
+/* identical to box height */
+letter-spacing: -0.376923px;
+
+color: #141414;
+}
 
 .head{
   width: 519px;

@@ -39,14 +39,17 @@
               </li>
 
             </ul>
+            <div class="user">
+              {{auth()->user()->name}}
+            </div>
             @if(auth()->check())
             <ul class="nav navbar-nav navbar-right" style="margin:-68px -80px 39px -3px; left: 74px;">
-              <a href="/" class="mybtn1">{{auth()->user()->name}}</a>
+              <a href="/" class="">{{auth()->user()->name}}</a>
             </ul>
             <ul class="nav navbar-nav navbar-right" style="margin:-68px -80px 39px -3px; left: 74px;">
               <form action="/logout" method="POST">
               @csrf
-                <button type="submit" class="mybtn">Log Out</button>
+                <button type="submit" class="mybtn" >Log Out</button>
               </form>
             </ul>
             @else
@@ -54,7 +57,7 @@
               <a href="/register" class="mybtn">Work with us<img src="/images/Path.png" alt=""> </a>
             </ul>
            
-            @endif 
+            @endif
 
           </div>
         </div>
