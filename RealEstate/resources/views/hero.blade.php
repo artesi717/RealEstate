@@ -41,14 +41,15 @@
             </ul>
             @if(auth()->check())
             @if(auth()->user()->hasRole('admin'))
+            <img class="admin" src="https://img.icons8.com/ios-glyphs/30/000000/admin-settings-male.png" alt=""> 
             <div class="user">
-
-              Admin: {{auth()->user()->name}}
+            {{auth()->user()->name}}
             </div>
             @elseif(auth()->user()->hasRole('user'))
+            <img class="admin" src="https://img.icons8.com/ios/50/000000/user--v2.png"/>
             <div class="user">
 
-              User : {{auth()->user()->name}}
+               {{auth()->user()->name}}
             </div>
             @endif
 

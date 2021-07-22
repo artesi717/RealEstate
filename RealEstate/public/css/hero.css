@@ -80,13 +80,20 @@ font-style: normal;
 font-weight: bold;
 font-size: 22px;
 line-height: 20px;
-border-bottom: 1px solid rgb(8, 8, 8);
+border-bottom: 1px solid rgb(48, 44, 44);
 
 
 /* identical to box height */
 letter-spacing: -0.376923px;
 
 color: #141414;
+}
+.admin{
+  
+  height: 22px;
+  margin-right: -22%;
+ margin-top: -22px;
+ margin-left: -25px;
 }
 
 .head{
