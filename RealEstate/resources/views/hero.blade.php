@@ -40,21 +40,30 @@
 
             </ul>
             @if(auth()->check())
+            @if(auth()->user()->hasRole('admin'))
             <div class="user">
-              {{auth()->user()->name}}
+
+              Admin: {{auth()->user()->name}}
             </div>
-          
+            @elseif(auth()->user()->hasRole('user'))
+            <div class="user">
+
+              User : {{auth()->user()->name}}
+            </div>
+            @endif
+
+
             <ul class="nav navbar-nav navbar-right" style="margin:-68px -80px 39px -3px; left: 74px;">
               <form action="/logout" method="POST">
-              @csrf
-                <button type="submit" class="mybtn" >Log Out</button>
+                @csrf
+                <button type="submit" class="mybtn">Log Out</button>
               </form>
             </ul>
             @else
             <ul class="nav navbar-nav navbar-right" style="margin:-68px -59px 39px -3px; left: 74px;">
               <a href="/register" class="mybtn">Work with us<img src="/images/Path.png" alt=""> </a>
             </ul>
-           
+
             @endif
 
           </div>
