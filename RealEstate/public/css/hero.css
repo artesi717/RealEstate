@@ -70,17 +70,16 @@ i {
 }
 .user
 {
-position: absolute;
 height: 22px;
-right: -12%;
-top: -12px;
+margin-right: -21%;
+margin-top: -30px;
 
 font-family: DM Sans;
 font-style: normal;
 font-weight: bold;
 font-size: 22px;
 line-height: 20px;
-border-bottom: 1px solid rgb(48, 44, 44);
+/* border-bottom: 1px solid rgb(48, 44, 44); */
 
 
 /* identical to box height */
@@ -91,7 +90,7 @@ color: #141414;
 .admin{
   
   height: 22px;
-  margin-right: -22%;
+  margin-right: -5%;
  margin-top: -22px;
  margin-left: -25px;
 }
