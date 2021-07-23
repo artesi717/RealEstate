@@ -1,5 +1,5 @@
  <style>
-              .myButton {
+          .myButton {
 	        background-color:#ffac12;
 	        cursor:pointer;
 	        color:black;
@@ -100,6 +100,108 @@
           color: #FFFFFF;
 
         }
+        @media screen and (max-width: 600px) {
+          .navlink1 {
+          position: absolute;
+          display: flex;
+          height: 20px;
+          left: 35.73%;
+          right: 58.75%;
+          top: calc(50% - 20px/2);
+
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 15px;
+          line-height: 20px;
+
+          /* identical to box height */
+          letter-spacing: -0.376923px;
+
+          color: #FFFFFF;
+        }
+
+        .navlink2 {
+          position: absolute;
+          height: 20px;
+          left: 46.87%;
+          right: 47.61%;
+          top: calc(50% - 20px/2);
+
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 15px;
+          line-height: 20px;
+
+          /* identical to box height */
+          letter-spacing: -0.376923px;
+
+          color: #FFFFFF;
+
+        }
+
+        .navlink3{
+          position: absolute;
+          height: 20px;
+          left: 58%;
+          right: 36.48%;
+          top: calc(50% - 20px/2);
+
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 15px;
+          line-height: 20px;
+
+          /* identical to box height */
+          letter-spacing: -0.376923px;
+
+          color: #FFFFFF;
+        }
+
+        .navlink4 {
+          position: absolute;
+          height: 20px;
+          left: 69.13%;
+          right: 25.35%;
+          top: calc(50% - 20px/2);
+
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 15px;
+          line-height: 20px;
+
+          /* identical to box height */
+          letter-spacing: -0.376923px;
+
+          color: #FFFFFF;
+
+        }
+
+        }
+@media screen and (max-width: 600px) {
+  nav a:not(:first-child) {display: none;}
+  nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav.responsive {position: relative;}
+  nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
 
         i {
             color:white;
@@ -130,8 +232,7 @@
           height: 42px;
           left: 10%;
           right: 0%;
-          padding-top: 40px;
-
+          padding-top: 15px;
           font-family: DM Sans;
           font-style: normal;
           font-weight: bold;
@@ -146,12 +247,10 @@
         
         .price{
           position: absolute;
-          padding-top: 40px;
+          padding-top: 15px;
           height: 42px;
           left: 80.3%;
           right: 0%;
-          
-
           font-family: DM Sans;
           font-style: normal;
           font-weight: bold;
@@ -167,12 +266,10 @@
 
         .address{
           position: absolute;
-          padding-top: 80px;
+          padding-top: 64px;
           height: 24px;
           left: 10%;
           right: 0%;
-          
-
           font-family: DM Sans;
           font-style: normal;
           font-weight: normal;
@@ -193,7 +290,7 @@
           height: 24px;
           left: 83.78%;
           right: -0.09%;
-          padding-top: 80px;
+          padding-top: 64px;
           
 
           font-family: DM Sans;
@@ -255,7 +352,16 @@
     </div>
   </div></div>
 
-  </>
+  <script>
+function myFunction() {
+  var x = document.getElementById("navbarResponsive");
+  if (x.className === "navtext") {
+    x.className += " responsive";
+  } else {
+    x.className = "navtext";
+  }
+}
+</script>
 </nav>
 </div>
 
