@@ -26,7 +26,7 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto" style="margin: 31px; margin-left: 23px;">
               <li class="nav-item">
-                <a class="nav-link" href="#">Nav link</a>
+                <a class="nav-link" href="#">Post </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Nav link</a>
