@@ -1,6 +1,7 @@
-<div class="container" style="margin-left:145px;">
+<div class="container1">
     <div class="row">
         <div class="col-md-8">
+          <div class="swiper">
         <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff margin-top:288px; width: 704px;margin:0px;" class="swiper-container mySwiper2">
       <div class="swiper-wrapper" style="margin-top:288px; width:704px;">
         <div class="swiper-slide">
@@ -29,6 +30,7 @@
       <div class="swiper-button-next" style="margin-top: 109px;margin-right:1px;"></div>
       <div class="swiper-button-prev" style="margin-top: 109px;";></div>
     </div>
+
     <div thumbsSlider="" class="swiper-container mySwiper">
       <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -54,11 +56,11 @@
           <img src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
         </div>
 
-        
+        </div>
       </div>
     </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-2">
         <div class="contact-form">
 	<div class="contact-content">
 		<div class="contact-header">
@@ -85,7 +87,15 @@
 </div>
 <div class="col-md-8">
 <div class="cards2">
-                <div class="v_701">
+<div class="v_780">
+                    <div class="v_781">
+                    </div><span class="v_782">2007</span>
+                </div>
+<div class="v_790">
+                    <div class="v_791">
+                    </div><span class="v_792">1</span>
+                </div>
+<div class="v_701">
                     <div class="v_702">
                     </div><span class="v_714">2</span>
                 </div>
@@ -95,29 +105,19 @@
                     </div><span class="v_719">4</span>
                 </div>
                 <div class="v_720"><span class="v0_721">2</span>
-                    <div class="v0_722">
+                    <div class="v_722">
                     
                     </div>
-                    <div class="v_791">
-                    <div class="v_702">
-                    </div><span class="v_714">2</span>
-                </div>
-                <div class="v_792">
-                    <div class="v_702">
-                    </div><span class="v_714">2</span>
-                </div>
-                <div class="v_793">
-                    <div class="v_702">
-                    </div><span class="v_714">2</span>
-                </div>
+
+                  
+
                 </div><span class="v_729">Details</span>
-      
                 <div class="v_731"></div>
                 <div class="v_732"></div>
                 <div class="v_733"></div>
-                <div class="v_733"></div>
-                <div class="v_733"></div>
-            </div>
+                <div class="v_750"></div>
+                <div class="v_751"></div>
+                
 </div>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
