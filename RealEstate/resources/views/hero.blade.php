@@ -26,7 +26,7 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto" style="margin: 31px; margin-left: 23px;">
               <li class="nav-item">
-                <a class="nav-link" href="#">Post </a>
+                <a class="nav-link" href="/p/create">Nav link</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Nav link</a>
@@ -43,13 +43,14 @@
             @if(auth()->user()->hasRole('admin'))
             <img class="admin" src="https://img.icons8.com/ios-glyphs/30/000000/admin-settings-male.png" alt=""> 
             <div class="user">
-            {{auth()->user()->name}}
+            <a href="/profile/{{ $post->user->id }}">
+            {{auth()->user()->name}}</a>
             </div>
             @elseif(auth()->user()->hasRole('user'))
             <img class="admin" src="https://img.icons8.com/ios/50/000000/user--v2.png"/>
             <div class="user">
-
-               {{auth()->user()->name}}
+            <a style="color: black" href="/profile/{{auth()->user()->id }}">
+               {{auth()->user()->name}}</a>
             </div>
             @endif
 
