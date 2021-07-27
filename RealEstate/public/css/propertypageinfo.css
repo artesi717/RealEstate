@@ -2,13 +2,17 @@
     background: #F2F2F2;
     font-family: 'DM Sans', sans-serif;
   }
-    .container{
-      margin-left: 145px;
+    .container1{
+      margin-left: 5px;
     }
     .mySwiper {
       margin-top: 21px;
+      margin: left 22px;
       
     }
+     .swiper{
+       margin-left: 144px;
+     }
 
     .mySwiper .swiper-slide {
       max-width: 80px!important;
@@ -30,6 +34,53 @@
     .swiper-container-pointer-events {
       touch-action: pan-y;
       border-radius: 0px 57px 0px 0px;
+  }
+ 
+  @media (max-width: 600px) {
+    .swiper  {
+      width: 80%;
+      margin-top: 82px;
+    }
+    .mySwiper {
+      margin-top: 21px;
+      margin: left 22px;
+      
+    }
+     .swiper-wraper{
+       margin-left: 144px;
+     }
+
+    .mySwiper .swiper-slide {
+      max-width: 80px!important;
+    
+    }
+    .mySwiper .swiper-slide img {
+  
+    }
+    .swiper-slider{
+      width: 50%;
+    }
+    .mySwiper .swiper-slide img:hover {
+      cursor: pointer;
+    }
+    .swiper-container-pointer-events {
+      touch-action: pan-y;
+      border-radius: 0px 57px 0px 0px;
+  }
+}
+ 
+  
+  @media (max-width: 768px) {
+    .contact-form {
+      width: 50%;
+      margin-top: 82px;
+    }
+  }
+  @media (max-width: 768px) {
+    .cards2 {
+      width: 50%;
+      
+    }
   }
     .border{
     width: 296px;
@@ -91,7 +142,8 @@
     height: 520px;
     margin-top: 288px;
     border-radius: 10px;
-    margin-left: -20px; ;
+    margin-left: -169px;
+    margin-right: 212px; ;
 
     }
     .contact-form .contact-content {
@@ -205,66 +257,14 @@
       overflow: hidden;
     }
 
-    .v_694 {
-      width: 1440px;
-      margin-left: 185px;
-      
-      margin-bottom: 150px;
-      height: 700px;
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      opacity: 1;
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      overflow: hidden;
-    }
-    .v_695 {
-      width: 329px;
-      height: 86px;
-      background: #f2f2f2;
-    
-      opacity: 1;
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      overflow: hidden;
-    }
-    .v_696 {
-      width: 330px;
-      color: rgba(0, 0, 0, 1);
-      position: absolute;
-      top: 2
-      1px;
-      left: 0px;
-      font-family: DM Sans;
-      font-weight: Bold;
-      font-size: 50px;
-      opacity: 1;
-      text-align: left;
-    }
-    .v_697 {
-      width: 169px;
-      height: 4px;
-      background: url("../images/Rectangle.svg");
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      opacity: 1;
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      overflow: hidden;
-    }
     .v_701 {
       width: 36px;
       height: 22px;
       background: rgba(255, 255, 255, 1);
       opacity: 1;
+      top: 104px;
       position: absolute;
-      top: 105px;
-      left: 258px;
+      left: 307px;
       overflow: hidden;
     }
     .v_702 {
@@ -297,9 +297,9 @@
       height: 22px;
       background: rgba(255, 255, 255, 1);
       opacity: 1;
+      top:104px;
       position: absolute;
-      top: 105px;
-      left: 39px;
+      left: 48px;
       overflow: hidden;
     }
     .v_716 {
@@ -311,7 +311,7 @@
       background-size: cover;
       opacity: 1;
       position: absolute;
-      top: 1px;
+      top: 5px;
       left: 0px;
       overflow: hidden;
     }
@@ -332,16 +332,16 @@
       height: 22px;
       background: rgba(255, 255, 255, 1);
       opacity: 1;
+      top: 104px;
       position: absolute;
-      top:105px;
-      left: 150px;
+      left: 178px;
       overflow: hidden;
     }
     .v_721 {
-      width: 40px;
+      width: 10px;
       color: rgba(0, 0, 0, 1);
       position: absolute;
-      bottom: 12px;
+      top: 0px;
       left: 26px;
       font-family: DM Sans;
       font-weight: Bold;
@@ -366,11 +366,155 @@
       width: 139px;
       color: rgba(0, 0, 0, 1);
       position: absolute;
+<<<<<<< Updated upstream
       top: 28px;
+      left: 10px;
+=======
+      top: 25px;
       left: 30px;
+>>>>>>> Stashed changes
       font-family: DM Sans;
       font-weight: Bold;
       font-size: 24px;
       opacity: 1;
       text-align: left;
+    }
+    .v_731 {
+      width: 704px;
+      height: 1px;
+      background: rgba(227, 227, 227, 1);
+      opacity: 1;
+      position: absolute;
+      top: 92px;
+      left: 0px;
+      border: 0px solid rgba(150, 150, 150, 1);
+      overflow: hidden;
+    }
+    .v_732 {
+      width: 1px;
+      height: 60px;
+      background: rgba(227, 227, 227, 1);
+      opacity: 1;
+      position: absolute;
+      top: 93px;
+      left: 130px;
+      border: 0px solid rgba(150, 150, 150, 1);
+      overflow: hidden;
+    }
+    .v_733 {
+      width: 1px;
+      height: 60px;
+      background: rgba(227, 227, 227, 1);
+      opacity: 1;
+      position: absolute;
+      top: 93px;
+      left: 261px;
+      border: 0px solid rgba(150, 150, 150, 1);
+      overflow: hidden;
+    }
+    .v_750 {
+      width: 1px;
+      height: 60px;
+      background: rgba(227, 227, 227, 1);
+      opacity: 1;
+      position: absolute;
+      top: 93px;
+      left: 402px;
+      border: 0px solid rgba(150, 150, 150, 1);
+      overflow: hidden;
+    }
+    .v_751 {
+      width: 1px;
+      height: 60px;
+      background: rgba(227, 227, 227, 1);
+      opacity: 1;
+      position: absolute;
+      top: 93px;
+      left: 546px;
+      border: 0px solid rgba(150, 150, 150, 1);
+      overflow: hidden;
+    }
+    .v_790 {
+      width: 35px;
+      height: 22px;
+      background: rgba(255, 255, 255, 1);
+      opacity: 1;
+      top:104px;
+      position: absolute;
+      left: 455px;
+      overflow: hidden;
+    }
+    .v_791 {
+      width: 14px;
+      height: 12px;
+      background: url("../images/Garage.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      top: 5px;
+      position: absolute;
+      overflow: hidden;
+    }
+    .v_792 {
+      width: 11px;
+      color: rgba(0, 0, 0, 1);
+      position: absolute;
+      top: 0px;
+      font-family: DM Sans;
+      font-weight: Bold;
+      font-size: 17px;
+      opacity: 1;
+      left: 23px;
+      text-align: left;
+    }
+    .v_795 {
+      width: 36px;
+      height: 22px;
+      background: rgba(255, 255, 255, 1);
+      opacity: 1;
+      position: absolute;
+      overflow: hidden;
+    }
+    .v_780 {
+      width: 67px;
+      height: 22px;
+      background: rgba(255, 255, 255, 1);
+      opacity: 1;
+      top:104px;
+      position: absolute;
+      left: 590px;
+      overflow: hidden;
+    }
+    .v_781 {
+      width: 14px;
+      height: 12px;
+      background: url("../images/calendar.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      top: 5px;
+      position: absolute;
+      overflow: hidden;
+    }
+    .v_782 {
+      width: 11px;
+      color: rgba(0, 0, 0, 1);
+      position: absolute;
+      top: 0px;
+      font-family: DM Sans;
+      font-weight: Bold;
+      font-size: 17px;
+      opacity: 1;
+      left: 23px;
+      text-align: left;
+    }
+    .v_795 {
+      width: 36px;
+      height: 22px;
+      background: rgba(255, 255, 255, 1);
+      opacity: 1;
+      position: absolute;
+      overflow: hidden;
     }
