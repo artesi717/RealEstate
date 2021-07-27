@@ -22,6 +22,9 @@ class PostsController extends Controller
             'bed' => 'required',
             'showers' => 'required',
             'size' => 'required',
+            'price' => 'required',
+            'year' => 'required',
+            'address' => 'required',
             'image'=>['required','image'],
         ]);
         $imagePath= request('image')->store('uploads','public');
@@ -33,15 +36,18 @@ class PostsController extends Controller
                 'bed'=>$data['bed'],
                 'showers'=>$data['showers'],
                 'size'=>$data['size'],
+                'price'=>$data['price'],
+                'year'=>$data['year'],
+                'address'=>$data['address'],
                 'image'=>$imagePath,
             ]);
+            return redirect('profile/'.auth()->user()->id);
     }
 
     public function show(Post $post)
     {
-        $users=auth()->user();
-        $posts= Post::whereIn('user_id', $users)->latest()->get();
+        return view('propertypage',compact('post'));
 
-        return view('posts.show',compact('post'));
+        
     }
 }

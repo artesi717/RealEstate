@@ -66,8 +66,8 @@
 		<div class="contact-header">
 			<div class="border">
         <img src="/images/Avatar Image.png" class="borderimg">
-        <h1>Kayley Hall</h1>
-        <a href="#">View Profile</a>
+        <h1>{{$post->user->name}}</h1>
+        <a href="/profile/{{$post->user->id}}">View Profile</a>
 
       </div>
 		</div>
@@ -89,7 +89,7 @@
 <div class="cards2">
 <div class="v_780">
                     <div class="v_781">
-                    </div><span class="v_782">2007</span>
+                    </div><span class="v_782">{{$post->year}}</span>
                 </div>
 <div class="v_790">
                     <div class="v_791">

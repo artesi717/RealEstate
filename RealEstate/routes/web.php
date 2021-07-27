@@ -26,7 +26,7 @@ Route::get('/propertypage', function () {
 
 Route::get('/p/create','PostsController@create');
 Route::post('/p','PostsController@store');
-Route::get('/p/{post}','PostsController@show');
+Route::get('/propertypage/{post}','PostsController@show');
 
 Route::get('/profile/{user}','ProfilesController@index')->name('profile.show');
 

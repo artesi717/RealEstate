@@ -21,7 +21,10 @@ class CreatePostsTable extends Migration
             $table->integer('showers');
             $table->integer('size');
             $table->string('image');
-
+            $table->integer('price');
+            $table->integer('year');
+            $table->string('address');
+            
             $table->timestamps();
 
             $table->index('user_id');

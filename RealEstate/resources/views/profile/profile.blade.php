@@ -13,6 +13,7 @@
 
                 </div>
 
+                
                 <a href="/p/create">Add New Post</a>
             </div>
             <a href="/profile/{{$user->id}}/edit">Edit Profile</a>
@@ -30,7 +31,7 @@
     <div class="row pt-4 ">
         @foreach($user->posts as $post)
         <div class="row pl-5 pt-4">
-            <div class="card">
+           <a href="/propertypage/{{$post->id}}"> <div class="card">
                <div> <img class="v0_226" src="/storage/{{$post->image}}" alt=""></div>
                 <p class="v0_225">{{$post->name}}</p>
                 <div class="v0_227">
@@ -47,7 +48,7 @@
                 <div class="v0_229">
                     <div class="v0_232">
                         <div class="v0_233"></div>
-                        <span class="v0_245">{{$post->size}}</span>
+                        <span class="v0_245">{{$post->size}}m2</span>
                     </div>
                 </div>
             </div>
