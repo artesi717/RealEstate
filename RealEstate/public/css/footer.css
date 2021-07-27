@@ -12,8 +12,7 @@ body {
 
 @media only screen and (max-width: 375px) {
 
-    body {
-    }
+    
 
     hr.hr121 {
         margin-left:-2%;
@@ -38,9 +37,7 @@ body {
 
 
     }
-    div.column121 {
-
-    }
+ 
 
     a.myButton6 {
         margin-left: 77rem;

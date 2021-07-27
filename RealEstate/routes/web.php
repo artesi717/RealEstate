@@ -33,3 +33,7 @@ Route::get('/profile/{user}','ProfilesController@index')->name('profile.show');
 
 Auth::routes();
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
