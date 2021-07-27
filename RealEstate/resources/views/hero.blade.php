@@ -57,17 +57,7 @@
        <img class="shigjeta" src="/images/arrow.png" style="padding-left:12px; cursor:pointer;" alt="">
      </span>
   </div>
-  <header>
-    <div class="hero-text">
-      <h1 class="head">Beautiful<br>homes made<br>for you</h1>
-      <p>In oculis quidem se esse admonere interesse enim maxime placeat, facere possimus,
-        omnis. Et quidem faciunt, ut labore et accurate disserendum et harum quidem exercitus.</p>
-      <span class="hero-p">See all listings
-        <img src="/images/arrow.png" style="padding-left:12px; cursor:pointer;" alt="">
-      </span>
-    </div>
-    </div>
-  </header>
+
 </body>
 
 </html>
