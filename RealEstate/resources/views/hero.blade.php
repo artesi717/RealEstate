@@ -21,7 +21,7 @@
           <img class="logo1" src="https://www.hommeet.com/wp-content/uploads/2020/06/logo-05.png" alt="" style="width:35%;">
         </a>
      <div>    
-  <div class="collapse navbar-collapse" id="navbarResponsive">
+  <div  class="collapse navbar-collapse" id="navbarResponsive">
   <ul class="navbar-nav ml-auto" style="margin: 31px; margin-left: 23px;">
         <li class="nav-item">
           <a class="nav-link" href="#">Nav link</a>
@@ -37,6 +37,7 @@
         </li>
         
       </ul>
+
       <ul class="nav navbar-nav navbar-right"style="margin:-68px -59px 39px -3px; left: 74px;">
         <a href="" class="mybtn">Work with us <img src="/images/Path.png" alt=""> </a></a></li>
       </ul>
@@ -48,10 +49,10 @@
 <header>
   <div class="hero-text">
     <h1 class="head">Beautiful<br>homes made<br>for you</h1>
-    <p>In oculis quidem se esse admonere interesse enim maxime placeat, facere possimus,
+    <p class="text989">In oculis quidem se esse admonere interesse enim maxime placeat, facere possimus,
      omnis. Et quidem faciunt, ut labore et accurate disserendum et harum quidem exercitus.</p>
      <span class="hero-p">See all listings
-       <img src="/images/arrow.png" style="padding-left:12px; cursor:pointer;" alt="">
+       <img class="shigjeta" src="/images/arrow.png" style="padding-left:12px; cursor:pointer;" alt="">
      </span>
   </div>
 </div>
