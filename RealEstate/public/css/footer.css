@@ -4,21 +4,31 @@ body {
 
 .footer {
   
-    width: 131%;
+    width: 130%;
     height:600px;
     background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 70.25%);
 
 }
 
+a {
+    color: white;
+}
+
+a:hover {
+    color:#AAB7B8;
+    text-decoration: none;
+  }
+
+  a:focus {
+      text-decoration: none;
+      color:#AAB7B8;
+  }
+
 @media only screen and (max-width: 375px) {
-
-    
-
     hr.hr121 {
         margin-left:-2%;
     }
 
-    
 
     #socialmedia {
         font-size: 220%;
@@ -63,21 +73,6 @@ body {
 
 }
 
-a {
-    color: white;
-}
-
-a:hover {
-    color:#AAB7B8;
-    text-decoration: none;
-  }
-#socialmedia {
-    color:white;
-}
-
-#whitebutton {
-    color: white;
-}
 
 .footerclass1 {
     font-family: DM Sans;
@@ -133,7 +128,6 @@ a:hover {
     line-height: 20px;
     letter-spacing: 0.376923px;
     color: #FFFFFF;
-    text-decoration: none;
 }
 
 .column121 {

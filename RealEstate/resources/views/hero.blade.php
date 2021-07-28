@@ -22,42 +22,68 @@
         <a class="navbar-brand" href="#">
           <img class="logo1" src="https://www.hommeet.com/wp-content/uploads/2020/06/logo-05.png" alt="" style="width:35%;">
         </a>
-     <div>    
-  <div  class="collapse navbar-collapse" id="navbarResponsive">
-  <ul class="navbar-nav ml-auto" style="margin: 31px; margin-left: 23px;">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Nav link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Nav link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Nav link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Nav link</a>
-        </li>
-        
-      </ul>
+        <div>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto" style="margin: 31px; margin-left: 23px;">
+              <li class="nav-item">
+                <a class="nav-link" href="/p/create">Nav link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nav link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nav link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nav link</a>
+              </li>
 
-      <ul class="nav navbar-nav navbar-right"style="margin:-68px -59px 39px -3px; left: 74px;">
-        <a href="" class="mybtn">Work with us <img src="/images/Path.png" alt=""> </a></a></li>
-      </ul>
+            </ul>
+            @if(auth()->check())
+            @if(auth()->user()->hasRole('admin'))
+            <img class="admin" src="https://img.icons8.com/ios-glyphs/30/000000/admin-settings-male.png" alt=""> 
+            <div class="user">
+            <a href="/profile/{{ $post->user->id }}">
+            {{auth()->user()->name}}</a>
+            </div>
+            @elseif(auth()->user()->hasRole('user'))
+            <img class="admin" src="https://img.icons8.com/ios/50/000000/user--v2.png"/>
+            <div class="user">
+            <a style="color: black" href="/profile/{{auth()->user()->id }}">
+               {{auth()->user()->name}}</a>
+            </div>
+            @endif
+
+
+            <ul class="nav navbar-nav navbar-right" style="margin:-68px -80px 39px -3px; left: 74px;">
+              <form action="/logout" method="POST">
+                @csrf
+                <button type="submit" class="mybtn">Log Out</button>
+              </form>
+            </ul>
+            @else
+            <ul class="nav navbar-nav navbar-right" style="margin:-68px -59px 39px -3px; left: 74px;">
+              <a href="/register" class="mybtn">Work with us<img src="/images/Path.png" alt=""> </a>
+            </ul>
+
+            @endif
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <header>
+    <div class="hero-text">
+      <h1 class="head">Beautiful<br>homes made<br>for you</h1>
+      <p>In oculis quidem se esse admonere interesse enim maxime placeat, facere possimus,
+        omnis. Et quidem faciunt, ut labore et accurate disserendum et harum quidem exercitus.</p>
+      <span class="hero-p">See all listings
+        <img src="/images/arrow.png" style="padding-left:12px; cursor:pointer;" alt="">
+      </span>
     </div>
-  </div>
-</div>
-</nav>
-</div>
-<header>
-  <div class="hero-text">
-    <h1 class="head">Beautiful<br>homes made<br>for you</h1>
-    <p class="text989">In oculis quidem se esse admonere interesse enim maxime placeat, facere possimus,
-     omnis. Et quidem faciunt, ut labore et accurate disserendum et harum quidem exercitus.</p>
-     <span class="hero-p">See all listings
-       <img class="shigjeta" src="/images/arrow.png" style="padding-left:12px; cursor:pointer;" alt="">
-     </span>
-  </div>
-
+    </div>
+  </header>
 </body>
 
 </html>

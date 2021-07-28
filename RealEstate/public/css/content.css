@@ -2,37 +2,10 @@
 body  {
     font-family: 'Manrope', sans-serif;
 }
-.emri2{
-    font-weight: 10;
-    color:black;
-    text-align:center;
-    font-size:45px;
-    margin-top:290px;
-    margin-right:40%;
-    padding-bottom: 30px;
-}
-hr.colored1 {
-    border: 0;   /* in order to override TWBS stylesheet */
-    height: 5px;
-    margin-left:15%;    
-    margin-bottom:-270px;
-    margin-top:20px;
-    width : 10%;
-    background: rgb(255,162,0);
-
-    background: linear-gradient(90deg, rgba(255,162,0,1) 0%, rgba(121,61,9,1) 48%, rgba(0,0,0,1) 100%);
-
-}
-
-
-
-@media only screen and (min-width: 2238px) {
-    /* For tablets: */
-}
 
 @media only screen and (max-width: 375px) {
     /* For tablets: */
-    .foto1 {width:80%;margin-left:0%;}
+    .foto1 {width:80%;margin-left:0.6%;}
 }
 
 @media only screen and (max-width: 375px) {
@@ -56,6 +29,8 @@ hr.colored1 {
 
 }
 
+
+
 @media only screen and (max-width: 375px) {
     /* For tablets: */
     .myButton {
@@ -75,6 +50,32 @@ hr.colored1 {
         padding-right:14px;
         color:orange;
     }
+
+}
+
+
+
+
+
+.emri2{
+    font-weight: 10;
+    color:black;
+    text-align:center;
+    font-size:45px;
+    margin-top:290px;
+    margin-right:40%;
+    padding-bottom: 30px;
+}
+hr.colored1 {
+    border: 0;   /* in order to override TWBS stylesheet */
+    height: 5px;
+    margin-left:15%;    
+    margin-bottom:-270px;
+    margin-top:20px;
+    width : 10%;
+    background: rgb(255,162,0);
+
+    background: linear-gradient(90deg, rgba(255,162,0,1) 0%, rgba(121,61,9,1) 48%, rgba(0,0,0,1) 100%);
 
 }
 .text21 {
