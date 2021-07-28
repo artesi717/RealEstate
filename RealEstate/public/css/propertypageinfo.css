@@ -4,6 +4,7 @@
   }
     .container1{
       margin-left: 5px;
+    
     }
     .mySwiper {
       margin-top: 21px;
@@ -12,12 +13,15 @@
     }
      .swiper{
        margin-left: 144px;
+       
      }
 
     .mySwiper .swiper-slide {
       max-width: 80px!important;
       height: 80px!important;
       width: 100%!important;
+      
+      
     }
     .mySwiper .swiper-slide img {
       width: 100%!important;
@@ -27,19 +31,31 @@
     }
     .swiper-slider{
       width: 704px;
+    
     }
     .mySwiper .swiper-slide img:hover {
       cursor: pointer;
+     
     }
     .swiper-container-pointer-events {
       touch-action: pan-y;
       border-radius: 0px 57px 0px 0px;
   }
  
-  @media (max-width: 600px) {
+  @media (max-width: 750px) {
+    .container1{
+      
+    margin-left: -149px;
+    margin-top: -40px;
+
+    }
+    .swiper-button-next{
+      margin-right: 12px;
+    }
     .swiper  {
       width: 80%;
       margin-top: 82px;
+      margin-right: 12px;
     }
     .mySwiper {
       margin-top: 21px;
@@ -54,11 +70,13 @@
       max-width: 80px!important;
     
     }
-    .mySwiper .swiper-slide img {
+
   
     }
-    .swiper-slider{
-      width: 50%;
+    .swiper-slider img{
+      width: 704px;
+      height: 589px;
+      border-radius: 0px 57px 0px 0px;
     }
     .mySwiper .swiper-slide img:hover {
       cursor: pointer;
@@ -67,19 +85,24 @@
       touch-action: pan-y;
       border-radius: 0px 57px 0px 0px;
   }
-}
- 
+
   
-  @media (max-width: 768px) {
+  @media (max-width: 750px) {
     .contact-form {
-      width: 50%;
-      margin-top: 82px;
+      margin-left: 433px;
+    }
+    .contact-form .contact-content{
+      margin-left: 414px;
+      right: 83px;
+      top: -227px;
+      width: 100%;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1125px) {
     .cards2 {
-      width: 50%;
-      
+    width: 50%;
+    margin-left: -138px;
+    margin-top: -229px;
     }
   }
     .border{
@@ -136,14 +159,16 @@
 
     color: #FFAC12;
     }
-
+    .content{
+    margin-left: -365px;
+    margin-top: 285px;
+    }
     .contact-form{
     width: 336px;
+    margin: 82px;
     height: 520px;
-    margin-top: 288px;
     border-radius: 10px;
-    margin-left: -169px;
-    margin-right: 212px; ;
+    margin-left: 207px;
 
     }
     .contact-form .contact-content {
@@ -366,13 +391,8 @@
       width: 139px;
       color: rgba(0, 0, 0, 1);
       position: absolute;
-<<<<<<< Updated upstream
-      top: 28px;
-      left: 10px;
-=======
-      top: 25px;
-      left: 30px;
->>>>>>> Stashed changes
+      top: 30px;
+      left: 28px;
       font-family: DM Sans;
       font-weight: Bold;
       font-size: 24px;
