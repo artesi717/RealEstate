@@ -250,14 +250,13 @@
         <div class="line"> </div>
         
   </div>
+    <div> 
+          <div class="house" >{{$post->name}}</div>
+          <div class="price">${{$post->price}}</div>
+          <div class="address">{{$post->address}}</div>
+          <div class="sqprice">${{round($post->price/$post->size)}}/sqm</div>
+      </div>
 
-  <div> 
-        <div class="house" > Modern House </div>
-        <div class="price"> $450,000</div>
-        <div class="address"> 3002 Foster Axe, Brooklyn, NY11210, USA</div>
-        <div class="sqprice"> $2,800/sq ft</div>
-
-    </div>
   </div></div>
 
   <script>

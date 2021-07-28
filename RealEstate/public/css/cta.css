@@ -1,3 +1,41 @@
+
+@media only screen and (max-width: 375px) {
+    /* For tablets: */
+    p.evga11 {
+        margin-left: -45rem;
+        padding-right: 50rem;
+        font-size: 50px;
+        line-height: 46px;
+    }
+    hr.amell2 {
+        margin-left: 32rem;
+        width:37%;
+    }
+    h1.class66 {
+        margin-left:-70rem;
+        font-size: 70px;
+    }
+
+    p.class81 {
+        margin-left: -45rem;
+        padding-right: 100rem;
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    a.myButton3 {
+        padding:29px 56px;
+        font-size:35px;
+        margin-bottom: 40px;
+        margin-left: 43rem;
+    }
+    hr.amell {
+        margin-left: 42rem;
+        line-height: 300px;
+        width:20%;
+    }
+}
+
 .class66 {
     font-family: DM Sans;
     font-style: normal;
@@ -46,6 +84,8 @@
 }
 
 
+
+
 i {
     padding-left:14px;
     color:white;
@@ -77,10 +117,10 @@ i {
 }
 
 .amell2 {
-    width:388px;
+    width:25%;
     border:0px;
     float:center;
-    margin-right:19.8%;
+    margin-right:21%;
     height: 4px;
     background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
     border-radius: 2px;

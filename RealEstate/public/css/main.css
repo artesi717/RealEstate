@@ -17,6 +17,59 @@ body {
     }
 }
 
+@media only screen and (max-width: 375px) {
+    /* For tablets: */
+    div.v0_155 {
+        width: 1440px;
+        width: 1800%;
+        height: 1817px;
+        left: -33%;
+        position: absolute;
+    }
+
+    span.v0_192 {
+        font-size: 70px;
+        white-space:nowrap;
+    }
+    p.v0_174 {
+        width: 87px;
+        color: red(0, 0, 0, 1);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-family: DM Sans;
+        font-weight: Bold;
+        font-size: 60px;
+        opacity: 0;
+        text-align: left;
+    }
+    div.v0_172 {
+        font-size:80px;
+    }
+
+
+
+    p.v0_225 {
+        font-size: 42px;
+        white-space:nowrap;
+    }
+    div.v0_226 {
+        width:336px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .v0_170 {
+        left:5%;
+    }
+}
+
+
+
+
 .v0_155 {
     width: 1440px;
     width: 100%;

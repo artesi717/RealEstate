@@ -4,10 +4,79 @@ body {
 
 .footer {
   
-    width: 113%;
+    width: 131%;
     height:600px;
     background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 70.25%);
 
+}
+
+@media only screen and (max-width: 375px) {
+
+    
+
+    hr.hr121 {
+        margin-left:-2%;
+    }
+
+    
+
+    #socialmedia {
+        font-size: 220%;
+        width:100px;
+    }
+
+    h3.emricolumn {
+        font-size: 28.2px;
+        margin-left: -46rem;
+
+    }
+    h4.link1 {
+        font-size:30px;
+        margin-left: -46rem;
+        line-height: 15pt;
+
+
+    }
+ 
+
+    a.myButton6 {
+        margin-left: 77rem;
+        padding:40px 56px;
+        font-size:30px;
+        margin-top: -2%;
+
+    }
+
+    div.icona112  {
+        margin-left: 5rem;
+    }
+
+    img.foto123 {
+        margin-left: 0.2rem;
+
+    }
+    h1.footerclass1 {
+        margin-left: 5rem;
+        font-size: 55px;
+
+    }
+
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color:#AAB7B8;
+    text-decoration: none;
+  }
+#socialmedia {
+    color:white;
+}
+
+#whitebutton {
+    color: white;
 }
 
 .footerclass1 {
@@ -64,6 +133,7 @@ body {
     line-height: 20px;
     letter-spacing: 0.376923px;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .column121 {

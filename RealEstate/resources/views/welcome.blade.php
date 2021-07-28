@@ -47,5 +47,11 @@
         body {
             overflow-x: hidden; /* Hide horizontal scrollbar */
         }
+
+        @media only screen and (max-width: 375px) {
+            body {
+            overflow-x: hidden; /* Hide horizontal scrollbar */
+        }  
+    }
     </style>
 </html>

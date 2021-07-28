@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProfilesController;
 
 
 /*
@@ -18,19 +19,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/propertypage', function () {
     return view('propertypage');
 });
 
-Route::get('/home', function () {
-    return view('home');
-});
+Route::get('/p/create','PostsController@create');
+Route::post('/p','PostsController@store');
+Route::get('/propertypage/{post}','PostsController@show');
 
-
-
+Route::get('/profile/{user}','ProfilesController@index')->name('profile.show');
 
 
 Auth::routes();
 
+
+Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    float:center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    font-family: DM Sans;
+    padding-bottom: 10px;
+}
+
+.card{
+    background: rgba(255, 255, 255, 1);
+    width: 336px;
+    height: 418px;
+    border-radius: 25px;
+    /* position: absolute; */
+    overflow: hidden;
+
+    background: #ffffff;
+    box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
+}
+.v0_225 {
+    color: #333;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 24px;
+    width: 100%;
+    opacity: 1;
+    position: absolute;
+    height: 31px;
+    top: 288px;
+    left: 32px;
+    right: 165px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: -0.603077px;
+
+    color: #000000;
+}
+.v0_226 {
+    background-size: cover;
+    width: 336px;
+    height: 266px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.v0_227 {
+    background: rgba(227, 227, 227, 1);
+    width: 336px;
+    height: 1px;
+    position: absolute;
+    top: 349px;
+    bottom: 68px;
+    left: 2px;
+    right: 2px;
+}
+.v0_228 {
+    background: rgba(227, 227, 227, 1);
+    width: 1px;
+    height: 60px;
+    position: absolute;
+    top: 350px;
+    bottom: 8px;
+    left: 114px;
+    right: 221px;
+}
+.v0_229 {
+    background: rgba(227, 227, 227, 1);
+    width: 1px;
+    height: 60px;
+    position: absolute;
+    top: 350px;
+    bottom: 8px;
+    left: 227px;
+    right: 108px;
+}
+
+.v0_246 {
+    width: 35px;
+    height: 22px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 18px;
+    left: 39px;
+    overflow: hidden;
+}
+.v0_247 {
+    width: 14px;
+    height: 12px;
+    background: url("../images/Bed.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v0_250 {
+    width: 11px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 17px;
+    opacity: 1;
+    text-align: left;
+}
+.v0_251 {
+    width: 36px;
+    height: 22px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 18px;
+    left: 39px;
+    overflow: hidden;
+}
+.v0_252 {
+    width: 10px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0px;
+    left: 26px;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 17px;
+    opacity: 1;
+    text-align: left;
+}
+.v0_253 {
+    width: 16px;
+    height: 16px;
+    background: url("../images/Shower.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    overflow: hidden;
+}
+.v0_232 {
+    width: 80px;
+    height: 22px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    overflow: hidden;
+}
+
+.v0_233 {
+    width: 16px;
+    height: 16px;
+    background: url("../images/Size.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v0_245 {
+    width: 100px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: -1px;
+    left: 18px;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 17px;
+    opacity: 1;
+    text-align: left;
+}
