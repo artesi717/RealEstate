@@ -250,7 +250,7 @@ height: 22px;
 margin-right: -21%;
 margin-top: -30px;
 
-font-family: DM Sans;
+font-family: 'DM Sans' sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 22px;
@@ -271,3 +271,118 @@ color: #141414;
  margin-left: -25px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#butoni1171 {
+  color:white;
+  font-weight: 800;
+  background-color: rgba(0,0,0,.7);
+  border-radius: 23px;
+  padding:2px;
+  margin-inline-start: 16px;
+  height: 32px;
+  margin-right:140px;
+  width:160px;
+  font-family: 'DM Sans', sans-serif;
+  border:0;
+  white-space: nowrap;
+  font-size:17px;
+  position:absolute;
+
+}
+
+
+
+
+
+#butoni1171:hover{
+  background-color: #282828;
+}
+#butoni1171:focus {
+  text-decoration: none;
+  background-color: #282828;
+  border:0;
+}
+
+#butoni1171:active {
+  background-color: #282828;
+}
+
+#butoni1171:visited {
+
+      background-color: #282828;
+
+}
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #282828;
+  background-image: none;
+  border-color: #282828;
+}
+
+
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #282828;
+    border-color: #282828;
+}
+
+
+  .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 20px;
+      margin-bottom:-200px;
+      z-index: 1000;
+      display: none;
+      min-width: 160px;
+      padding: 8px 0;
+      margin: 2px 0 0;
+      font-size: 107px;
+      font-weight: 600;
+      text-align: left;
+      list-style: none;
+      color:white;
+      background-color: #282828 ;
+      background-clip: padding-box;
+      border: 1px solid #ccc;
+      border: 1px solid rgba(0,0,0,.15);
+      border-radius: 4px;
+      -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+      box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+  }
+
+
+    .dropdown-menu>li>a {
+        display: block;
+        padding: 3px 20px;
+        font-weight: 600;
+        color: red ;
+    }
+
+    .dropdawnmenu>li>a:hover {
+
+        background-color:#797D7F ; 
+    }
+
+      .icona121 {
+          padding-left:0px;
+      }
+
+.margina121 {
+  margin-left:1170px;
+  margin-top: 40px;
+}

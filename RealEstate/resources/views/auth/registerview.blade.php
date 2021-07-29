@@ -6,12 +6,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
 </head>
 <body>
     <div class="container">
       
         <div class="pjesa1">
-          <h1 class="fjala1">WELCOME</h1> <br>
+          <h1 class="fjala1 ml16">WELCOME</h1> <br>
           <img src="https://i.ibb.co/YBLyRns/njeriulogin.png" alt=""> <br>
           <h3 class="pershkrim">Already on OpenDoor?</h3> <br>
             <span style="background-color:#19A7A7;" class="dot"></span>
@@ -39,7 +41,20 @@
     </div> 
 
     <style>
-        
+        .ml16 {
+        color: #402d2d;
+        padding: 40px 0;
+        font-weight: 800;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 0.5em;
+        overflow: hidden;
+        }   
+
+        .ml16 .letter {
+        display: inline-block;
+        line-height: 1em;
+        }
 
    
 
@@ -176,7 +191,7 @@
         }
 
         .fjala1 {
-            margin-top:80px;
+            margin-top:20px;
             letter-spacing:9px;
             font-weight:800;
             color:#727272;
@@ -207,13 +222,27 @@
             height:600px;
         }
 
-
-
-
-
-
-
-        
     </style>
+
+<script>
+        // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml16');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml16 .letter',
+    translateY: [-100,0],
+    easing: "easeOutExpo",
+    duration: 1400,
+    delay: (el, i) => 30 * i
+  }).add({
+    targets: '.ml16',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 5000000
+  });
+    </script>
 </body>
 </html>

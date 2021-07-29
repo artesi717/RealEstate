@@ -15,6 +15,10 @@
     </head>
     <body class="antialiased">
     <div class="hero">  
+        @include('butoniuser')
+    </div>  
+       
+    <div class="hero">  
         @include('hero')
     </div>  
        

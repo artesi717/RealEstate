@@ -12,7 +12,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="{{ URL::asset('css/hero.css') }}">
-
 </head>
 
 <body>
@@ -67,12 +66,25 @@
             </ul>
 
             @endif
-
+      <div class="margina121">
+        <div class="container margina11">                                       
+          <div class="dropdown">
+            <button id="butoni1171" class="btn btn-primary dropdown-toggle butoni1" type="button" data-toggle="dropdown"><i  class="far fa-user icona121"></i>Artes Berisha                        <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">Log out</a></li>
+            </ul>
+          </div>
+        </div>
+</div>
           </div>
         </div>
       </div>
+    
+
     </nav>
   </div>
+ 
   <header>
     <div class="hero-text">
       <h1 class="head">Beautiful<br>homes made<br>for you</h1>
