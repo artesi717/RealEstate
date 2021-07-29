@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="{{ URL::asset('/css/homepage2.css') }}">
 
 
+
 </head>
 <body>
   <div class="div1234">
@@ -26,7 +27,7 @@
     dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
     It has survived not only five centuries,</p>
     <br><br>
-    <a href="#" class="myButton">Learn more    <i id="icona11" class="fas fa-long-arrow-alt-right"></i></a>
+    <a href="#" class="myButton">Learn more    <i class="fas fa-long-arrow-alt-right"></i></a>
 
 </div></div> 
 </body>

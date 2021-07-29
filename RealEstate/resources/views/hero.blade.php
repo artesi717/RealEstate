@@ -1,4 +1,5 @@
-html lang="en">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +12,9 @@ html lang="en">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="{{ URL::asset('css/hero.css') }}">
+
 </head>
+
 <body>
   <div class="navtext">
     <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent static-top">
@@ -23,7 +26,7 @@ html lang="en">
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto" style="margin: 31px; margin-left: 23px;">
               <li class="nav-item">
-                <a class="nav-link" href="#">Nav link</a>
+                <a class="nav-link" href="/p/create">Nav link</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Nav link</a>
@@ -34,23 +37,23 @@ html lang="en">
               <li class="nav-item">
                 <a class="nav-link" href="#">Nav link</a>
               </li>
+
             </ul>
             @if(auth()->check())
             @if(auth()->user()->hasRole('admin'))
             <img class="admin" src="https://img.icons8.com/ios-glyphs/30/000000/admin-settings-male.png" alt=""> 
             <div class="user">
-
-              Admin: {{auth()->user()->name}}
-            {{auth()->user()->name}}
+            <a href="/profile/{{ $post->user->id }}">
+            {{auth()->user()->name}}</a>
             </div>
             @elseif(auth()->user()->hasRole('user'))
             <img class="admin" src="https://img.icons8.com/ios/50/000000/user--v2.png"/>
             <div class="user">
-
-              User : {{auth()->user()->name}}
-               {{auth()->user()->name}}
+            <a style="color: black" href="/profile/{{auth()->user()->id }}">
+               {{auth()->user()->name}}</a>
             </div>
             @endif
+
 
             <ul class="nav navbar-nav navbar-right" style="margin:-68px -80px 39px -3px; left: 74px;">
               <form action="/logout" method="POST">
@@ -62,10 +65,25 @@ html lang="en">
             <ul class="nav navbar-nav navbar-right" style="margin:-68px -59px 39px -3px; left: 74px;">
               <a href="/register" class="mybtn">Work with us<img src="/images/Path.png" alt=""> </a>
             </ul>
+
             @endif
+
           </div>
         </div>
       </div>
     </nav>
   </div>
   <header>
+    <div class="hero-text">
+      <h1 class="head">Beautiful<br>homes made<br>for you</h1>
+      <p>In oculis quidem se esse admonere interesse enim maxime placeat, facere possimus,
+        omnis. Et quidem faciunt, ut labore et accurate disserendum et harum quidem exercitus.</p>
+      <span class="hero-p">See all listings
+        <img src="/images/arrow.png" style="padding-left:12px; cursor:pointer;" alt="">
+      </span>
+    </div>
+    </div>
+  </header>
+</body>
+
+</html>

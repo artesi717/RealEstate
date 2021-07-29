@@ -9,7 +9,7 @@ body  {
     text-align:center;
     font-size:45px;
     margin-top:60px;
-    margin-left:63%;
+    margin-left:56%;
     padding-bottom: 30px;
 }
 
@@ -52,26 +52,30 @@ body  {
     }
 
 }
+
+
 hr {
     left: 0%;
     right: 64.35%;
     top: 50%;
+
     background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
     border-radius: 2px;
 }
 .text2 {
-    margin-left:66%;
+    margin-left:63%;
     padding-right:120px;
     font-size:16px;
     font-weight:normal;
     font-family: 'Inter', sans-serif;
-    color: #797979;
+    color: #797979;;
+    
 }
 hr {
     width:10%;
-    margin-right:24%;
+    margin-right:28%;
     height: 4px;
-    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+      background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
     border-radius: 2px;
 }
 .myButton {
@@ -82,7 +86,7 @@ hr {
     font-family: 'Manrope', sans-serif;
     font-size:16px;
     padding:19px 31px;
-    margin-left:66%;
+    margin-left:63%;
     border-radius:0px 16px 0px   0px;
 }
 
@@ -97,7 +101,7 @@ i {
 
 .foto1 {
     width:704px;
-    margin-left:200px;
+    margin-left:50px;
     margin-top:13%;
     border-radius:0px 50px 0px   0px;
     border: 3px solid #18a0fb;

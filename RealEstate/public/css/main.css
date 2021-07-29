@@ -17,6 +17,16 @@ body {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .v0_170 {
+        width: 25%;
+        height: 266px;
+        opacity: 1;
+
+        overflow: hidden;
+    }
+}
+
 @media only screen and (max-width: 375px) {
     /* For tablets: */
     div.v0_155 {
@@ -66,8 +76,6 @@ body {
         left:5%;
     }
 }
-
-
 
 
 .v0_155 {
