@@ -4346,7 +4346,7 @@ input[type=button].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 25px;
 }
 .card > hr {
   margin-right: 0;
@@ -7782,7 +7782,7 @@ button.bg-dark:focus {
 
 .pl-5,
 .px-5 {
-  padding-left: 3rem !important;
+  padding-left: 5rem !important;
 }
 
 .m-n1 {

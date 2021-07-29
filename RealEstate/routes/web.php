@@ -16,13 +16,8 @@ use App\Http\Controllers\ProfilesController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','HomeController@index');
 
-Route::get('/propertypage', function () {
-    return view('propertypage');
-});
 
 Route::get('/p/create','PostsController@create');
 Route::post('/p','PostsController@store');
@@ -34,10 +29,4 @@ Route::get('/profile/{user}','ProfilesController@index')->name('profile.show');
 Auth::routes();
 
 
-Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

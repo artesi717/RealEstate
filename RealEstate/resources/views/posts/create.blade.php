@@ -73,7 +73,7 @@
                     <label for="image" class="col-md-4 col-form-label text-md-left">
                         <h4>Post Image :</h4>
                     </label>
-                    <input type="file" class="form-control-file" id="image" name="image">
+                    <input type="file" class="form-control-file" id="image" name="image" multiple>
                     @error('image')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
