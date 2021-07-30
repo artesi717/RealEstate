@@ -47,6 +47,18 @@ body {
   left: 0px;
   overflow: hidden;
 }
+@media screen and (max-width: 1125px){
+  .v0_694 {
+    width: 1440px;
+    margin-left: 23px;
+    margin-top: 3774px;
+    margin-bottom: 150px;
+    height: 700px;
+  }
+  .scrollmenu{
+    width: 347px;
+  }
+}
 .v0_695 {
   width: 329px;
   height: 86px;

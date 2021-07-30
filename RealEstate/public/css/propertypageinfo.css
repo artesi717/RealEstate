@@ -1,520 +1,612 @@
-  body , html{
-    background: #F2F2F2;
-    font-family: 'DM Sans', sans-serif;
+body , html{
+  background: #F2F2F2;
+  font-family: 'DM Sans', sans-serif;
+}
+  .container1{
+    margin-left: 5px;
+  
   }
+  .mySwiper {
+    margin-top: 21px;
+    margin: left 22px;
+    
+  }
+   .swiper{
+     margin-left: 144px;
+     
+   }
+
+  .mySwiper .swiper-slide {
+    max-width: 80px!important;
+    height: 80px!important;
+    width: 100%!important;
+    
+    
+  }
+  .mySwiper .swiper-slide img {
+    width: 100%!important;
+    height: 80px!important;
+    width: 100%!important;
+    border-radius: 0px 16px 0px 0px;
+  }
+  .swiper-slider{
+    width: 704px;
+  
+  }
+  .mySwiper .swiper-slide img:hover {
+    cursor: pointer;
+   
+  }
+  .swiper-container-pointer-events {
+    touch-action: pan-y;
+    border-radius: 0px 57px 0px 0px;
+}
+.swiper-container .mySwiper2{
+  margin-top:388px; 
+  width: 704px;
+  margin:0px;
+  border-radius: 0px 57px 0px 0px;
+}
+.swiper-wrapper{
+  margin-top:7px;
+   
+}
+.swiper-slide{
+  margin-top:388px; 
+  width: 704px;
+  margin:0px;
+  border-radius: 0px 57px 0px 0px;
+}
+
+  @media (max-width: 1125px) {
+    
     .container1{
-      margin-left: 5px;
-    }
-    .mySwiper {
-      margin-top: 21px;
-      margin: left 22px;
-      
-    }
-     .swiper{
-       margin-left: 144px;
-     }
-
-    .mySwiper .swiper-slide {
-      max-width: 80px!important;
-      height: 80px!important;
-      width: 100%!important;
-    }
-    .mySwiper .swiper-slide img {
-      width: 100%!important;
-      height: 80px!important;
-      width: 100%!important;
-      border-radius: 0px 16px 0px 0px;
-    }
-    .swiper-slider{
-      width: 704px;
-    }
-    .mySwiper .swiper-slide img:hover {
-      cursor: pointer;
-    }
-    .swiper-container-pointer-events {
-      touch-action: pan-y;
-      border-radius: 0px 57px 0px 0px;
-  }
- 
-  @media (max-width: 600px) {
-    .swiper  {
-      width: 80%;
-      margin-top: 82px;
-    }
-    .mySwiper {
-      margin-top: 21px;
-      margin: left 22px;
-      
-    }
-     .swiper-wraper{
-       margin-left: 144px;
-     }
-
-    .mySwiper .swiper-slide {
-      max-width: 80px!important;
+      margin-left: -141px;
     
     }
-    .mySwiper .swiper-slide img {
-  
-    }
-    .swiper-slider{
-      width: 50%;
-    }
-    .mySwiper .swiper-slide img:hover {
-      cursor: pointer;
-    }
-    .swiper-container-pointer-events {
-      touch-action: pan-y;
-      border-radius: 0px 57px 0px 0px;
-  }
-}
- 
-  
-  @media (max-width: 768px) {
-    .contact-form {
-      width: 50%;
-      margin-top: 82px;
-    }
-  }
-  @media (max-width: 768px) {
-    .cards2 {
-      width: 50%;
+    .swiper{
+      margin-left: 144px;
       
     }
-  }
-    .border{
-    width: 296px;
-    height: 70px;
-    margin-left: -25px;
-    top: 308px;
-    background: #F5F5F5;
-    border-radius: 10px;
-    list-style-type: none;
-    }
-    .border img{
-    width: 40px;
-    height: 40px;
-    margin-left: 5.74%;
-    margin-right: 80.74%;
-    margin-top: 5.43%;
-    margin-bottom: 21.43%;
-    }
-
-    .border h1{
-    margin-top: -101px;
-    height: 8px;
-    left: 22.64%;
-    right: 53.72%;
-    margin-left: -28.36%;
-    list-style-type: none;
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 20px;
-    /* identical to box height */
-    list-style-type: none;
-
-    letter-spacing: -0.376923px;
-
-    color: #000000;
-    }
-    .border a{
-    height: 14px;
-    margin-left: 22.64%;
-    list-style-type: none;
-    margin-right: 53.38%;
-    margin-top: calc(50% - 17px/2 + 11.5px);
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 17px;
-    /* identical to box height */
-    text-decoration: none;
-    letter-spacing: -0.326667px;
-
-    color: #FFAC12;
-    }
-
-    .contact-form{
-    width: 336px;
-    height: 520px;
-    margin-top: 288px;
-    border-radius: 10px;
-    margin-left: -169px;
-    margin-right: 212px; ;
-
-    }
-    .contact-form .contact-content {
-    background-color: #FFFF;
-    border: none;
-    border-radius: 25px;
-    text-align: center;
-    padding: 30px 50px;
-    position: relative;
-    overflow: hidden;
-    }
-
-    .btn:focus {
-    outline: none;
-    }
-
-    .contact-header {
-    border-bottom: 0px;
-    }
-
-    .contact-form .contact-title {
-    color: #ffffff;
-    }
-
-    .contact-form form {
-    padding: 20px;
-    }
-
-    .contact-form form input {
-    height: 50px;
-    }
-
-    .contact-form .form-control {
-    background: transparent;
-    border: 1px solid #f0f0f0;
-    border-radius: 10px;
-    box-shadow: none;
-    color: #ffffff;
-    font-size: 20px;
-    margin-bottom: 20px;
-    transition: all 0.4s ease-in-out;
-    width: 296px;
-    height: 60px;
-    margin-left: -44px;
-    }
-
-    .contact-form .form-control:focus {
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-left-color: transparent;
-    border-bottom-color: #ffffff;
-    }
-
-    .contact-form form input[type="submit"] {
-    background: #1dc9e3;
-    border: 3px solid transparent;
-    border-radius: 100px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #ffffff;
-    text-transform: uppercase;
-    margin-top: 30px;
-    }
-
-    .contact-form form input[type="submit"]:hover {
-    background: transparent;
-    border-color: #1dc9e3;
-    color: #ffffff;
-    }
-    .myBtn {
-    background-color:#000000;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-family: 'Manrope', sans-serif;
-    font-size:16px;
-    width: 296px;
-    height: 70px;
-    margin-left: -42px;
-    margin-top: -7px;
-    border-radius:0px 16px 0px   0px;
-    text-decoration: none;
-    }
-    .btn_p{
-    margin-top: 20px;
-    margin-bottom: 1rem;
-    margin-left: 2px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 17px;
-    letter-spacing: -0.427179px;
-    color: #FFFFFF;
-    list-style-type: none;
-    }
-
-    .cards2{
+    .swiper-container .mySwiper2{
+      margin-top:388px; 
       width: 704px;
-      height: 147px;
-      background: rgba(255, 255, 255, 1);
-      opacity: 1;
-      position: absolute;
-      left: 145px;
-      top: 40px;
-      overflow: hidden;
-      border: 0px solid rgba(150,150,150,1);
-      border-top-left-radius: 25px;
-      border-top-right-radius: 25px;
-      border-bottom-left-radius: 25px;
-      border-bottom-right-radius: 25px;
-      box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.13371394574642181);
-      overflow: hidden;
+      margin:0px;
+      border-radius: 0px 57px 0px 0px;
     }
+    .swiper-slide{
+      margin-top:388px; 
+      width: 704px;
+      margin:0px;
+      
+      border-radius: 0px 57px 0px 0px;
+    }
+}
 
+
+  
+  .swiper-slider img{
+    width: 704px;
+    height: 589px;
+    border-radius: 0px 57px 0px 0px;
+  }
+  .mySwiper .swiper-slide img:hover {
+    cursor: pointer;
+  }
+  .swiper-container-pointer-events {
+    touch-action: pan-y;
+    border-radius: 0px 57px 0px 0px;
+}
+
+
+@media (max-width: 750px) {
+  .contact-form {
+    margin-left: 433px;
+  }
+  .contact-form .contact-content{
+    margin-left: 414px;
+    right: 83px;
+    top: -227px;
+    width: 100%;
+  }
+}
+@media (max-width: 1125px) {
+  .cards2 {
+  width: 50%;
+  margin-left: -138px;
+  margin-top: -229px;
+  }
+}
+  .border{
+  width: 296px;
+  height: 70px;
+  margin-left: -25px;
+  top: 308px;
+  background: #F5F5F5;
+  border-radius: 10px;
+  list-style-type: none;
+  }
+  .border img{
+  width: 40px;
+  height: 40px;
+  margin-left: 5.74%;
+  margin-right: 80.74%;
+  margin-top: 5.43%;
+  margin-bottom: 21.43%;
+  }
+
+  .border h1{
+  margin-top: -101px;
+  height: 8px;
+  left: 22.64%;
+  right: 53.72%;
+  margin-left: -28.36%;
+  list-style-type: none;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height */
+  list-style-type: none;
+
+  letter-spacing: -0.376923px;
+
+  color: #000000;
+  }
+  .border a{
+  height: 14px;
+  margin-left: 22.64%;
+  list-style-type: none;
+  margin-right: 53.38%;
+  margin-top: calc(50% - 17px/2 + 11.5px);
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 17px;
+  /* identical to box height */
+  text-decoration: none;
+  letter-spacing: -0.326667px;
+
+  color: #FFAC12;
+  }
+  .content{
+  margin-left: -5px;
+  margin-top: 285px;
+  }
+  .contact-form{
+    width: 336px;
+    margin: 82px;
+    height: 520px;
+    border-radius: 10px;
+    margin-left: -159px;
+    margin-top: 288px;
+}
+
+  
+  .contact-form .contact-content {
+  background-color: #FFFF;
+  border: none;
+  border-radius: 25px;
+  text-align: center;
+  padding: 30px 50px;
+  position: relative;
+  overflow: hidden;
+  }
+
+  .btn:focus {
+  outline: none;
+  }
+
+  .contact-header {
+  border-bottom: 0px;
+  }
+
+  .contact-form .contact-title {
+  color: #ffffff;
+  }
+
+  .contact-form form {
+  padding: 20px;
+  }
+
+  .contact-form form input {
+  height: 50px;
+  }
+
+  .contact-form .form-control {
+  background: transparent;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  box-shadow: none;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  transition: all 0.4s ease-in-out;
+  width: 296px;
+  height: 60px;
+  margin-left: -44px;
+  }
+
+  .contact-form .form-control:focus {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: #ffffff;
+  }
+
+  .contact-form form input[type="submit"] {
+  background: #1dc9e3;
+  border: 3px solid transparent;
+  border-radius: 100px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 30px;
+  }
+
+  .contact-form form input[type="submit"]:hover {
+  background: transparent;
+  border-color: #1dc9e3;
+  color: #ffffff;
+  }
+  .myBtn {
+  background-color:#000000;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family: 'Manrope', sans-serif;
+  font-size:16px;
+  width: 296px;
+  height: 70px;
+  margin-left: -42px;
+  margin-top: -7px;
+  border-radius:0px 16px 0px   0px;
+  text-decoration: none;
+  }
+  .btn_p{
+  margin-top: 20px;
+  margin-bottom: 1rem;
+  margin-left: 2px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: -0.427179px;
+  color: #FFFFFF;
+  list-style-type: none;
+  }
+
+  .cards2{
+    width: 704px;
+    height: 147px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    left: 145px;
+    top: 40px;
+    overflow: hidden;
+    border: 0px solid rgba(150,150,150,1);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.13371394574642181);
+    overflow: hidden;
+  }
+  @media screen and (max-width: 1125px){  
+.cards2 {
+    width: 353px;
+    height: 147px;
+    margin-left: -131px;
+    font-size: 12px;
+    padding-top: 0px;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 32px 34px rgb(0 0 0 / 13%);
+    border-radius: 25px;
+}
     .v_701 {
-      width: 36px;
-      height: 22px;
-      background: rgba(255, 255, 255, 1);
-      opacity: 1;
-      top: 104px;
-      position: absolute;
-      left: 307px;
-      overflow: hidden;
-    }
-    .v_702 {
-      width: 16px;
-      height: 16px;
-      background: url("../images/Size.svg");
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      opacity: 1;
-      position: absolute;
-      top: 3px;
-      left: 0px;
-      overflow: hidden;
-    }
-    .v_714 {
-      width: 10px;
-      color: rgba(0, 0, 0, 1);
-      position: absolute;
-      top: 0px;
-      left: 26px;
-      font-family: DM Sans;
-      font-weight: Bold;
-      font-size: 17px;
-      opacity: 1;
-      text-align: left;
+     margin-left: -147px;
     }
     .v_715 {
-      width: 35px;
-      height: 22px;
-      background: rgba(255, 255, 255, 1);
-      opacity: 1;
-      top:104px;
-      position: absolute;
-      left: 48px;
-      overflow: hidden;
-    }
-    .v_716 {
-      width: 14px;
-      height: 12px;
-      background: url("../images/Bed.svg");
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      opacity: 1;
-      position: absolute;
-      top: 5px;
-      left: 0px;
-      overflow: hidden;
-    }
-    .v_719 {
-      width: 11px;
-      color: rgba(0, 0, 0, 1);
-      position: absolute;
-      top: 0px;
-      left: 24px;
-      font-family: DM Sans;
-      font-weight: Bold;
-      font-size: 17px;
-      opacity: 1;
-      text-align: left;
+      margin-left: -14px;
     }
     .v_720 {
-      width: 36px;
-      height: 22px;
-      background: rgba(255, 255, 255, 1);
-      opacity: 1;
-      top: 104px;
-      position: absolute;
-      left: 178px;
-      overflow: hidden;
-    }
-    .v_721 {
-      width: 10px;
-      color: rgba(0, 0, 0, 1);
-      position: absolute;
-      top: 0px;
-      left: 26px;
-      font-family: DM Sans;
-      font-weight: Bold;
-      font-size: 17px;
-      opacity: 1;
-      text-align: left;
-    }
-    .v_722 {
-      width: 16px;
-      height: 16px;
-      background: url("../images/Shower.svg");
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      opacity: 1;
-      position: absolute;
-      top: 2px;
-      left: 0px;
-      overflow: hidden;
+      margin-left: -87px;
     }
     .v_729 {
-      width: 139px;
-      color: rgba(0, 0, 0, 1);
-      position: absolute;
-<<<<<<< Updated upstream
-      top: 28px;
-      left: 10px;
-=======
-      top: 25px;
-      left: 30px;
->>>>>>> Stashed changes
-      font-family: DM Sans;
-      font-weight: Bold;
-      font-size: 24px;
-      opacity: 1;
-      text-align: left;
+      margin-left: 12px;
     }
     .v_731 {
-      width: 704px;
-      height: 1px;
-      background: rgba(227, 227, 227, 1);
-      opacity: 1;
-      position: absolute;
-      top: 92px;
-      left: 0px;
-      border: 0px solid rgba(150, 150, 150, 1);
-      overflow: hidden;
-    }
-    .v_732 {
-      width: 1px;
-      height: 60px;
-      background: rgba(227, 227, 227, 1);
-      opacity: 1;
-      position: absolute;
-      top: 93px;
-      left: 130px;
-      border: 0px solid rgba(150, 150, 150, 1);
-      overflow: hidden;
-    }
-    .v_733 {
-      width: 1px;
-      height: 60px;
-      background: rgba(227, 227, 227, 1);
-      opacity: 1;
-      position: absolute;
-      top: 93px;
-      left: 261px;
-      border: 0px solid rgba(150, 150, 150, 1);
-      overflow: hidden;
+      margin-left: 12px;
     }
     .v_750 {
-      width: 1px;
-      height: 60px;
-      background: rgba(227, 227, 227, 1);
-      opacity: 1;
-      position: absolute;
-      top: 93px;
-      left: 402px;
-      border: 0px solid rgba(150, 150, 150, 1);
-      overflow: hidden;
+      margin-left: 12px;
     }
     .v_751 {
-      width: 1px;
-      height: 60px;
-      background: rgba(227, 227, 227, 1);
-      opacity: 1;
-      position: absolute;
-      top: 93px;
-      left: 546px;
-      border: 0px solid rgba(150, 150, 150, 1);
-      overflow: hidden;
+      margin-left: 12px;
     }
     .v_790 {
-      width: 35px;
-      height: 22px;
-      background: rgba(255, 255, 255, 1);
-      opacity: 1;
-      top:104px;
-      position: absolute;
-      left: 455px;
-      overflow: hidden;
-    }
-    .v_791 {
-      width: 14px;
-      height: 12px;
-      background: url("../images/Garage.png");
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      opacity: 1;
-      top: 5px;
-      position: absolute;
-      overflow: hidden;
-    }
-    .v_792 {
-      width: 11px;
-      color: rgba(0, 0, 0, 1);
-      position: absolute;
-      top: 0px;
-      font-family: DM Sans;
-      font-weight: Bold;
-      font-size: 17px;
-      opacity: 1;
-      left: 23px;
-      text-align: left;
+      margin-left: -225px;
     }
     .v_795 {
-      width: 36px;
-      height: 22px;
-      background: rgba(255, 255, 255, 1);
-      opacity: 1;
-      position: absolute;
-      overflow: hidden;
+      margin-left: 12px;
     }
     .v_780 {
-      width: 67px;
-      height: 22px;
-      background: rgba(255, 255, 255, 1);
-      opacity: 1;
-      top:104px;
-      position: absolute;
-      left: 590px;
-      overflow: hidden;
-    }
-    .v_781 {
-      width: 14px;
-      height: 12px;
-      background: url("../images/calendar.svg");
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      opacity: 1;
-      top: 5px;
-      position: absolute;
-      overflow: hidden;
-    }
-    .v_782 {
-      width: 11px;
-      color: rgba(0, 0, 0, 1);
-      position: absolute;
-      top: 0px;
-      font-family: DM Sans;
-      font-weight: Bold;
-      font-size: 17px;
-      opacity: 1;
-      left: 23px;
-      text-align: left;
+      margin-left: -289px;
     }
     .v_795 {
-      width: 36px;
-      height: 22px;
-      background: rgba(255, 255, 255, 1);
-      opacity: 1;
-      position: absolute;
-      overflow: hidden;
+      margin-left: 12px;
     }
+    .v_732 {
+      margin-left: -49px;
+    }
+    .v_733 {
+      margin-left: -118px;
+    }
+    .v_750 {
+      margin-left: -191px;
+    }
+    .v_751 {
+      margin-left: -268px;
+    }
+  }
+  
+
+  .v_701 {
+    width: 36px;
+    height: 22px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    top: 104px;
+    position: absolute;
+    left: 307px;
+    overflow: hidden;
+  }
+  .v_702 {
+    width: 16px;
+    height: 16px;
+    background: url("../images/Size.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v_714 {
+    width: 10px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0px;
+    left: 26px;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 17px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v_715 {
+    width: 35px;
+    height: 22px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    top:104px;
+    position: absolute;
+    left: 48px;
+    overflow: hidden;
+  }
+  .v_716 {
+    width: 14px;
+    height: 12px;
+    background: url("../images/Bed.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v_719 {
+    width: 11px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 17px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v_720 {
+    width: 36px;
+    height: 22px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    top: 104px;
+    position: absolute;
+    left: 178px;
+    overflow: hidden;
+  }
+  .v_721 {
+    width: 10px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0px;
+    left: 26px;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 17px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v_722 {
+    width: 16px;
+    height: 16px;
+    background: url("../images/Shower.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v_729 {
+    width: 139px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 30px;
+    left: 28px;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v_731 {
+    width: 704px;
+    height: 1px;
+    background: rgba(227, 227, 227, 1);
+    opacity: 1;
+    position: absolute;
+    top: 92px;
+    left: 0px;
+    border: 0px solid rgba(150, 150, 150, 1);
+    overflow: hidden;
+  }
+  .v_732 {
+    width: 1px;
+    height: 60px;
+    background: rgba(227, 227, 227, 1);
+    opacity: 1;
+    position: absolute;
+    top: 93px;
+    left: 130px;
+    border: 0px solid rgba(150, 150, 150, 1);
+    overflow: hidden;
+  }
+  .v_733 {
+    width: 1px;
+    height: 60px;
+    background: rgba(227, 227, 227, 1);
+    opacity: 1;
+    position: absolute;
+    top: 93px;
+    left: 261px;
+    border: 0px solid rgba(150, 150, 150, 1);
+    overflow: hidden;
+  }
+  .v_750 {
+    width: 1px;
+    height: 60px;
+    background: rgba(227, 227, 227, 1);
+    opacity: 1;
+    position: absolute;
+    top: 93px;
+    left: 402px;
+    border: 0px solid rgba(150, 150, 150, 1);
+    overflow: hidden;
+  }
+  .v_751 {
+    width: 1px;
+    height: 60px;
+    background: rgba(227, 227, 227, 1);
+    opacity: 1;
+    position: absolute;
+    top: 93px;
+    left: 546px;
+    border: 0px solid rgba(150, 150, 150, 1);
+    overflow: hidden;
+  }
+  .v_790 {
+    width: 35px;
+    height: 22px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    top:104px;
+    position: absolute;
+    left: 455px;
+    overflow: hidden;
+  }
+  .v_791 {
+    width: 14px;
+    height: 12px;
+    background: url("../images/Garage.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    top: 5px;
+    position: absolute;
+    overflow: hidden;
+  }
+  .v_792 {
+    width: 11px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0px;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 17px;
+    opacity: 1;
+    left: 23px;
+    text-align: left;
+  }
+  .v_795 {
+    width: 36px;
+    height: 22px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+  }
+  .v_780 {
+    width: 67px;
+    height: 22px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    top:104px;
+    position: absolute;
+    left: 590px;
+    overflow: hidden;
+  }
+  .v_781 {
+    width: 14px;
+    height: 12px;
+    background: url("../images/calendar.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    top: 5px;
+    position: absolute;
+    overflow: hidden;
+  }
+  .v_782 {
+    width: 11px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0px;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 17px;
+    opacity: 1;
+    left: 23px;
+    text-align: left;
+  }
+  .v_795 {
+    width: 36px;
+    height: 22px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+  }
