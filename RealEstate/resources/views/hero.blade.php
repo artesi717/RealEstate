@@ -66,7 +66,7 @@
             </ul>
 
             @endif
-      <div class="margina121">
+     <!-- <div class="margina121">
         <div class="container margina11">                                       
           <div class="dropdown">
             <button id="butoni1171" class="btn btn-primary dropdown-toggle butoni1" type="button" data-toggle="dropdown"><i  class="far fa-user icona121"></i>Artes Berisha                        <span class="caret"></span></button>
@@ -75,7 +75,7 @@
               <li><a href="#">Log out</a></li>
             </ul>
           </div>
-        </div>
+        </div>-->
 </div>
           </div>
         </div>
