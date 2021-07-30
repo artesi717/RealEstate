@@ -379,6 +379,7 @@ box-sizing: border-box;
     color: #333;
     font-family: DM Sans;
     font-weight: Bold;
+    width: 100%;
     font-size: 24px;
     opacity: 1;
     position: absolute;

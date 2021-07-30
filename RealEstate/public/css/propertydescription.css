@@ -1,24 +1,5 @@
 <<<<<<< Updated upstream
-    body {
-        font-family: 'DM Sans', sans-serif;
-        padding-left: 30%;
-        padding-right: 30%;
-        background-color: rgb(255, 255, 255);
-    }
-    /*Description */ 
-    .description1 {
-        width: 704px;
-        /* height: 353px; */
-        padding: 50px;
-        margin-left: 40px;
-        font-size: 12px;
-        padding-top: 0px;
-        background-color: #FFFFFF;
-        border: 1px solid #F2F2F2;    
-        box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
-        border-radius: 25px; 
-        margin-top:10%;
-=======
+   
 body {
     font-family: 'DM Sans', sans-serif;
     padding-left: 30%;
@@ -28,7 +9,7 @@ body {
 /*Description */ 
 .description1 {
     width: 704px;
-    height: 353px;
+    height: auto;
     padding: 50px;
     margin-left: 3px;
     font-size: 12px;
@@ -38,7 +19,7 @@ body {
     box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
     border-radius: 25px; 
     margin-top:10%;
->>>>>>> Stashed changes
+
 
 }
 .text1213 {

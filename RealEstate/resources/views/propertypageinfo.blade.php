@@ -5,11 +5,10 @@
         <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff margin-top:288px; width: 704px;margin:0px;" class="swiper-container mySwiper2">
       <div class="swiper-wrapper" style="margin-top:288px; width:704px;">
         <div class="swiper-slide">
-<<<<<<< Updated upstream
+
           <img src="/storage/{{$post->image}}" style="width: 704px;height: 589px;border-radius: 0px 57px 0px 0px;"/>
-=======
-          <img src="https://images.unsplash.com/photo-1560184897-ae75f418493e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
->>>>>>> Stashed changes
+
+        
         </div>
         <div class="swiper-slide">
           <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80" />
