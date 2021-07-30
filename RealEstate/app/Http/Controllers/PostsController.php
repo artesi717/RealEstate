@@ -13,7 +13,7 @@ class PostsController extends Controller
     {
         $users=auth()->user();
         $posts= Post::whereIn('user_id', $users)->latest()->get();
-        return view('posts.create');
+        return view('posts.create',);
     }
     public function store()
     {
@@ -25,6 +25,7 @@ class PostsController extends Controller
             'price' => 'required',
             'year' => 'required',
             'address' => 'required',
+            'description' => 'required',
             'image'=>['required','image'],
         ]);
         $imagePath= request('image')->store('uploads','public');
@@ -39,6 +40,7 @@ class PostsController extends Controller
                 'price'=>$data['price'],
                 'year'=>$data['year'],
                 'address'=>$data['address'],
+                'description'=>$data['description'],
                 'image'=>$imagePath,
             ]);
             return redirect('profile/'.auth()->user()->id);

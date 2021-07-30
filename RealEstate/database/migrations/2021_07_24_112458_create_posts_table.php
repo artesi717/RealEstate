@@ -24,6 +24,7 @@ class CreatePostsTable extends Migration
             $table->integer('price');
             $table->integer('year');
             $table->string('address');
+            $table->string('description');
             
             $table->timestamps();
 
