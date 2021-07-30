@@ -10,7 +10,7 @@
                     <h1>Add New Post</h1>
                 </div>
                 
-                <label for="name">House Name</label>
+                <label for="name">Name</label>
                 <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
                 @error('name')
                 <span class="invalid-feedback" role="alert">
@@ -18,7 +18,7 @@
                 </span>
                 @enderror
 
-                <label for="bed">Number of House Beds</label>
+                <label for="bed">Number of Beds</label>
                 <input id="bed" type="text" class="form-control @error('bed') is-invalid @enderror" name="bed" value="{{ old('bed') }}" required autocomplete="bed" autofocus>
                 @error('bed')
                 <span class="invalid-feedback" role="alert">
@@ -26,7 +26,7 @@
                 </span>
                 @enderror
 
-                <label for="shower">House Showers</label>
+                <label for="shower">Showers</label>
                 <input id="showers" type="text" class="form-control @error('showers') is-invalid @enderror" name="showers" value="{{ old('showers') }}" required autocomplete="showers" autofocus>
                 @error('showers')
                 <span class="invalid-feedback" role="alert">
@@ -34,7 +34,7 @@
                 </span>
                 @enderror
 
-                <label for="size">House Size (sqm-size)</label>
+                <label for="size">Size (sqm-size)</label>
                 <input id="size" type="text" class="form-control @error('size') is-invalid @enderror" name="size" value="{{ old('size') }}" required autocomplete="size" autofocus>
                 @error('size')
                 <span class="invalid-feedback" role="alert">
@@ -42,7 +42,7 @@
                 </span>
                 @enderror
 
-                <label for="price">House Price</label>
+                <label for="price">Price</label>
                 <input id="price" type="text" class="form-control @error('price') is-invalid @enderror" name="price" value="{{ old('price') }}" required autocomplete="price" autofocus>
                 @error('price')
                 <span class="invalid-feedback" role="alert">
@@ -50,7 +50,7 @@
                 </span>
                 @enderror
 
-                <label for="address">House Address</label>
+                <label for="address">Address</label>
                 <input id="address" type="text" class="form-control @error('address') is-invalid @enderror" name="address" value="{{ old('address') }}" required autocomplete="address" autofocus>
                 @error('address')
                 <span class="invalid-feedback" role="alert">
@@ -59,10 +59,19 @@
                 @enderror
 
                 <label for="year">
-                   House Year
+                Year
                 </label>
                 <input id="year" type="text" class="form-control @error('year') is-invalid @enderror" name="year" value="{{ old('year') }}" required autocomplete="year" autofocus>
                 @error('year')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+                @enderror
+                <label for="year">
+                   Description
+                </label>
+                <input id="description" type="text" style="height:150px" class="form-control @error('description') is-invalid @enderror" name="description" value="{{ old('description') }}" required autocomplete="description" autofocus>
+                @error('description')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
                 </span>

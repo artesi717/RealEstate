@@ -5,25 +5,28 @@
         <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff margin-top:288px; width: 704px;margin:0px;" class="swiper-container mySwiper2">
       <div class="swiper-wrapper" style="margin-top:288px; width:704px;">
         <div class="swiper-slide">
+
           <img src="/storage/{{$post->image}}" style="width: 704px;height: 589px;border-radius: 0px 57px 0px 0px;"/>
+
+        
         </div>
         <div class="swiper-slide">
-          <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80" style="width: 704px;height: 589px;border-radius: 0px 57px 0px 0px;"/>
+          <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80" />
         </div>
         <div class="swiper-slide">
-          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" style="width: 704px;height: 589px;border-radius: 0px 57px 0px 0px;"/>
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
         </div>
         <div class="swiper-slide">
-          <img src="https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" style="width: 704px;height: 589px;border-radius: 0px 57px 0px 0px;"/>
+          <img src="https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
         </div>
         <div class="swiper-slide">
-          <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" style="width: 704px;height: 589px;border-radius: 0px 57px 0px 0px;"/>
+          <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
         </div>
         <div class="swiper-slide">
-          <img src="https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=354&q=80"style="width: 704px;height: 589px;border-radius: 0px 57px 0px 0px;"/>
+          <img src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"/>
         </div>
         <div class="swiper-slide">
-          <img src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" style="width: 704px;height: 589px;border-radius: 0px 57px 0px 0px;"/>
+          <img src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=859&q=80"/>
         </div>
 
       </div>
@@ -50,17 +53,18 @@
           <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"/> 
         </div>
         <div class="swiper-slide">
-          <img src="https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=354&q=80"/>
+          <img src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"/>
         </div>
         <div class="swiper-slide">
-          <img src="https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" />
+          <img src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=859&q=80" />
         </div>
 
         </div>
       </div>
     </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-4">
+          <div class="content">
         <div class="contact-form">
 	<div class="contact-content">
 		<div class="contact-header">
@@ -85,10 +89,12 @@
     </div>
 </div>
 </div>
+</div>
 <div class="col-md-8">
 <div class="cards2">
 <div class="v_780">
-                    <div class="v_781">
+<div class="v_781">
+                    <span class="v_782">2007</span>
                     </div><span class="v_782">{{$post->year}}</span>
                 </div>
 <div class="v_790">
@@ -128,7 +134,7 @@
         watchSlidesProgress: true,
       });
       var swiper2 = new Swiper(".mySwiper2", {
-        spaceBetween:12,
+        spaceBetween: 32,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",

@@ -62,9 +62,9 @@
             </ul>
             @else
             <ul class="nav navbar-nav navbar-right" style="margin:-68px -59px 39px -3px; left: 74px;">
-              <a href="/register" class="mybtn">Work with us<img src="/images/Path.png" alt=""> </a>
+              <a href="/register" class="mybtn2">Work with us<img src="/images/Path.png" alt=""> </a>
             </ul>
-
+            
             @endif
      <!-- <div class="margina121">
         <div class="container margina11">                                       

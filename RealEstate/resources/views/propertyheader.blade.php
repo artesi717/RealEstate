@@ -1,4 +1,4 @@
- <style>
+<style>
           .myButton {
 	        background-color:#ffac12;
 	        cursor:pointer;
@@ -9,219 +9,100 @@
             left: 78%;
             border-radius:0px 16px 0px   0px;
             position: absolute;
+            top: 9px;
             
         }
-
+        .navbar-toggler .icon-bar {
+          margin: 7px;
+          display: block;
+          width: 22px;
+          height: 1px;
+          background-color: #cccccc;
+          border-radius: 1px;
+        }
+        @media (max-width:750px) {
+          .navbar{
+          margin:15px;
+          width:121%;
+          margin: -27px;
+          height: 49px;
+          left: -112px;
+        }
+        .navbar-nav > li{
+          padding-left: 40px;
+          padding-right: 47px;
+          margin: 0px;;
+}
+       
+        .nav-link a{
+          margin-left:280;
+        }
+    .myButton {
+	        background-color:#ffac12;
+	        cursor:pointer;
+	        color:black;
+            font-family: 'Manrope', sans-serif;
+	        font-size:16px;
+	        padding:10px 31px;
+            left: 39%;
+            border-radius:0px 16px 0px   0px;
+            position: absolute;
+            top: 9px;
+            
+        }
+        .navbar-brand{
+          width:50%;
+        }
+        .navbar-icon{
+          margin-left:218px;
+          margin: 0;
+          margin-top:8px;
+        }
+        .logo1{
+          margin: 44px 19px -40px;
+            
+            
+        }
+        
+       
+  }
+        .navbar{
+          margin:15px;
+        }
         .head   {
           position: absolute;
-          width: 1920px;
+          width: 123%;
           height: 228px;
           left: 0px;
           top: 0px;
-
           background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);;
         }
-
-        .navlink1 {
-          position: absolute;
-          display: flex;
-          height: 20px;
-          left: 35.73%;
-          right: 58.75%;
-          top: calc(50% - 20px/2);
-
-          font-family: DM Sans;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 15px;
-          line-height: 20px;
-
-          /* identical to box height */
-          letter-spacing: -0.376923px;
-
-          color: #FFFFFF;
+        .navbar-brand{
+          margin-left:175px;
         }
-
-        .navlink2 {
-          position: absolute;
-          height: 20px;
-          left: 46.87%;
-          right: 47.61%;
-          top: calc(50% - 20px/2);
-
-          font-family: DM Sans;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 15px;
-          line-height: 20px;
-
-          /* identical to box height */
-          letter-spacing: -0.376923px;
-
-          color: #FFFFFF;
-
-        }
-
-        .navlink3{
-          position: absolute;
-          height: 20px;
-          left: 58%;
-          right: 36.48%;
-          top: calc(50% - 20px/2);
-
-          font-family: DM Sans;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 15px;
-          line-height: 20px;
-
-          /* identical to box height */
-          letter-spacing: -0.376923px;
-
-          color: #FFFFFF;
-        }
-
-        .navlink4 {
-          position: absolute;
-          height: 20px;
-          left: 69.13%;
-          right: 25.35%;
-          top: calc(50% - 20px/2);
-
-          font-family: DM Sans;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 15px;
-          line-height: 20px;
-
-          /* identical to box height */
-          letter-spacing: -0.376923px;
-
-          color: #FFFFFF;
-
-        }
-        @media screen and (max-width: 600px) {
-          .navlink1 {
-          position: absolute;
-          display: flex;
-          height: 20px;
-          left: 35.73%;
-          right: 58.75%;
-          top: calc(50% - 20px/2);
-
-          font-family: DM Sans;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 15px;
-          line-height: 20px;
-
-          /* identical to box height */
-          letter-spacing: -0.376923px;
-
-          color: #FFFFFF;
-        }
-
-        .navlink2 {
-          position: absolute;
-          height: 20px;
-          left: 46.87%;
-          right: 47.61%;
-          top: calc(50% - 20px/2);
-
-          font-family: DM Sans;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 15px;
-          line-height: 20px;
-
-          /* identical to box height */
-          letter-spacing: -0.376923px;
-
-          color: #FFFFFF;
-
-        }
-
-        .navlink3{
-          position: absolute;
-          height: 20px;
-          left: 58%;
-          right: 36.48%;
-          top: calc(50% - 20px/2);
-
-          font-family: DM Sans;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 15px;
-          line-height: 20px;
-
-          /* identical to box height */
-          letter-spacing: -0.376923px;
-
-          color: #FFFFFF;
-        }
-
-        .navlink4 {
-          position: absolute;
-          height: 20px;
-          left: 69.13%;
-          right: 25.35%;
-          top: calc(50% - 20px/2);
-
-          font-family: DM Sans;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 15px;
-          line-height: 20px;
-
-          /* identical to box height */
-          letter-spacing: -0.376923px;
-
-          color: #FFFFFF;
-
-        }
-
-        }
-@media screen and (max-width: 600px) {
-  nav a:not(:first-child) {display: none;}
-  nav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  nav.responsive {position: relative;}
-  nav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
+       
+        
         i {
             color:white;
             padding-left: 10px;
             
-        }
+        }   
         .logo1{
-            
-            margin-left: -19.5%;
-            
+          width: 15%;
+          margin-left: 119px;
+          margin-top: -30px;
             
         }
-
+        .navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
         .line{
           position: absolute;
           width: 1920px;
           height: 1px;
           left: 0px;
           top: 114px;
-
           background: #FFFFFF;
           mix-blend-mode: normal;
           opacity: 0.1;
@@ -238,10 +119,8 @@
           font-weight: bold;
           font-size: 32px;
           line-height: 42px;
-
           /* identical to box height */
           letter-spacing: -0.804102px;
-
           color: #FFFFFF;
         }
         
@@ -256,14 +135,11 @@
           font-weight: bold;
           font-size: 32px;
           line-height: 42px;
-
           /* identical to box height */
           
           letter-spacing: -0.804102px;
-
           color: #FFFFFF;
         }
-
         .address{
           position: absolute;
           padding-top: 64px;
@@ -275,16 +151,12 @@
           font-weight: normal;
           font-size: 15px;
           line-height: 24px;
-
           /* identical to box height, or 160% */
           letter-spacing: -0.376923px;
-
           color: #FFFFFF;
-
           mix-blend-mode: normal;
           opacity: 0.6;
         }
-
         .sqprice{
           position: absolute;
           height: 24px;
@@ -292,29 +164,53 @@
           right: -0.09%;
           padding-top: 64px;
           
-
           font-family: DM Sans;
           font-style: normal;
           font-weight: normal;
           font-size: 15px;
           line-height: 24px;
-
           /* identical to box height, or 160% */
           letter-spacing: -0.376923px;
-
           color: #FFFFFF;
-
           mix-blend-mode: normal;
           opacity: 0.6;
         }
-
+        nav .navbar-nav li a{
+  color: white !important;
+  }
        
-
     </style>
 <div>
   <div class="head">
 </div>
-<div class="navtext"> 
+<nav class="navbar navbar-light navbar-expand-md ">
+     <img class="logo1" src="https://media.discordapp.net/attachments/862274203377205282/865231872107216916/gitlab-white-logo.png?width=1440&height=511" alt="" ></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+        <span class="navbar-icon"><i class="fas fa-bars"></i></span>
+    </button>
+    <div class="navbar-collapse collapse w-100 " id="collapsingNavbar3">
+      <ul class="navbar-nav "style="
+    margin-left: 315px;">
+            <li class="nav-item active">
+                <a class="nav-link"  href="#">NavLink</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">NavLink</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">NavLink</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">NavLink</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+        <a href="" class="myButton">Work with us<i class="fas fa-long-arrow-alt-right"></i></a>
+        </ul>
+    </div>
+</nav>
+
+<!-- <div class="navtext"> 
 	<nav class="navbar navbar-expand-lg navbar-transparent bg-transparent static-top">
   <div class="container">
     <a class="navbar-brand" href="#">
@@ -325,18 +221,13 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-
           <a class="navlink1" href="#">Nav link</a>
-
           <a class="navlink2" href="#">Nav link</a>
-
           <a class="navlink3" href="#">Nav link</a>
-
           <a class="navlink4" href="#">Nav link</a> 
       
-
       
-  <a href="" class="myButton">Work with us   <i class="fas fa-long-arrow-alt-right"></i></a> </div></div></div>
+  <a href="" class="myButton">Work with us   <i class="fas fa-long-arrow-alt-right"></i></a> </div></div></div> -->
   
   <div>
         <div class="line"> </div>
@@ -352,15 +243,17 @@
   </div></div>
 
   <script>
-function myFunction() {
-  var x = document.getElementById("navbarResponsive");
-  if (x.className === "navtext") {
-    x.className += " responsive";
-  } else {
-    x.className = "navtext";
-  }
-}
+ navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarSupportedContent')
+const bsCollapse = new bootstrap.Collapse(menuToggle)
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() })
+})
+
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
 </script>
 </nav>
 </div>
-
