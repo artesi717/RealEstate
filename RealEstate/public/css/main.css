@@ -22,7 +22,7 @@ box-sizing: border-box;
     flex-wrap: wrap;
     justify-content: left;
     font-family: DM Sans;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 .card{
