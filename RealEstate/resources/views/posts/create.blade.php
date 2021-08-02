@@ -70,12 +70,16 @@
                 <label for="year">
                    Description
                 </label>
-                <input id="description" type="text" style="height:150px" class="form-control @error('description') is-invalid @enderror" name="description" value="{{ old('description') }}" required autocomplete="description" autofocus>
-                @error('description')
-                <span class="invalid-feedback" role="alert">
-                    <strong>{{ $message }}</strong>
-                </span>
-                @enderror
+                <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+              <textarea id="description" class="form-control  @error('description') is-invalid @enderror" style="height:150px" name="description" placeholder="Description" required autocomplete="description" autofocus></textarea>
+              @error('description')
+              <span class="invalid-feedback" role="alert">
+                  <strong>{{ $message }}</strong>
+              </span>
+              @enderror
+            </div>
+        </div>
 
 
                 <div class="row">

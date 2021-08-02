@@ -125,6 +125,134 @@ font-size:14px;
 
 
 
+
+
+
+
+
+#butoni11 {
+  color:white ;
+  font-weight: 800;
+  background-color: rgba(0,0,0,.7);
+  border-radius: 23px;
+  padding:2px;
+  margin-top: 27px;
+  margin-inline-start: 0px;
+  height: 32px;
+  width:210px;
+  border:0;
+  white-space: nowrap;
+  font-size:17px;
+
+}
+
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+
+#butoni11:hover{
+  background-color: #282828;
+}
+#butoni11:focus {
+  text-decoration: none;
+  background-color: #282828;
+  border:0;
+}
+
+#butoni11:active {
+  background-color: #282828;
+}
+
+#butoni11:visited {
+
+      background-color: #282828;
+
+}
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #282828;
+  background-image: none;
+  border-color: #282828;
+}
+
+
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #282828;
+    border-color: #282828;
+}
+
+
+  .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 400px;
+      z-index: 1000;
+      display: none;
+      float: left;
+      min-width: 160px;
+      padding: 8px 0;
+      margin: 2px 0 0;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: left;
+      list-style: none;
+      color:rgb(83, 77, 77);
+      background-color: #806e6e ;
+      background-clip: padding-box;
+      /* border: 1px solid #ccc; */
+      border: 1px solid rgba(0,0,0,.15);
+      border-radius: 4px;
+      -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+      box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+  }
+
+
+    .dropdown-menu>li>a.a1 {
+        display: block;
+        /* padding: px; */
+        width: 200px;
+        background-color: black;
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 25px;
+        color: white ;
+    }
+    .dropdown-menu>li>a.a12 {
+        display: block;
+        /* padding: px; */
+        width: 200px;
+        background-color: black;
+        font-size: 25px;
+        font-weight: 600;
+        border-radius: 25px;
+        color: white ;
+    }
+
+    .dropdown-menu>li>a:hover {
+
+        background-color:rgb(78, 75, 75) ; 
+    }
+
+      i {
+        padding-right: 5px;
+      }
+
+
+
+
+
 .nav-item {
 font-family: 'Inter', sans-serif;
 }
