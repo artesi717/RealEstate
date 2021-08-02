@@ -48,6 +48,8 @@ body {
 }
 .v0_226 {
     background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center center;
     width: 336px;
     height: 266px;
     border-radius: 25px 25px 0px 0px;
