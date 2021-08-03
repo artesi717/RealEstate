@@ -27,7 +27,7 @@
 
 
         <div class="pjesa2">
-            <img class="foto37" src="https://www.pngall.com/wp-content/uploads/2016/04/Home-Download-PNG.png" alt=""> <br>
+            <img class="foto37" src="https://i.ibb.co/QHzJFmg/logobardh.png" alt=""> <br>
             
             <div>
                 
@@ -74,7 +74,7 @@
         }
 
         .foto37 {
-            width:25%;
+            width:50%;
             margin-top:100px;
         }
 

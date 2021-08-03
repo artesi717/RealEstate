@@ -1,3 +1,8 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+
 <div class="container1">
     <div class="row">
         <div class="col-md-8">
@@ -70,7 +75,7 @@
 		<div class="contact-header">
 			<div class="border">
         <img src="/images/Avatar Image.png" class="borderimg">
-        <h1>{{$post->user->name}}</h1>
+        <h1 class="emriuser">{{$post->user->name}}</h1>
         <a href="/profile/{{$post->user->id}}">View Profile</a>
 
       </div>

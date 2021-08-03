@@ -28,7 +28,7 @@
 
 
         <div class="pjesa2">
-            <img class="foto37" src="https://www.pngall.com/wp-content/uploads/2016/04/Home-Download-PNG.png" alt=""> <br>
+            <img class="foto37" src="https://i.ibb.co/nfWM2ML/output-onlinepngtools-9.png" alt=""> <br>
             <input class="input1" type="text" placeholder="Name">
             <input class="input1" type="text" placeholder="Email">
             <input class="input1" type="password" placeholder="Password">

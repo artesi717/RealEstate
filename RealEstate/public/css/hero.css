@@ -5,11 +5,11 @@ body   {
   width: 1440px;
   height: 850px;
   background-color:black;
-  background-image: url('https://www.nationalobserver.com/sites/nationalobserver.com/files/img/2021/04/20/pexels-binyamin-mellish-186077.jpg');
   background-size:100%;
   font-family: 'Manrope', sans-serif;
   padding-top:2px;
   padding-bottom: 122px;
+  position:relative;
 }
 
 @media only screen and (max-width: 375px) {
@@ -21,7 +21,6 @@ body   {
   width: 1440px;
   height: 850px;
   background-color:black;
-  background-image: url('https://www.nationalobserver.com/sites/nationalobserver.com/files/img/2021/04/20/pexels-binyamin-mellish-186077.jpg');
   background-size:520% ;
   font-family: 'Manrope', sans-serif;
   padding-bottom: 500px;
@@ -70,6 +69,7 @@ span.hero-p {
   font-size: 40px;
   font-family: 'DM Sans';
   margin-left:40%;
+  margin-top:-10%;
 }
 .shigjeta {
   width:50px;;
@@ -103,6 +103,7 @@ flex-wrap: nowrap;
 color: white;
 top: 12%;
 margin-left:20px;
+
 margin-right:30px;
 }
 nav{
@@ -118,20 +119,18 @@ margin-left: 12%;
 .nav-link {
 color:white;
 font-size:14px;
+font-weight:800;
+text-shadow: 3px 5px 4px #332A2B;
 
 }
 
-
-
-
-
-
-
-
+.nav-link:focus {
+  color:white;
+}
 
 
 #butoni11 {
-  color:white ;
+  color:white;
   font-weight: 800;
   background-color: rgba(0,0,0,.7);
   border-radius: 23px;
@@ -139,12 +138,13 @@ font-size:14px;
   margin-top: 27px;
   margin-inline-start: 0px;
   height: 32px;
-  width:210px;
+  padding-right:15px;
+  width:auto;
   border:0;
   white-space: nowrap;
   font-size:17px;
-
 }
+
 
 
 .dropdown-toggle::after {
@@ -173,9 +173,7 @@ font-size:14px;
 }
 
 #butoni11:visited {
-
-      background-color: #282828;
-
+  background-color: #282828;
 }
 
 .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
@@ -229,16 +227,42 @@ font-size:14px;
         border-radius: 25px;
         color: white ;
     }
+
+    .dropdown-menu>li>a.a1:hover {
+
+      background-color: #282828;
+      color:white;
+
+  }
+
+
     .dropdown-menu>li>a.a12 {
-        display: block;
-        /* padding: px; */
-        width: 200px;
+        background: none!important;
         background-color: black;
         font-size: 25px;
         font-weight: 600;
-        border-radius: 25px;
         color: white ;
     }
+
+    .a12 {
+      display: block;
+      /* padding: px; */
+      width: 200px;
+      background-color: transparent;
+      font-size: 15px;
+      font-weight: 600;
+      border:0;
+      text-align: left;
+      border-radius: 25px;
+      padding-left:0;
+      color: white ;
+    }
+
+
+    .a12:hover {
+      color:white;
+    }
+
 
     .dropdown-menu>li>a:hover {
 
@@ -285,11 +309,15 @@ border-radius: 0px 16px 0px 0px;
 
 
 }
+
+.mybtn2:hover {
+  color:gray;
+}
 .mybtn2
 {
   margin-top: 130px;
   width: 190px;
-  height: 50px;
+  height: 60px;
   justify-content: center;
   background-color: #ffac12;
     display: inline-block;
@@ -337,7 +365,7 @@ position: absolute;
 width: 1199px;
 height: 100px;
 left: 184px;
-top: 847px;
+top: 726px;
 bottom: 142px;
 background: #FFFFFF;
 font-style: normal;
@@ -522,3 +550,42 @@ color: #141414;
   margin-left:1170px;
   margin-top: 40px;
 }*/
+
+
+
+
+/*  video background */
+
+#myVideo {
+  width: 190%;
+  float:left;
+  margin-top:-4%;
+  margin-left:-20%;
+  height: 106vh;
+  object-fit: cover;
+  position: absolute;
+  background-size: cover;
+  background: transparent;
+
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}

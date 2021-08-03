@@ -35,16 +35,16 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto" style="margin: 31px; margin-left: 23px;">
               <li class="nav-item">
-                <a class="nav-link" href="/p/create">Nav link</a>
+                <a target="_blank" class="nav-link" href="/p/create">Add post</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Nav link</a>
+                <a target="_blank" class="nav-link" href="#">Post Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Nav link</a>
+                <a target="_blank" class="nav-link" href="#">Contact Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Nav link</a>
+                <a target="_blank" class="nav-link" href="#">Nav link</a>
               </li>
 
             </ul>
@@ -61,7 +61,7 @@
                 <div class="dropdown">
                   <button id="butoni11" class="btn btn-primary butoni1" type="button" data-toggle="dropdown"><i class="far fa-user"></i>{{auth()->user()->name}}
                     <span class="caret"></span></button>
-                  <ul class="dropdown-menu">
+                  <ul class="dropdown-menu" style="">
                     <li><a class="a1" href="/profile/{{auth()->user()->id}}">Profile</a></li>
                     <li><a class="a1">
                         <form action="/logout" method="POST">
@@ -75,12 +75,18 @@
             </div>
             @endif
 
-
+            <video autoplay muted loop id="myVideo" >
+              <source src="../images/videoback2.mp4" type="video/mp4">
+           </video>
 
             @else
             <ul class="nav navbar-nav navbar-right" style="margin:-68px -59px 39px -3px; left: 74px;">
-              <a href="/register" class="mybtn2">Work with us<img src="/images/Path.png" alt=""> </a>
+              <a href="/register" class="mybtn2">Work with us<img class="shigjeta1" src="/images/Path.png" alt=""> </a>
             </ul>
+
+            <video autoplay muted loop id="myVideo" >
+              <source src="../images/videoback1.mp4" type="video/mp4">
+           </video>
 
             @endif
      <!-- <div class="margina121">
@@ -115,4 +121,20 @@
   </header>
 </body>
 
+
 </html>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>

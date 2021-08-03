@@ -22,7 +22,13 @@ body , html{
     width: 100%!important;
     
     
+
   }
+
+      .emriuser {
+        font-weight: 800;
+      }
+
   .mySwiper .swiper-slide img {
     width: 100%!important;
     height: 80px!important;
@@ -140,11 +146,11 @@ body , html{
   height: 8px;
   left: 22.64%;
   right: 53.72%;
-  margin-left: -28.36%;
   list-style-type: none;
-  font-family: DM Sans;
+  padding-left:30px;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 800;
   font-size: 15px;
   line-height: 20px;
   /* identical to box height */

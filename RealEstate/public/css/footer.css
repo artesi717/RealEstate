@@ -4,7 +4,7 @@ body {
 
 .footer {
   
-    width: 100%;
+    width: 130%;
     height:600px;
     background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 70.25%);
 
@@ -71,7 +71,55 @@ a:hover {
 
     }
 
+} 
+
+
+.input1 {
+    width:430px;
+    height:40px;
+    border-radius:10px;
+    opacity:0.8;
+    border:0px;
+    margin-top:30px;
+    font-weight:800;
+    text-indent: 15px;
 }
+
+.input1:hover {
+    border:0;
+    outline: none;
+}
+
+.input1:focus {
+    border:0;
+    outline: none;
+}
+
+
+
+.input2 {
+    width:430px;
+    height:80px;
+    border-radius:4px;
+    opacity:0.8;
+    border:0px;
+    margin-top:30px;
+    font-weight:800;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top:2px;
+}
+
+.input2:hover {
+    border:0;
+    outline: none;
+}
+
+.input2:focus {
+    border:0;
+    outline: none;
+}
+
+
 
 
 .footerclass1 {
@@ -114,6 +162,35 @@ a:hover {
     margin-left :230px;
 }
 
+#myButton1161666 {
+    background-color:transparent;
+    border-radius:31px;
+    margin-top:40px;
+    border:2px solid white;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: 'DM Sans', sans-serif;
+    font-size:17px;
+    padding:5px 33px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    margin-left:70px;     
+    float:left;       
+}
+
+#myButton1161666:hover {
+    background-color:transparent;
+    text-decoration:none;
+    color:#797D7F;
+}
+
+#myButton1161666:active {
+    position:relative;
+    top:1px;
+}
+
+
 .icona112 {
     margin-left:10.5%;
     font-size:200%;
@@ -140,6 +217,13 @@ a:hover {
     margin-top:-189px;
 }
 
+
+
+
+.contactme {
+    margin-left:40%;
+    margin-top:-9.2%
+}
 
 .column124 {
     margin-left:55%;

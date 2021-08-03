@@ -1,3 +1,8 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+
 <style>
           .myButton {
 	        background-color:#ffac12;
@@ -36,6 +41,8 @@
        
         .nav-link a{
           margin-left:280;
+          font-weight:800;
+          font-family:'DM Sans' sans-serif;
         }
     .myButton {
 	        background-color:#ffac12;
@@ -67,7 +74,9 @@
        
   }
         .navbar{
-          margin:15px;
+          margin:13px;
+          font-family: 'DM Sans', sans-serif;
+          font-weight:800;
         }
         .head   {
           position: absolute;
@@ -184,7 +193,7 @@
   <div class="head">
 </div>
 <nav class="navbar navbar-light navbar-expand-md ">
-     <img class="logo1" src="https://media.discordapp.net/attachments/862274203377205282/865231872107216916/gitlab-white-logo.png?width=1440&height=511" alt="" ></a>
+     <img class="logo1" src="https://i.ibb.co/QHzJFmg/logobardh.png" alt="" ></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
         <span class="navbar-icon"><i class="fas fa-bars"></i></span>
     </button>
@@ -204,9 +213,7 @@
                 <a class="nav-link" href="#">NavLink</a>
             </li>
         </ul>
-        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-        <a href="" class="myButton">Work with us<i class="fas fa-long-arrow-alt-right"></i></a>
-        </ul>
+    @include('butoniuser')
     </div>
 </nav>
 

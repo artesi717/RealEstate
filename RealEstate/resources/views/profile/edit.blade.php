@@ -1,3 +1,12 @@
+<style>
+    body {
+        background-image:url('https://wallup.net/wp-content/uploads/2015/12/70610-cabin-modern-house-mountain-landscape-simple.jpg');
+    }
+
+    
+</style>
+
+
 @extends('layouts.app')
 
 @section('content')

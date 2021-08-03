@@ -193,9 +193,10 @@ figure {
   margin: 0 0 1rem;
 }
 
-img {
+.shigjeta1 {
   vertical-align: middle;
   border-style: none;
+  padding-left:7px;
 }
 
 svg {
@@ -222,7 +223,10 @@ th {
 
 label {
   display: inline-block;
-  margin-bottom: 0.5rem;
+  color:white;
+  margin-bottom:-4%;
+  font-family: 'DM Sans', sans-serif;
+  font-size:22px;
 }
 
 button {
@@ -363,6 +367,7 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 2.25rem;
+
 }
 
 h2, .h2 {
@@ -3142,7 +3147,8 @@ input[type=button].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: white;
+  border-radius:20px;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -4108,8 +4114,21 @@ input[type=button].btn-block {
     position: absolute;
   }
   .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    justify-content: center;
+    color:white;
+    font-weight: 800;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 23px;
+    padding:2px;
+    padding-left:15px;
+    margin-top: 27px;
+    margin-inline-start: 0px;
+    height: 32px;
+    padding-right:15px;
+    width:auto;
+    border:0;
+    white-space: nowrap;
+    font-size:17px;
   }
   .navbar-expand-md > .container,
 .navbar-expand-md > .container-fluid,
@@ -7774,16 +7793,18 @@ button.bg-dark:focus {
 .pr-5,
 .px-5 {
   padding-right: 3rem !important;
+  font-size:15px;
 }
 
 .pb-5,
 .py-5 {
   padding-bottom: 3rem !important;
+  
 }
 
 .pl-5,
 .px-5 {
-  padding-left: 5rem !important;
+  padding-left: 3.4rem !important;
 }
 
 .m-n1 {
