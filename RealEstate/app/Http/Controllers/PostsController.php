@@ -45,8 +45,15 @@ class PostsController extends Controller
             ]);
             return redirect('profile/'.auth()->user()->id);
     }
+    public function show(Post $post)
+    {
+        return view('propertypage',compact('post'));
 
-    public function show()
+         
+    }
+
+
+    public function view()
     {
         $posts=Post::all();
 
