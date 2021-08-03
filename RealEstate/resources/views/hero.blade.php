@@ -29,8 +29,8 @@
     <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent static-top">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img class="logo1" src="https://www.hommeet.com/wp-content/uploads/2020/06/logo-05.png" alt="" style="width:35%;">
-        </a>
+        <img class="logo1" src="https://i.ibb.co/nfWM2ML/output-onlinepngtools-9.png" alt="" style="width:100%;">
+      </a>
         <div>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto" style="margin: 31px; margin-left: 23px;">
