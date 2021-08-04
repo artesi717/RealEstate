@@ -10,6 +10,23 @@
 </div>
 
 
+
+<form action="/propertypage/ {{ $post->id }}" enctype="multipart/form-data" method="post">
+        @csrf   
+
+        @method('PATCH')
+
+               
+                    <button class="myButton6">Approve Post </button>
+                </div>
+
+
+            </div>
+
+        </div>
+    </form>
+
+
 <div class="features1">
    <div class="dsc3"> <h1 class="dsc1">Features</h1>  <hr style="color:#e4e4e4" class="hr1"> <br> </div>
   <div class="column">

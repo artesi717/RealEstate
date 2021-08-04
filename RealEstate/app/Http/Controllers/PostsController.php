@@ -60,4 +60,26 @@ class PostsController extends Controller
         return view('allposts',compact('posts'));
 
     }
+
+   
+
+
+    public function update(Post $post)
+    {
+
+        $data=request()->validate([
+
+            'status'=>'required',
+
+        ]);
+        
+
+        
+      
+        $post->fill($data)->save();
+
+        return redirect("/admindashboard");
+
+    }
+    
 }

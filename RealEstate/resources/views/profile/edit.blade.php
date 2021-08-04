@@ -13,7 +13,7 @@
 
 <div class="container">
     <form action="/profile/ {{ $user->id }}" enctype="multipart/form-data" method="post">
-        @csrf
+        @csrf   
 
         @method('PATCH')
 
@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="form-group row">
-                    <label for="description" class="col-md-4 col-form-laber"> Description</label>
+                    <label for="description" class="col-md-4  col-form-laber"></label>
 
                     <input id="description"
                            type="text"

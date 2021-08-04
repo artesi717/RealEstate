@@ -52,7 +52,7 @@
             @if(auth()->user()->hasRole('admin'))
             <img class="admin" src="https://img.icons8.com/ios-glyphs/30/000000/admin-settings-male.png" alt="">
             <div class="user">
-              <a href="/profile/{{ $post->user->id }}">
+              <a href="/profile/{{ auth()->user()->id }}">
                 {{auth()->user()->name}}</a>
             </div>
             @elseif(auth()->user()->hasRole('user'))
@@ -61,7 +61,7 @@
                 <div class="dropdown">
                   <button id="butoni11" class="btn btn-primary butoni1" type="button" data-toggle="dropdown"><i class="far fa-user"></i>{{auth()->user()->name}}
                     <span class="caret"></span></button>
-                  <ul class="dropdown-menu" style="">
+                  <ul class="dropdown-menu">
                     <li><a class="a1" href="/profile/{{auth()->user()->id}}">Profile</a></li>
                     <li><a class="a1">
                         <form action="/logout" method="POST">

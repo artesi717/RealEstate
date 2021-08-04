@@ -22,11 +22,17 @@ Route::get('/','HomeController@index');
 Route::get('/p/create','PostsController@create');
 Route::post('/p','PostsController@store');
 Route::get('/propertypage/{post}','PostsController@show');
+Route::get('/propertypage/{post}/edit','PostsController@edit');
+Route::patch('/propertypage/{post}','PostsController@update');
 Route::get('/allposts','PostsController@view');
 
 Route::get('/profile/{user}','ProfilesController@index')->name('profile.show');
 Route::get('/profile/{user}/edit','ProfilesController@edit')->name('profile.edit');
 Route::patch('/profile/{user}', 'ProfilesController@update')->name('profile.update');
+
+
+
+Route::get('/admindashboard','AdminController@view');
 
 Auth::routes();
 

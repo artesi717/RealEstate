@@ -24,7 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $posts=Post::latest()->take(6)->get();
+        $posts=Post::latest()->take(6)->where('status',1)->get();
 
         return view('welcome',[
             'posts'=>$posts,

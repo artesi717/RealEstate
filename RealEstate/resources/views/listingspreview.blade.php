@@ -60,7 +60,7 @@
     <div class="container">
     <div class="row pt-4 ">
         @foreach($posts as $post)
-        <div class="row pl-5 pt-4">
+        <div class="row px-5 pt-4">
            <a href="/propertypage/{{$post->id}}">
             <div class="card">
                <div> <img class="v0_226" src="/storage/{{$post->image}}" alt=""></div>

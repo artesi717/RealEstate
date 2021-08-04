@@ -4,7 +4,7 @@
 body {
     font-size: 14px;
     float:center;
-    padding-right:51%;
+    /* padding-right:51%; */
 }
 .listings{
     position: absolute;
@@ -37,6 +37,7 @@ box-sizing: border-box;
     background: #ffffff;
     box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
 }
+
 
 @media only screen and (max-width: 768px) {
     .v0_170 {

@@ -20,6 +20,7 @@ class CreatePostsTable extends Migration
             $table->integer('bed');
             $table->integer('showers');
             $table->integer('size');
+            $table->integer('status')->default('0');
             $table->string('image');
             $table->integer('price');
             $table->integer('year');

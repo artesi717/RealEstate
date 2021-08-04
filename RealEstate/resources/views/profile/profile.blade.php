@@ -85,16 +85,25 @@
 
                 </div>
 
-
+                @can('update',$user->profile)
+    
                 <a class="addpost" href="/p/create">Add New Post</a>
+                @endcan
+
             </div>
+            
+
+            @can('update',$user->profile)
             <a class="editprofil" href="/profile/{{$user->id}}/edit">Edit Profile</a>
+
+            @endcan
+
 
 
             <div class="d-flex">
                 <div class="pr-5"><strong>{{$user->posts->count()}}</strong> posts</div>
             </div>
-            <div>{{$user->profile->description ?? 'Description'}}</div>
+            <div>{{$user->profile->description}}</div>
         </div>
     </div>
 
