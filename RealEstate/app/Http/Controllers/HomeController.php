@@ -30,4 +30,11 @@ class HomeController extends Controller
             'posts'=>$posts,
         ]);
     }
+
+    public function view()
+    {
+        return view('contactus');
+     
+    }
+
 }

@@ -41,7 +41,7 @@
                 <a target="_blank" class="nav-link" href="#">Post Gallery</a>
               </li>
               <li class="nav-item">
-                <a target="_blank" class="nav-link" href="#">Contact Us</a>
+                <a target="_blank" class="nav-link" href="/contactus">Contact Us</a>
               </li>
               <li class="nav-item">
                 <a target="_blank" class="nav-link" href="#">Nav link</a>

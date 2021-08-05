@@ -17,6 +17,7 @@ use App\Http\Controllers\ProfilesController;
 */
 
 Route::get('/','HomeController@index');
+Route::get('/contactus','HomeController@view');
 
 
 Route::get('/p/create','PostsController@create');
