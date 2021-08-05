@@ -7,13 +7,18 @@
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
     <link rel="stylesheet" href="{{ URL::asset('css/content.css') }}">
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+    <script src="bower_components/aos/dist/aos.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
 
 </head>
 <body>
    
-    <img class="foto2" src="http://holtzmanpartners.com/wp-content/uploads/2021/06/Advisory.jpg" alt="">
+    <img class="foto2" data-aos="fade-up" src="http://holtzmanpartners.com/wp-content/uploads/2021/06/Advisory.jpg" alt="">
     
-    <div class="div11">
+    <div class="div11" data-aos="fade-up">
     <hr class="colored1"/>
     <h1 class="emri2">You're in good hands</h1>
     <p class="text21">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
@@ -85,3 +90,20 @@
 
 </body>
 </html>
+
+<script>
+      AOS.init({
+  duration: 1500
+});
+AOS.init();
+
+   // AOS.init({
+   //    offset: 200,
+   //    duration: 600,
+   //    easing: 'ease-in-sine',
+   //    delay: 100,
+   //  });
+
+
+
+</script>

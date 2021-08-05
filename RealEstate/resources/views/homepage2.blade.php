@@ -12,12 +12,15 @@
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ URL::asset('/css/homepage2.css') }}">
-
+<link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+<script src="bower_components/aos/dist/aos.js"></script>
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
 
 </head>
 <body>
-  <div class="div1234">
+  <div class="div1234" data-aos="fade-up">
     <img class="foto1" src="http://holtzmanpartners.com/wp-content/uploads/2021/06/Advisory.jpg" alt="">
 
     <div class="divi11">
@@ -33,4 +36,18 @@
 </body>
 </html>
 
+<script>
+   AOS.init({
+  duration: 1500
+});
+AOS.init();
+
+   // AOS.init({
+   //    offset: 200,
+   //    duration: 600,
+   //    easing: 'ease-in-sine',
+   //    delay: 100,
+   //  });
+
+</script>
 

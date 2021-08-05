@@ -16,14 +16,17 @@
     <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ URL::asset('css/main.css') }}">
-
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+    <script src="bower_components/aos/dist/aos.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
 
     <title>Listings Preview</title>
 </head>
 
 <body>
-    <div class="v0_155">
+    <div class="v0_155" data-aos="fade-left">
         <div class="v0_170">
             <div class="v0_171">
                 <div class="v0_172"></div>
@@ -98,3 +101,20 @@
 </body>
 
 </html>
+
+<script>
+      AOS.init({
+  duration: 1500
+});
+AOS.init();
+
+   // AOS.init({
+   //    offset: 200,
+   //    duration: 600,
+   //    easing: 'ease-in-sine',
+   //    delay: 100,
+   //  });
+
+
+
+</script>
