@@ -170,7 +170,6 @@
                                 <option value="1">Approve</option>
                                 <option value="0">Disapprove</option>
                             </select>
-
                             @if ($errors->has('status'))
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $errors->first('status') }}</strong>
@@ -184,14 +183,7 @@
             <form class="forma1" action="/propertypage/ {{ $post->id }}" enctype="multipart/form-data" method="post">
                     @csrf
                     @method('PATCH')
-                        <div class="col-6 offset-2">
-                        <div class="form-group row">
-                            <label for="status" class="col-md-4  col-form-laber"></label>
-                            <select name="status" id="status" class="custom-select butoniactive" aria-label=".form-select-sm example">
-                                <option disabled selected>Status <i class="fas fa-chevron-down"></i></option>
-                                <option value="1">Approve</option>
-                                <option value="0">Disapprove</option>
-                            </select>
+
 
                             @if ($errors->has('status'))
                             <span class="invalid-feedback" role="alert">
@@ -224,25 +216,7 @@
                                 <span class="v0_245">{{$post->size}}m2</span>
                             </div>
                         </div>
-              <form class="forma1" action="/propertypage/ {{ $post->id }}" enctype="multipart/form-data" method="post">
-                    @csrf
-                    @method('PATCH')
-                        <div class="col-4 offset-2">
-                        <div class="form-group row">
-                            <label for="status" class="col-md-4  col-form-laber"></label>
-                            <select name="status" id="status" class="custom-select butoniactive" aria-label=".form-select-sm example">
-                                <option disabled selected>Status <i class="fas fa-chevron-down"></i></option>
-                                <option value="1">Approve</option>
-                                <option value="0">Disapprove</option>
-                            </select>
-
-                            @if ($errors->has('status'))
-                            <span class="invalid-feedback" role="alert">
-                                <strong>{{ $errors->first('status') }}</strong>
-                            </span>
-                            @endif
-                        </div>
-                    </div>
+          
 
                 
             </div>
@@ -268,17 +242,17 @@
 
 
 
-                        <div class="row pt-4">
-                            <button class="butonisave"> Save Changes </button>
-                        </div>
 
 
                     </div>
 
                 </div>
             </form>
-            
+        <button class="butonisave"> Save Changes </button>
+
             @endforeach
+
+            
         </div>
 
 
