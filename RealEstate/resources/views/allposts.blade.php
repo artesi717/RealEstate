@@ -15,8 +15,11 @@
 
     <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ URL::asset('css/main.css') }}">
-
+    <link rel="stylesheet" href="{{ URL::asset('css/allposts.css') }}">
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+    <script src="bower_components/aos/dist/aos.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
 
     <title>Listings Preview</title>
@@ -26,10 +29,42 @@
 
 
 <body>
-    <div class="container">
+
+<h1 class="headerquote">Whether you’re buying, <br> selling or renting, <br> we can help you <br> move forward.</h1>
+
+<div class="v0_155" data-aos="/">
+        <div class="v0_170">
+            <div class="v0_171">
+                <div class="v0_172"></div>
+                <div class="v0_173"><span class="v0_174">Looking for</span>
+                    <div class="v0_175">
+                      
+                    </div>
+                </div>
+                <div class="v0_177"><span class="v0_178">Location</span>
+                    <div class="v0_179">
+                       
+                    </div>
+                </div>
+                <div class="v0_181"><span class="v0_182">Property Type</span>
+                    <div class="v0_183">
+                       
+                    </div>
+                </div>
+                <div class="v0_185"><span class="v0_186">Price</span>
+                    <div class="v0_187">
+                       
+                    </div>
+                </div>
+                <div class="v0_189"></div>
+                <div class="v0_190"></div>
+                <div class="v0_191"></div>
+               
+            </div>
+        </div> </div> </div>
+    <div class="container" data-aos="fade-left">
 
         <div class="row pt-10"> <strong>
-                <h1> Listings Preview</h1>
             </strong> </div>
         <div class="row pt-10">
             @foreach($posts as $post)
@@ -64,6 +99,9 @@
 
     </div>
 
+    <video autoplay muted loop id="myVideo" >
+              <source src="../images/allpostvideoo.mp4" type="video/mp4">
+           </video>
 
 
 
@@ -71,5 +109,20 @@
 
 </body>
 
+<script>
+      AOS.init({
+  duration: 1500
+});
+AOS.init();
+
+   // AOS.init({
+   //    offset: 200,
+   //    duration: 600,
+   //    easing: 'ease-in-sine',
+   //    delay: 100,
+   //  });
+
+
+</script>
 
 </html>
