@@ -380,7 +380,7 @@ box-sizing: border-box;
     color: #333;
     font-family: DM Sans;
     font-weight: Bold;
-    width: 100%;
+    width: 50%;
     font-size: 24px;
     opacity: 1;
     position: absolute;
@@ -573,7 +573,7 @@ box-sizing: border-box;
 }
 
 .v0_246 {
-    width: 35px;
+    width: 50px;
     height: 22px;
     background: rgba(255, 255, 255, 1);
     opacity: 1;
@@ -597,7 +597,7 @@ box-sizing: border-box;
 }
 
 .v0_250 {
-    width: 11px;
+    width: 50px;
     color: rgba(0, 0, 0, 1);
     position: absolute;
     top: 0px;
@@ -610,7 +610,7 @@ box-sizing: border-box;
 }
 
 .v0_251 {
-    width: 36px;
+    width: 50px;
     height: 22px;
     background: rgba(255, 255, 255, 1);
     opacity: 1;
@@ -620,7 +620,7 @@ box-sizing: border-box;
     overflow: hidden;
 }
 .v0_252 {
-    width: 10px;
+    width: 50px;
     color: rgba(0, 0, 0, 1);
     position: absolute;
     top: 0px;

@@ -25,8 +25,9 @@
 </head>
 
 <body>
-  <div class="navtext">
-    <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent static-top">
+<div class="navbar123">
+<div class="navtext">
+    <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent absolute-top">
       <div class="container">
         <a class="navbar-brand" href="#">
         <img class="logo1" src="https://i.ibb.co/nfWM2ML/output-onlinepngtools-9.png" alt="" style="width:100%;">
@@ -50,11 +51,28 @@
             </ul>
             @if(auth()->check())
             @if(auth()->user()->hasRole('admin'))
-            <img class="admin" src="https://img.icons8.com/ios-glyphs/30/000000/admin-settings-male.png" alt="">
+          
             <div class="user">
-              <a href="/profile/{{ auth()->user()->id }}">
-                {{auth()->user()->name}}</a>
+              <div class="container1">
+                <div class="dropdown">
+                  <button id="butoni11" class="btn btn-primary butoni1" type="button" data-toggle="dropdown"><i style="color:orange;" class="fas fa-user-shield"></i>{{auth()->user()->name}}
+                    <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a class="a1" href="/profile/{{auth()->user()->id}}">Profile</a></li>
+                    <li><a class="a1" href="/admindashboard">Dashboard</a></li>
+
+                    <li><a class="a1">
+                        <form action="/logout" method="POST">
+                          @csrf
+                          <button class="a12" type="submit">Log Out</button>
+                        </form>
+                      </a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
+          
+  
             @elseif(auth()->user()->hasRole('user'))
             <div class="user">
               <div class="container1">
@@ -72,7 +90,7 @@
                   </ul>
                 </div>
               </div>
-            </div>
+            </div>  
             @endif
 
             <video autoplay muted loop id="myVideo" >
@@ -85,10 +103,10 @@
             </ul>
 
             <video autoplay muted loop id="myVideo" >
-              <source src="../images/videoback2.mp4" type="video/mp4">
+              <source src="../images/videoback1.mp4" type="video/mp4">
            </video>
 
-            @endif
+            @endif </div> 
      <!-- <div class="margina121">
         <div class="container margina11">                                       
           <div class="dropdown">

@@ -214,7 +214,7 @@
             </div>
             <div class="inputat1">
                 <label for="bed">Number of Beds</label>
-                <input id="bed" type="text" class="input1 form-control @error('bed') is-invalid @enderror" name="bed" value="{{ old('bed') }}" required autocomplete="bed" autofocus>
+                <input id="bed" type="number" class="input1 form-control @error('bed') is-invalid @enderror" name="bed" value="{{ old('bed') }}" required autocomplete="bed" autofocus>
                 @error('bed')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
@@ -224,7 +224,7 @@
 
             <div class="inputat1">
              <label for="shower">Showers</label>
-                <input id="showers" type="text" class="input1 form-control @error('showers') is-invalid @enderror" name="showers" value="{{ old('showers') }}" required autocomplete="showers" autofocus>
+                <input id="showers" type="number" class="input1 form-control @error('showers') is-invalid @enderror" name="showers" value="{{ old('showers') }}" required autocomplete="showers" autofocus>
                 @error('showers')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
@@ -233,7 +233,7 @@
             </div>
             <div class="inputat1">
             <label for="size">Size (sqm-size)</label>
-                <input id="size" type="text" class="input1 form-control @error('size') is-invalid @enderror" name="size" value="{{ old('size') }}" required autocomplete="size" autofocus>
+                <input id="size" type="number" class="input1 form-control @error('size') is-invalid @enderror" name="size" value="{{ old('size') }}" required autocomplete="size" autofocus>
                 @error('size')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
@@ -242,7 +242,7 @@
             </div>
             <div class="inputat1">
                 <label for="price">Price</label>
-                <input id="price" type="text" class="input1 form-control @error('price') is-invalid @enderror" name="price" value="{{ old('price') }}" required autocomplete="price" autofocus>
+                <input id="price" type="number" class="input1 form-control @error('price') is-invalid @enderror" name="price" value="{{ old('price') }}" required autocomplete="price" autofocus>
                 @error('price')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
@@ -264,7 +264,7 @@
               <label for="year">
                 Year
                 </label>
-                <input id="year" type="text" class="input1 form-control @error('year') is-invalid @enderror" name="year" value="{{ old('year') }}" required autocomplete="year" autofocus>
+                <input id="year" type="number" class="input1 form-control @error('year') is-invalid @enderror" name="year" value="{{ old('year') }}" required autocomplete="year" autofocus>
                 @error('year')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>

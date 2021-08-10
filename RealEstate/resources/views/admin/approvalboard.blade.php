@@ -141,7 +141,7 @@
                     <div class="card">
                         <div> <img class="v0_226" src="/storage/{{$post->image}}" alt=""></div> </a>
 
-                        <p class="v0_225">Pending {{$post->name}}</p>
+                        <p class="v0_225"> Pending {{$post->name}}</p>
                         <div class="v0_227">
                             <div class="v0_246">
                                 <div class="v0_247"> </div>
@@ -159,7 +159,7 @@
                                 <span class="v0_245">{{$post->size}}m2</span>
                             </div>
                         </div>
-                 <form class="forma1" action="/propertypage/ {{ $post->id }}" enctype="multipart/form-data" method="post">
+                        <form class="forma1" action="/propertypage/ {{ $post->id }}" enctype="multipart/form-data" method="post">
                     @csrf
                     @method('PATCH')
                         <div class="col-4 offset-2">
@@ -170,6 +170,7 @@
                                 <option value="1">Approve</option>
                                 <option value="0">Disapprove</option>
                             </select>
+
                             @if ($errors->has('status'))
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $errors->first('status') }}</strong>
@@ -177,21 +178,11 @@
                             @endif
                         </div>
                     </div>
-                    </div>
+              <!-- </form> -->
+                 
                     
             </div>
-            <form class="forma1" action="/propertypage/ {{ $post->id }}" enctype="multipart/form-data" method="post">
-                    @csrf
-                    @method('PATCH')
-
-
-                            @if ($errors->has('status'))
-                            <span class="invalid-feedback" role="alert">
-                                <strong>{{ $errors->first('status') }}</strong>
-                            </span>
-                            @endif
-                        </div>
-                    </div>
+            
             @else
             <div class="row pl-5 pt-4">
             
@@ -216,7 +207,26 @@
                                 <span class="v0_245">{{$post->size}}m2</span>
                             </div>
                         </div>
-          
+              <form class="forma1" action="/propertypage/ {{ $post->id }}" enctype="multipart/form-data" method="post">
+                    @csrf
+                    @method('PATCH')
+                        <div class="col-4 offset-2">
+                        <div class="form-group row">
+                            <label for="status" class="col-md-4  col-form-laber"></label>
+                            <select name="status" id="status" class="custom-select butoniactive" aria-label=".form-select-sm example">
+                                <option disabled selected>Status <i class="fas fa-chevron-down"></i></option>
+                                <option value="1">Approve</option>
+                                <option value="0">Disapprove</option>
+                            </select>
+
+                            @if ($errors->has('status'))
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $errors->first('status') }}</strong>
+                            </span>
+                            @endif
+                        </div>
+                    </div>
+              <!-- </form> -->
 
                 
             </div>
@@ -242,17 +252,17 @@
 
 
 
-
+                        
+                        <div class="row pt-4">
+                            <button class="butonisave"> Save Changes </button>
+                        </div>
 
                     </div>
 
                 </div>
             </form>
-        <button class="butonisave"> Save Changes </button>
-
-            @endforeach
-
             
+            @endforeach
         </div>
 
 
@@ -542,6 +552,8 @@
   right: 0;
   z-index: 99;
 }
+
+
 
 /*hide the items when the select box is closed:*/
 .select-hide {

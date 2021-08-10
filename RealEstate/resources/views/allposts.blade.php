@@ -20,6 +20,8 @@
     <script src="bower_components/aos/dist/aos.js"></script>
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 
 
     <title>Listings Preview</title>
@@ -36,22 +38,46 @@
         <div class="v0_170">
             <div class="v0_171">
                 <div class="v0_172"></div>
-                <div class="v0_173"><span class="v0_174">Looking for</span>
+                <div class="v0_173"><span class="v0_174"></span>
+                <select class="form-select v0_174 forma111" aria-label="Default select example">
+                    <option class="v0_173" selected>Looking for</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
                     <div class="v0_175">
                       
                     </div>
                 </div>
-                <div class="v0_177"><span class="v0_178">Location</span>
+                <div class="v0_177"><span class="v0_178"></span>
+                <select class="form-select v0_174 forma111" aria-label="Default select example">
+                    <option class="v0_173" selected><i class="fas fa-chevron-down"></i>Location</option> 
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
                     <div class="v0_179">
                        
                     </div>
                 </div>
-                <div class="v0_181"><span class="v0_182">Property Type</span>
+                <div class="v0_181"><span class="v0_182"></span>
+                <select class="form-select v0_174 forma111" aria-label="Default select example">
+                    <option class="v0_173" selected><i class="fas fa-chevron-down"></i>Property Type</option> 
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
                     <div class="v0_183">
                        
                     </div>
                 </div>
-                <div class="v0_185"><span class="v0_186">Price</span>
+                <div class="v0_185"><span class="v0_186"></span>
+                <select class="form-select v0_174 forma111" aria-label="Default select example">
+                    <option class="v0_173" selected><i class="fas fa-chevron-down"></i>Price</option> 
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
                     <div class="v0_187">
                        
                     </div>

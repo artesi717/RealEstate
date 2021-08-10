@@ -31,6 +31,22 @@ box-sizing: border-box;
 }
 
 
+.forma111 {
+    border:0;
+}
+
+.forma111:focus {
+    border:0;
+    outline: none;
+
+}
+
+.forma111:hover {
+    border:0;
+    outline: none;
+
+}
+
 .container {
     margin-top:8%;
     margin-left:1%;
@@ -148,7 +164,6 @@ box-sizing: border-box;
     margin-top:24%;
     font-family:'DM Sans' sans-serif;
     color:white;
-    font-weight:1000;
     font-size:50px;
     margin-left:3%;
 }
@@ -215,7 +230,7 @@ box-sizing: border-box;
     overflow: hidden;
 }
 .v0_174 {
-    width: 87px;
+    width: 134px;
     color: rgba(0, 0, 0, 1);
     position: absolute;
     top: 0px;
@@ -229,8 +244,9 @@ box-sizing: border-box;
 .v0_175 {
     width: 12px;
     height: 8px;
-    background: url("../images/arrow-down-1.svg");
     background-repeat: no-repeat;
+    background: url("../images/arrow-down-1.svg");
+
     background-position: center center;
     background-size: cover;
     opacity: 1;
@@ -251,7 +267,7 @@ box-sizing: border-box;
     overflow: hidden;
 }
 .v0_178 {
-    width: 69px;
+    width: 80px;
     color: rgba(0, 0, 0, 1);
     position: absolute;
     top: 0px;
@@ -265,9 +281,10 @@ box-sizing: border-box;
 .v0_179 {
     width: 12px;
     height: 8px;
-    background: url("../images/arrow-down-1.svg");
     background-repeat: no-repeat;
     background-position: center center;
+    background: url("../images/arrow-down-1.svg");
+
     background-size: cover;
     opacity: 1;
     position: absolute;
@@ -299,11 +316,11 @@ box-sizing: border-box;
     text-align: left;
 }
 .v0_183 {
-    width: 12px;
+    width: 18px;
     height: 8px;
-    background: url("../images/arrow-down-1.svg");
     background-repeat: no-repeat;
     background-position: center center;
+
     background-size: cover;
     opacity: 1;
     position: absolute;
