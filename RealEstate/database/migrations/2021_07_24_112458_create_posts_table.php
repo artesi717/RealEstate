@@ -21,8 +21,10 @@ class CreatePostsTable extends Migration
             $table->integer('showers');
             $table->integer('size');
             $table->integer('status')->default('0');
-            $table->string('image');
+            $table->string('location');
+            $table->string('property_type');
             $table->integer('price');
+            $table->string('image');
             $table->integer('year');
             $table->string('address');
             $table->string('description');

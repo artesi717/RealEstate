@@ -6,6 +6,9 @@ use App\Models\Post;
 use Intervention\Image\Facades\Image;
 
 use Illuminate\Http\Request;
+// use Illuminate\Support\Facades\DB;
+use DB;
+// use Illuminate\Support\Facades\DB;
 
 class PostsController extends Controller
 {
@@ -22,6 +25,8 @@ class PostsController extends Controller
             'bed' => 'required',
             'showers' => 'required',
             'size' => 'required',
+            'location' => 'required',
+            'property_type' => 'required',
             'price' => 'required',
             'year' => 'required',
             'address' => 'required',
@@ -37,6 +42,8 @@ class PostsController extends Controller
                 'bed'=>$data['bed'],
                 'showers'=>$data['showers'],
                 'size'=>$data['size'],
+                'location'=>$data['location'],
+                'property_type'=>$data['property_type'],
                 'price'=>$data['price'],
                 'year'=>$data['year'],
                 'address'=>$data['address'],
@@ -48,17 +55,18 @@ class PostsController extends Controller
     public function show(Post $post)
     {
         return view('propertypage',compact('post'));
-
-         
     }
 
 
+
+
     public function view()
-    {
-        $posts=Post::all();
+    {   
 
-        return view('allposts',compact('posts'));
+      $posts=Post::latest()->filter()->get();
+                        
 
+        return view('search',compact('posts'));
     }
 
    
@@ -66,20 +74,11 @@ class PostsController extends Controller
 
     public function update(Post $post)
     {
-
         $data=request()->validate([
-
             'status'=>'required',
-
         ]);
-        
-
-        
-      
         $post->fill($data)->save();
-
         return redirect("/admindashboard");
-
     }
     
 }

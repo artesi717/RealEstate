@@ -93,27 +93,15 @@
         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
+                
                 <li>
-                    <a href="#" data-toggle="collapse" data-target="#submenu-1"><i class="fa fa-fw fa-search"></i> MENU 1 <i class="fa fa-fw fa-angle-down pull-right"></i></a>
-                    <ul id="submenu-1" class="collapse">
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.1</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.2</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.3</a></li>
-                    </ul>
+                    <a href="/admindashboard"><i class="fa fa-fw fa-user-plus"></i>Dashboard</a>
                 </li>
                 <li>
-                    <a href="#" data-toggle="collapse" data-target="#submenu-2"><i class="fa fa-fw fa-star"></i>  MENU 2 <i class="fa fa-fw fa-angle-down pull-right"></i></a>
-                    <ul id="submenu-2" class="collapse">
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.1</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.2</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.3</a></li>
-                    </ul>
+                    <a href="/admindashboard/approved"><i class="fa fa-fw fa-user-plus"></i>Approved Posts</a>
                 </li>
                 <li>
-                    <a href="investigaciones/favoritas"><i class="fa fa-fw fa-user-plus"></i>  MENU 3</a>
-                </li>
-                <li>
-                    <a href="sugerencias"><i class="fa fa-fw fa-paper-plane-o"></i> MENU 4</a>
+                    <a href="/admindashboard/pending"><i class="fa fa-fw fa-paper-plane-o"></i>Pending Posts</a>
                 </li>
                 <li>
                     <a href="faq"><i class="fa fa-fw fa fa-question-circle"></i> MENU 5</a>
@@ -128,15 +116,26 @@
             <!-- Page Heading -->
             <div class="row" id="main" >
                 <div class="col-sm-4 col-md-12 well" id="content">
-                <div class="container">
-        <div class="row pt-10"> <strong>
+        <div class="row pl-5 pt-10"> <strong>
                 <h1>Welcome Admin</h1>
             </strong> </div>
+        
 
-        <div class="row pt-10">
-            @foreach($posts as $post)
-            @if($post->status==0)
-            <div class="row pl-5 pt-4">
+
+
+            <!-- /.row -->
+        
+        <!-- /.container-fluid -->
+    
+    <!-- /#page-wrapper -->
+</div><!-- /#wrapper -->
+
+
+<div class="postimet">
+    <div class="row pl-5 pt-4" >
+        @foreach($posts as $post)
+        @if($post->status==0)
+            <div class="row px-4 pt-4">
                 <a href="/propertypage/{{$post->id}}">
                     <div class="card">
                         <div> <img class="v0_226" src="/storage/{{$post->image}}" alt=""></div> </a>
@@ -184,7 +183,7 @@
             </div>
             
             @else
-            <div class="row pl-5 pt-4">
+            <div class="row px-4 pt-4">
             
             <a href="/propertypage/{{$post->id}}">
                     <div class="card" style="opacity: 1">
@@ -260,28 +259,16 @@
                     </div>
 
                 </div>
+
             </form>
             
-            @endforeach
-        </div>
-
-
+        @endforeach
     </div>
+    
+</div>
+</div>
 
 
-            <!-- /.row -->
-        </div>
-        <!-- /.container-fluid -->
-    </div>
-    <!-- /#page-wrapper -->
-</div><!-- /#wrapper -->
-
-
-<body>
-   
-
-
-</body>
 
 
 </html>
@@ -462,7 +449,12 @@
 .side-nav>li>ul>li>a:hover {
     color: #fff;
 }
-
+.well
+{
+    border: 0;
+    background-color: white;
+    text-align: center;
+}
 .navbar .nav > li > a > .label {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;

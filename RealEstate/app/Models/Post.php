@@ -11,6 +11,16 @@ class Post extends Model
 
     protected $guarded=[];
 
+
+    public function scopeFilter($query)
+    {
+        if(request('location')){
+            $query
+                ->where('location','like', '%' .request('location'). '%')
+                ->Where('property_type','like', '%' .request('property_type'). '%');
+        }
+    }
+
     public function user()
     {
         return $this->belongsTo(User::class);

@@ -44,26 +44,26 @@
         <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
-                    <div class="form-group">
-                        <select name="location" id="location" class="form-control" required>
-                            <option value="">Select Location</option>
-                            <option value="Prishtina">Prishtina</option>
-                            <option value="Ferizaj">Ferizaj</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <select name="property_type" id="property_type" class="form-control" required>
-                            <option value="">Property Type</option>
-                            <option value="House">House</option>
-                            <option value="Apartment">Apartment</option>
-                        </select>
-                    </div>
-                    
-                    <div class="form-group" align="center">
-                        <button type="button" name="filter" id="filter" class="btn btn-info">Filter</button>
-
-                        <button type="button" name="reset" id="reset" class="btn btn-default">Reset</button>
-                    </div>
+                   <form method="get"  action="#">
+                        <div class="form-group">
+                            <select name="location" id="location" class="form-control" required>
+                                <option value="">Select Location</option>
+                                <option value="Prishtina">Prishtina</option>
+                                <option value="Ferizaj">Ferizaj</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select name="property_type" id="property_type" class="form-control" required>
+                                <option value="">Property Type</option>
+                                <option value="House">House</option>
+                                <option value="Apartment">Apartment</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group" align="center">
+                            <button type="submit" name="filter" id="filter" class="btn btn-info">Filter</button>
+                        </div>
+                   </form>
                 </div>
                 <div class="col-md-4"></div>
             </div>
@@ -128,98 +128,6 @@
     //  });
 
     
-
-  
-    $(document).ready(function(){
-
-    fill_datatable();
-
-    function fill_datatable(location = '', property_type = '')
-    {
-        var dataTable = $('#posts_data').DataTable({
-            processing: true,
-            serverSide: true,
-            ajax:{
-                url: "{{ route('allposts.index') }}",
-                data:{location:location, property_type:property_type}
-            },
-            columns: [
-                {
-                    data:'name',
-                    name:'name'
-                },
-                {
-                    data:'bed',
-                    name:'bed'
-                },
-                {
-                    data:'showers',
-                    name:'showers'
-                },
-                {
-                    data:'size',
-                    name:'size'
-                },
-                {
-                    data:'status',
-                    name:'status'
-                },
-                {
-                    data:'location',
-                    name:'location'
-                },
-                {
-                    data:'property_type',
-                    name:'property_type'
-                },
-                {
-                    data:'price',
-                    name:'price'
-                },
-                {
-                    data:'image',
-                    name:'image'
-                },
-                {
-                    data:'year',
-                    name:'year'
-                },
-                {
-                    data:'address',
-                    name:'address'
-                },
-                {
-                    data:'description',
-                    name:'description'
-                }
-              
-            ]
-        });
-    }
-
-    $('#filter').click(function(){
-        var location = $('#location').val();
-        var property_type = $('#property_type').val();
-
-        if(location != '' &&  property_type != '')
-        {
-            $('#posts_data').DataTable().destroy();
-            fill_datatable(location, property_type);
-        }
-        else
-        {
-            alert('Select Both filter option');
-        }
-    });
-
-    $('#reset').click(function(){
-        $('#location').val('');
-        $('#property_type').val('');
-        $('#posts_data').DataTable().destroy();
-        fill_datatable();
-    });
-
-});
 
 
 </script>

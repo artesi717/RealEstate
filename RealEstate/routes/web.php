@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CustomSearch;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfilesController;
@@ -25,7 +26,11 @@ Route::post('/p','PostsController@store');
 Route::get('/propertypage/{post}','PostsController@show');
 Route::get('/propertypage/{post}/edit','PostsController@edit');
 Route::patch('/propertypage/{post}','PostsController@update');
-Route::get('/allposts','PostsController@view');
+Route::get('/search','PostsController@view');
+Route::resource('/allposts','CustomSearchController');
+
+
+
 
 Route::get('/profile/{user}','ProfilesController@index')->name('profile.show');
 Route::get('/profile/{user}/edit','ProfilesController@edit')->name('profile.edit');
@@ -34,6 +39,8 @@ Route::patch('/profile/{user}', 'ProfilesController@update')->name('profile.upda
 
 
 Route::get('/admindashboard','AdminController@view');
+Route::get('/admindashboard/approved','AdminController@approved');
+Route::get('/admindashboard/pending','AdminController@pending');
 
 Auth::routes();
 
