@@ -131,7 +131,7 @@
       <h1 class="head">Beautiful<br>homes made<br>for you</h1>
       <p>In oculis quidem se esse admonere interesse enim maxime placeat, facere possimus,
         omnis. Et quidem faciunt, ut labore et accurate disserendum ete harum quidem exercitus.</p>
-      <a href="/allposts" class="hero-p">See all listings
+      <a href="/search" class="hero-p">See all listings
         <img src="/images/arrow.png" style="padding-left:12px; cursor:pointer;" alt="">
       </a>
     </div>
