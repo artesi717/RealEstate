@@ -15,6 +15,9 @@
         "laravel/ui": "^3.3",
         "santigarcor/laratrust": "^6.3",
         "yajra/laravel-datatables-oracle": "^9.18"
+        
+        
+        
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -60,4 +63,6 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true
+        
+    
 }

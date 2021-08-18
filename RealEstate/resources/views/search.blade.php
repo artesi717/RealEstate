@@ -55,6 +55,102 @@
 
 
 <body>
+
+<div class="container mt-5">
+
+<h2>Laravel Google Autocomplete Address Example</h2>
+
+
+
+<div class="form-group">
+
+    <label>Location/City/Address</label>
+
+    <input type="text" name="autocomplete" id="autocomplete" class="form-control" placeholder="Choose Location">
+
+</div>
+
+
+
+<div class="form-group" id="latitudeArea">
+
+    <label>Latitude</label>
+
+    <input type="text" id="latitude" name="latitude" class="form-control">
+
+</div>
+
+
+
+<div class="form-group" id="longtitudeArea">
+
+    <label>Longitude</label>
+
+    <input type="text" name="longitude" id="longitude" class="form-control">
+
+</div>
+
+<button type="submit" class="btn btn-primary">Submit</button>
+
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+<script type="text/javascript"
+
+src="//maps.googleapis.com/maps/api/js?key=AIzaSyCiJSD863xwsB_tu5n4RwN5xwc7nfSZ2UM&libraries=places" ></script>
+
+<script>
+
+$(document).ready(function () {
+
+    $("#latitudeArea").addClass("d-none");
+
+    $("#longtitudeArea").addClass("d-none");
+
+});
+
+</script>
+
+<script>
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
+function initialize() {
+
+    var input = document.getElementById('autocomplete');
+
+    var autocomplete = new google.maps.places.Autocomplete(input);
+
+
+
+    autocomplete.addListener('place_changed', function () {
+
+        var place = autocomplete.getPlace();
+
+        $('#latitude').val(place.geometry['location'].lat());
+
+        $('#longitude').val(place.geometry['location'].lng());
+
+
+
+        $("#latitudeArea").removeClass("d-none");
+
+        $("#longtitudeArea").removeClass("d-none");
+
+    });
+
+}
+
+</script>
     <h1 class="headerquote"></h1>
     <div class="pjesastatike">
         <h3 class="postscount">{{$posts->count()}} properties found</h3>
@@ -164,11 +260,10 @@
     </div>
 
 
-    <div id="map-container-google-3" class="z-depth-1-half map-container-3">
-        <iframe src="https://maps.google.com/maps?q=warsaw&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div id="map-container-google-3" class="z-depth-1-half map-container-3"> 
+        <iframe src="//maps.googleapis.com/maps/api/js?key=AIzaSyCiJSD863xwsB_tu5n4RwN5xwc7nfSZ2UM&libraries=places" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
-
-    <img class="logoopen" src="https://i.ibb.co/55vQ0fL/logozi.png" alt="">
+    
 
 </body>
 

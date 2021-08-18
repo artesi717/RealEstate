@@ -40,7 +40,7 @@ class CustomSearchController extends Controller
                         // ->orderBy('location','ASC')
                         ->get();
 
-        return view('allposts',compact('posts'));
+        return view('search',compact('posts'));
         
     }
 

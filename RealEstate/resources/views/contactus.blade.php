@@ -9,12 +9,14 @@
     {{-- CSS Files --}}
     <link rel="stylesheet" href="/css/bulma.min.css">
     <link rel="stylesheet" href="/css/custom.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     {{-- Google Fonts --}}
     <link href="https://fonts.googleapis.com/css?family=Exo+2:300i,400,400i,500,500i,600|Kanit:300,300i,400,400i,500,500i,600" rel="stylesheet">
 </head>
 <body>
-
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
     <div class="column is-full is-mobile backgroundimg">
         <div class="container">
@@ -30,46 +32,7 @@
             </div>
         </div>
     </div>
-    {{-- <div class="columns">
-        <div class="column is-centered">
-              <br>
-              <br>
-                <div class="title has-text-primary has-text-centered">
-                  Drop Us A Message!
-                </div>
-                <form action="" method="post">
-                    <div class="field">
-                      <label class="label">Name</label>
-                      <div class="control">
-                        <input class="input" type="text" placeholder="Enter your name">
-                      </div>
-                    </div>
-                    <div class="field">
-                      <label class="label">Email Address</label>
-                      <div class="control">
-                        <input class="input" type="email" placeholder="Enter your email">
-                      </div>
-                    </div>
-                    <div class="field">
-                      <label class="label">Message</label>
-                      <div class="control">
-                        <textarea class="textarea" placeholder="Enter your message"></textarea>
-                      </div>
-                    </div>
-                    <div class="control">
-                        
-                      <button class="button is-link is-centered">
-                        <span class="icon">
-                          <i class="far fa-comment-alt"></i>
-                        </span> &nbsp; Send
-                      </button>
-                    </div>
-                </form>
-          </div>
-          <div class="column contactusimg">
-
-          </div>
-    </div> --}}
+    
 
     {{-- Photo Frame Section --}}
     <div class="columns">
@@ -80,7 +43,12 @@
                     Drop Us A Message!
                   </div>
             <div class="insidemoved">
-                <form action="/sendmessage" method="post">
+              @if(Session::has('message_sent'))
+                  <div class="alert alert-success" role="alert">
+                     {{Session::get('message_sent')}}
+                  </div>
+              @endif
+                <form  action="{{route('contact.send')}}" method="post" enctype="multipart/form-data">
                   @csrf
                     <div class="field">
                       <label class="label has-text-white">Name</label>
@@ -105,22 +73,17 @@
                       </div>
                     </div>
                     <div class="field">
-                      <label class="label has-text-white">Inquery Type</label>
+                      <label for="phonenumber" class="label has-text-white">Phone Number</label>
                       <div class="control">
-                        <div class="select is-info is-fullwidth{{ $errors->has('type') ? ' is-danger' : '' }}">
-                          <select name="type">
-                            <option>General Inquery</option>
-                            <option>Technical Inquery</option>
-                            <option>Service Inquery</option>
-                          </select>
-                          @if ($errors->has('type'))
-                        <span class="" role="alert">
-                            <strong class="has-text-danger">{{ $errors->first('type') }}</strong>
+                      <input class="input is-info{{ $errors->has('phonenumber') ? ' is-danger' : '' }}" type="phonenumber" name="phonenumber" placeholder="Enter your phone number">
+                      @if ($errors->has('phonenumber')) 
+                      <span class="" role="alert">
+                            <strong class="has-text-danger">{{ $errors->first('phonenumber') }}</strong>
                         </span>
                         @endif
-                        </div>
-                      </div>
                     </div>
+                    </div>
+                   
                     <div class="field">
                       <label class="label has-text-white">Message</label>
                       <div class="control">
@@ -132,13 +95,11 @@
                         @endif
                       </div>
                     </div>
-                    <div class="control">
-                      <button class="button is-link is-pulled-right msgbutton">
-                        <span class="icon">
-                          <i class="far fa-comment-alt"></i>
-                        </span> &nbsp; Send
+                    
+                      <button type="submit" class="btn btn-primary float-right"> Submit
+                         
                       </button>
-                    </div>
+                    
                 </form>
             </div>
           </div>

@@ -4,6 +4,7 @@ use App\Http\Controllers\CustomSearch;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfilesController;
+use App\Http\Controllers\ContactController;
 
 
 /*
@@ -28,6 +29,11 @@ Route::get('/propertypage/{post}/edit','PostsController@edit');
 Route::patch('/propertypage/{post}','PostsController@update');
 Route::get('/search','PostsController@view');
 Route::resource('/allposts','CustomSearchController');
+
+Route::get('google-autocomplete', [GoogleController::class, 'index']);
+
+Route::get('/contactus', [ContactController::class, 'contact']);
+Route::post('/send-message', [ContactController::class, 'sendemail'])->name('contact.send');
 
 
 
