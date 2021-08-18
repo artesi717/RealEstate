@@ -1,23 +1,24 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     font-size: 14px;
-    float:center;
+    float: center;
     /* padding-right:51%; */
 }
-.listings{
-    position: absolute;
-    width: 1170px;
-    height: 1000px;
-    left: 140px;
-    top: 561px;
 
-/* border: 1px solid #000000; */
-box-sizing: border-box;
+.listings {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 140px;
+    top: 200px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -25,7 +26,7 @@ box-sizing: border-box;
     padding-bottom: 8px;
 }
 
-.card{
+.card {
     background: rgba(255, 255, 255, 1);
     width: 336px;
     height: 418px;
@@ -33,18 +34,15 @@ box-sizing: border-box;
     /* position: absolute; */
     overflow: hidden;
     /* margin-left: 400px; */
-
     background: #ffffff;
     box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
 }
-
 
 @media only screen and (max-width: 768px) {
     .v0_170 {
         width: 25%;
         height: 266px;
         opacity: 1;
-
         overflow: hidden;
     }
 }
@@ -54,7 +52,6 @@ box-sizing: border-box;
         width: 25%;
         height: 266px;
         opacity: 1;
-
         overflow: hidden;
     }
 }
@@ -68,10 +65,9 @@ box-sizing: border-box;
         left: -33%;
         position: absolute;
     }
-
     span.v0_192 {
         font-size: 70px;
-        white-space:nowrap;
+        white-space: nowrap;
     }
     p.v0_174 {
         width: 87px;
@@ -86,29 +82,22 @@ box-sizing: border-box;
         text-align: left;
     }
     div.v0_172 {
-        font-size:80px;
+        font-size: 80px;
     }
-
-
-
     p.v0_225 {
         font-size: 42px;
-        white-space:nowrap;
+        white-space: nowrap;
     }
     div.v0_226 {
-        width:336px;
+        width: 336px;
     }
-
 }
-
-
 
 @media only screen and (max-width: 768px) {
     .v0_170 {
-        left:5%;
+        left: 5%;
     }
 }
-
 
 .v0_155 {
     width: 1440px;
@@ -130,6 +119,7 @@ box-sizing: border-box;
     top: 216px;
     overflow: hidden;
 }
+
 .v0_171 {
     width: 100%;
     height: 120px;
@@ -143,6 +133,7 @@ box-sizing: border-box;
     left: 0px;
     overflow: hidden;
 }
+
 .v0_172 {
     width: 100%;
     height: 120px;
@@ -159,6 +150,7 @@ box-sizing: border-box;
     box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.13371394574642181);
     overflow: hidden;
 }
+
 .v0_173 {
     width: 108px;
     height: 22px;
@@ -169,6 +161,7 @@ box-sizing: border-box;
     left: 30px;
     overflow: hidden;
 }
+
 .v0_174 {
     width: 87px;
     color: rgba(0, 0, 0, 1);
@@ -181,6 +174,7 @@ box-sizing: border-box;
     opacity: 1;
     text-align: left;
 }
+
 .v0_175 {
     width: 12px;
     height: 8px;
@@ -205,6 +199,7 @@ box-sizing: border-box;
     left: 308px;
     overflow: hidden;
 }
+
 .v0_178 {
     width: 69px;
     color: rgba(0, 0, 0, 1);
@@ -217,6 +212,7 @@ box-sizing: border-box;
     opacity: 1;
     text-align: left;
 }
+
 .v0_179 {
     width: 12px;
     height: 8px;
@@ -241,6 +237,7 @@ box-sizing: border-box;
     left: 566px;
     overflow: hidden;
 }
+
 .v0_182 {
     width: 113px;
     color: rgba(0, 0, 0, 1);
@@ -253,6 +250,7 @@ box-sizing: border-box;
     opacity: 1;
     text-align: left;
 }
+
 .v0_183 {
     width: 12px;
     height: 8px;
@@ -277,6 +275,7 @@ box-sizing: border-box;
     left: 834px;
     overflow: hidden;
 }
+
 .v0_186 {
     width: 41px;
     color: rgba(0, 0, 0, 1);
@@ -289,6 +288,7 @@ box-sizing: border-box;
     opacity: 1;
     text-align: left;
 }
+
 .v0_187 {
     width: 12px;
     height: 8px;
@@ -314,6 +314,7 @@ box-sizing: border-box;
     border: 0px solid rgba(150, 150, 150, 1);
     overflow: hidden;
 }
+
 .v0_190 {
     width: 1px;
     height: 120px;
@@ -325,6 +326,7 @@ box-sizing: border-box;
     border: 0px solid rgba(150, 150, 150, 1);
     overflow: hidden;
 }
+
 .v0_191 {
     width: 1px;
     height: 120px;
@@ -336,6 +338,7 @@ box-sizing: border-box;
     border: 0px solid rgba(150, 150, 150, 1);
     overflow: hidden;
 }
+
 .v0_192 {
     width: 700px;
     color: rgba(0, 0, 0, 1);
@@ -348,6 +351,7 @@ box-sizing: border-box;
     opacity: 1;
     text-align: left;
 }
+
 .v0_193 {
     width: 169px;
     height: 4px;
@@ -371,11 +375,11 @@ box-sizing: border-box;
     right: 919px;
     top: 558px;
     bottom: 841px;
-
     background: #ffffff;
     box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
     border-radius: 25px;
 }
+
 .v0_225 {
     color: #333;
     font-family: DM Sans;
@@ -388,14 +392,12 @@ box-sizing: border-box;
     top: 288px;
     left: 32px;
     right: 165px;
-
     font-family: DM Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 31px;
     letter-spacing: -0.603077px;
-
     color: #000000;
 }
 
@@ -406,6 +408,7 @@ box-sizing: border-box;
     height: 266px;
     border-radius: 25px 25px 0px 0px;
 }
+
 .v0_2261 {
     background: url("https://images7.alphacoders.com/341/341692.jpg");
     background-size: cover;
@@ -413,6 +416,7 @@ box-sizing: border-box;
     height: 266px;
     border-radius: 25px 25px 0px 0px;
 }
+
 .v0_2262 {
     background: url("https://freedesignfile.com/upload/2016/10/luxury-houses-with-yellow-light-in-modern-villa-at-night-04-HD-picture.jpg");
     background-size: cover;
@@ -420,6 +424,7 @@ box-sizing: border-box;
     height: 266px;
     border-radius: 25px 25px 0px 0px;
 }
+
 .v0_2263 {
     background: url("https://c4.wallpaperflare.com/wallpaper/150/385/134/trees-design-house-lawn-wallpaper-preview.jpg");
     background-size: cover;
@@ -427,6 +432,7 @@ box-sizing: border-box;
     height: 266px;
     border-radius: 25px 25px 0px 0px;
 }
+
 .v0_2264 {
     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlRN06sXkaHFbGEarjZEufZyj1mI8qITGPtQ&usqp=CAU");
     background-size: cover;
@@ -434,6 +440,7 @@ box-sizing: border-box;
     height: 266px;
     border-radius: 25px 25px 0px 0px;
 }
+
 .v0_2265 {
     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Ifvd_hw4l58e6i6Xd5NKbkbREdNyHr0j9A&usqp=CAU");
     background-size: cover;
@@ -441,6 +448,7 @@ box-sizing: border-box;
     height: 266px;
     border-radius: 25px 25px 0px 0px;
 }
+
 .v0_227 {
     background: rgba(227, 227, 227, 1);
     width: 336px;
@@ -451,6 +459,7 @@ box-sizing: border-box;
     left: 2px;
     right: 2px;
 }
+
 .v0_228 {
     background: rgba(227, 227, 227, 1);
     width: 1px;
@@ -461,6 +470,7 @@ box-sizing: border-box;
     left: 114px;
     right: 221px;
 }
+
 .v0_229 {
     background: rgba(227, 227, 227, 1);
     width: 1px;
@@ -471,6 +481,7 @@ box-sizing: border-box;
     left: 227px;
     right: 108px;
 }
+
 .v22_8 {
     width: 14px;
     height: 10px;
@@ -481,6 +492,7 @@ box-sizing: border-box;
     left: 0px;
     overflow: hidden;
 }
+
 .v0_212 {
     width: 14px;
     height: 10px;
@@ -494,6 +506,7 @@ box-sizing: border-box;
     left: 0px;
     overflow: hidden;
 }
+
 .v0_213 {
     width: 12px;
     height: 3px;
@@ -503,6 +516,7 @@ box-sizing: border-box;
     top: 0px;
     left: 0px;
 }
+
 .v0_214 {
     width: 14px;
     height: 6px;
@@ -526,9 +540,11 @@ box-sizing: border-box;
     left: 0px;
     overflow: hidden;
 }
+
 .name {
     color: #fff;
 }
+
 .v0_222 {
     width: 2px;
     height: 1px;
@@ -538,6 +554,7 @@ box-sizing: border-box;
     top: 2px;
     left: 5px;
 }
+
 .v0_223 {
     width: 1px;
     height: 2px;
@@ -547,6 +564,7 @@ box-sizing: border-box;
     top: 5px;
     left: 9px;
 }
+
 .v0_224 {
     width: 2px;
     height: 2px;
@@ -566,7 +584,6 @@ box-sizing: border-box;
     right: 552px;
     top: 558px;
     bottom: 841px;
-
     background: #ffffff;
     box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
     border-radius: 25px;
@@ -582,6 +599,7 @@ box-sizing: border-box;
     left: 39px;
     overflow: hidden;
 }
+
 .v0_247 {
     width: 14px;
     height: 12px;
@@ -619,6 +637,7 @@ box-sizing: border-box;
     left: 39px;
     overflow: hidden;
 }
+
 .v0_252 {
     width: 50px;
     color: rgba(0, 0, 0, 1);
@@ -631,6 +650,7 @@ box-sizing: border-box;
     opacity: 1;
     text-align: left;
 }
+
 .v0_253 {
     width: 16px;
     height: 16px;
@@ -655,6 +675,7 @@ box-sizing: border-box;
     left: 10px;
     overflow: hidden;
 }
+
 .v0_233 {
     width: 16px;
     height: 16px;
@@ -691,11 +712,11 @@ box-sizing: border-box;
     right: 185px;
     top: 558px;
     bottom: 841px;
-
     background: #ffffff;
     box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
     border-radius: 25px;
 }
+
 .v0_301 {
     background: rgba(255, 255, 255, 1);
     width: 336px;
@@ -705,7 +726,6 @@ box-sizing: border-box;
     right: 919px;
     top: 1006px;
     bottom: 393px;
-
     background: #ffffff;
     box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
     border-radius: 25px;
@@ -720,7 +740,6 @@ box-sizing: border-box;
     right: 552px;
     top: 1006px;
     bottom: 393px;
-
     background: #ffffff;
     box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
     border-radius: 25px;
@@ -735,7 +754,6 @@ box-sizing: border-box;
     right: 185px;
     top: 1006px;
     bottom: 393px;
-
     background: #ffffff;
     box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
     border-radius: 25px;

@@ -74,7 +74,7 @@
 	<div class="contact-content">
 		<div class="contact-header">
 			<div class="border">
-        <img src="/images/Avatar Image.png" class="borderimg">
+        <img src="https://www.nicepng.com/png/detail/128-1280406_view-user-icon-png-user-circle-icon-png.png" class="borderimg">
         <h1 class="emriuser">{{$post->user->name}}</h1>
         <a href="/profile/{{$post->user->id}}">View Profile</a>
 

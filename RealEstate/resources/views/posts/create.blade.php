@@ -191,6 +191,10 @@
     border: 0;
     transition: all .2s ease;
   }
+
+  .dropdownat {
+    margin-top: -10px;
+  }
 </style>
 
 
@@ -206,7 +210,7 @@
           <h1 class="emri11">Add New Post</h1>
         </div>
         <div class="inputat1">
-          <label for="name">Name</label>
+          <label class="emri121" for="name">Name</label>
           <input id="name" type="text" class="input1 form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
           @error('name')
           <span class="invalid-feedback" role="alert">
@@ -215,7 +219,7 @@
           @enderror
         </div>
         <div class="inputat1">
-          <label for="bed">Number of Beds</label>
+          <label class="emri121" for="bed">Number of Rooms</label>
           <input id="bed" type="number" class="input1 form-control @error('bed') is-invalid @enderror" name="bed" value="{{ old('bed') }}" required autocomplete="bed" autofocus>
           @error('bed')
           <span class="invalid-feedback" role="alert">
@@ -225,7 +229,7 @@
         </div>
 
         <div class="inputat1">
-          <label for="shower">Showers</label>
+          <label class="emri121 caramba" for="shower">Toilets</label>
           <input id="showers" type="number" class="input1 form-control @error('showers') is-invalid @enderror" name="showers" value="{{ old('showers') }}" required autocomplete="showers" autofocus>
           @error('showers')
           <span class="invalid-feedback" role="alert">
@@ -234,10 +238,8 @@
           @enderror
         </div>
         <div class="inputat1">
-          <label for="location">Location : </label><br>
-          <select  id="location" type="text" class="form-select input1 @error('name') is-invalid @enderror" name="location" value="{{ old('location') }}" required autocomplete="name" autofocus style="width: 100%;" aria-label="Default select example">
-         
-            <option selected>Open this select menu</option>
+          <select id="location" type="text" class="form-select input1 @error('name') is-invalid @enderror" name="location" value="{{ old('location') }}" required autocomplete="name" autofocus style="width: 100%;" aria-label="Default select example">
+            <option selected>Location</option>
             <option value="Prishtina">Prishtine</option>
             <option value="Ferizaj">Ferizaj</option>
             <option value="Vushtri">Vushtri</option>
@@ -249,10 +251,8 @@
           @enderror
         </div>
         <div class="inputat1">
-          <label for="property_type">Property Type : </label><br>
-          <select  id="property_type" type="text" class="form-select input1 @error('name') is-invalid @enderror" name="property_type" value="{{ old('property_type') }}" required autocomplete="name" autofocus style="width: 100%;" aria-label="Default select example">
-         
-            <option selected>Open this select menu</option>
+          <select id="property_type" type="text" class="form-select input1 @error('name') is-invalid @enderror" name="property_type" value="{{ old('property_type') }}" required autocomplete="name" autofocus style="width: 100%;" aria-label="Default select example">
+            <option selected>Property type</option>
             <option value="Apartment">Apartment</option>
             <option value="House">Home</option>
           </select>
@@ -262,9 +262,9 @@
           </span>
           @enderror
         </div>
-       
+
         <div class="inputat1">
-          <label for="size">Size (sqm-size)</label>
+          <label class="emri121" for="size">Size (sqm-size)</label>
           <input id="size" type="number" class="input1 form-control @error('size') is-invalid @enderror" name="size" value="{{ old('size') }}" required autocomplete="size" autofocus>
           @error('size')
           <span class="invalid-feedback" role="alert">
@@ -272,7 +272,7 @@
           </span>
           @enderror
         </div>
-        <div class="inputat1">
+        <div class="emri121" class="inputat1">
           <label for="price">Price</label>
           <input id="price" type="number" class="input1 form-control @error('price') is-invalid @enderror" name="price" value="{{ old('price') }}" required autocomplete="price" autofocus>
           @error('price')
@@ -282,8 +282,8 @@
           @enderror
         </div>
         <div class="inputat1">
-
-          <label for="address">Address</label>
+          <br>
+          <label class="emri121" for="address">Address</label>
           <input id="address" type="text" class="input1 form-control @error('address') is-invalid @enderror" name="address" value="{{ old('address') }}" required autocomplete="address" autofocus>
           @error('address')
           <span class="invalid-feedback" role="alert">
@@ -293,7 +293,7 @@
         </div>
         <div class="inputat1">
 
-          <label for="year">
+          <label class="emri121" for="year">
             Year
           </label>
           <input id="year" type="number" class="input1 form-control @error('year') is-invalid @enderror" name="year" value="{{ old('year') }}" required autocomplete="year" autofocus>
@@ -303,7 +303,7 @@
           </span>
           @enderror
         </div>
-        <label for="year">
+        <label class="emri121" for="year">
           Description
         </label>
         <div class="col-xs-12 col-sm-12 col-md-12">
@@ -319,7 +319,7 @@
 
 
         <div class="row">
-          <label for="image" class="col-md-4 col-form-label text-md-left">
+          <label class="emri121" for="image" class="col-md-4 col-form-label text-md-left">
             <h4>Post Image :</h4>
           </label>
           <!--   <input type="file" class="form-control-file" id="image" name="image" multiple>-->
@@ -390,3 +390,19 @@
   });
 </script>
 @endsection
+
+<style>
+  .emri121 {
+    color: white;
+    font-size: 17px;
+  }
+
+  input {
+    margin-top: -13%;
+  }
+
+  .form-control {
+    transition: none;
+    margin-top: -10px;
+  }
+</style>

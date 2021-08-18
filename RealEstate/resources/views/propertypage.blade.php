@@ -39,7 +39,7 @@
     <div class="similarlistings">  
         @include('similarlistings')
     </div> 
-    <div class="footer">  
+    <div style="width:100%; " class="footer">  
         @include('footer')
     </div> 
  <style>
@@ -53,6 +53,12 @@
      body {
         overflow-x: hidden; /* Hide horizontal scrollbar */
 
+     }
+     i {
+         color:white;
+     }
+     footer {
+         width:100%;
      }
  </style>
  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

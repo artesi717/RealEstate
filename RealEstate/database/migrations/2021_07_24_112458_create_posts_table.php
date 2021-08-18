@@ -21,6 +21,7 @@ class CreatePostsTable extends Migration
             $table->integer('showers');
             $table->integer('size');
             $table->integer('status')->default('0');
+            $table->integer('primary')->default('0');
             $table->string('location');
             $table->string('property_type');
             $table->integer('price');
@@ -45,3 +46,5 @@ class CreatePostsTable extends Migration
         Schema::dropIfExists('posts');
     }
 }
+
+

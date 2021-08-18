@@ -21,7 +21,6 @@
     <div class="hero">  
         @include('hero')
     </div>  
-       
     <div class="homepage2">
         @include('homepage2')
     </div>  

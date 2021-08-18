@@ -33,8 +33,6 @@
 </head>
 
 
-
-
 <body>
 
     <h1 class="headerquote">Whether you’re buying, <br> selling or renting, <br> we can help you <br> move forward.</h1>

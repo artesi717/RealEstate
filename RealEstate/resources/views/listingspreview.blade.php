@@ -27,37 +27,7 @@
 
 <body>
     <div class="v0_155" data-aos="fade-left">
-        <div class="v0_170">
-            <div class="v0_171">
-                <div class="v0_172"></div>
-                <div class="v0_173"><span class="v0_174">Looking for</span>
-                    <div class="v0_175">
-                      
-                    </div>
-                </div>
-                <div class="v0_177"><span class="v0_178">Location</span>
-                    <div class="v0_179">
-                       
-                    </div>
-                </div>
-                <div class="v0_181"><span class="v0_182">Property Type</span>
-                    <div class="v0_183">
-                       
-                    </div>
-                </div>
-                <div class="v0_185"><span class="v0_186">Price</span>
-                    <div class="v0_187">
-                       
-                    </div>
-                </div>
-                <div class="v0_189"></div>
-                <div class="v0_190"></div>
-                <div class="v0_191"></div>
-            </div><span class="v0_192">Find your next place to live</span>
-            <div class="v0_193">
-               
-            </div>
-        </div>
+        
         
     <div class="listings">
     <div class="container">
@@ -94,10 +64,10 @@
     </div>
     </div>
 
-       
            
       
-    </div>
+    </div>       <br><br>
+
 </body>
 
 </html>

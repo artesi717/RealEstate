@@ -1,388 +1,411 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 body {
-  font-size: 14px;
-  background: #f2f2f2;
-  top: 150px;
+    font-size: 14px;
+    background: #f2f2f2;
+    top: 150px;
 }
 
-.scrollmenu{
- 
-  white-space: nowrap;
-  position: absolute;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  height: 590px;  
-  width: 1255px;
-
+.scrollmenu {
+    white-space: nowrap;
+    position: absolute;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 590px;
+    width: 1255px;
 }
+
 .scrollmenu div {
-  display: inline-block;
-  color: rgb(114, 35, 35);
-  text-align: center;
-  text-decoration: none;
+    display: inline-block;
+    color: rgb(114, 35, 35);
+    text-align: center;
+    text-decoration: none;
 }
-.scrollmenu::-webkit-scrollbar{
-  height: 4px;
-  background: gray;
+
+.scrollmenu::-webkit-scrollbar {
+    height: 4px;
+    background: gray;
 }
-.scrollmenu::-webkit-scrollbar-thumb:horizontal{
-  background: #000;
-  border-radius: 10px;
+
+.scrollmenu::-webkit-scrollbar-thumb:horizontal {
+    background: #000;
+    border-radius: 10px;
 }
 
 .v0_694 {
-  width: 1440px;
-  margin-left: 185px;
-  margin-top: 2330px;
-  margin-bottom: 150px;
-  height: 700px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-@media screen and (max-width: 1125px){
-  .v0_694 {
     width: 1440px;
-    margin-left: 23px;
-    margin-top: 3774px;
+    margin-left: 185px;
+    margin-top: 2330px;
     margin-bottom: 150px;
     height: 700px;
-  }
-  .scrollmenu{
-    width: 347px;
-  }
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
 }
-.v0_695 {
-  width: 329px;
-  height: 86px;
-  background: #f2f2f2;
 
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+@media screen and (max-width: 1125px) {
+    .v0_694 {
+        width: 1440px;
+        margin-left: 23px;
+        margin-top: 3774px;
+        margin-bottom: 150px;
+        height: 700px;
+    }
+    .scrollmenu {
+        width: 347px;
+    }
 }
+
+.v0_695 {
+    width: 329px;
+    height: 86px;
+    background: #f2f2f2;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
 .v0_696 {
-  width: 330px;
-  color: rgba(0, 0, 0, 1);
-  position: absolute;
-  top: 21px;
-  left: 0px;
-  font-family: DM Sans;
-  font-weight: Bold;
-  font-size: 50px;
-  opacity: 1;
-  text-align: left;
+    width: 330px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 21px;
+    left: 0px;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
 }
+
 .v0_697 {
-  width: 169px;
-  height: 4px;
-  background: url("../images/Rectangle.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+    width: 169px;
+    height: 4px;
+    background: url("../images/Rectangle.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
 }
+
 .card {
-  width: 336px;
-  height: 418px;
-  background: rgba(255, 255, 255, 1);
-  opacity: 1;
-  position: absolute;
-  top: 146px;
-  left: 0px;
-  overflow: hidden;
-  border: 0px solid rgba(150,150,150,1);
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.13371394574642181);
-  overflow: hidden;
-  
+    width: 336px;
+    height: 418px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 146px;
+    left: 0px;
+    overflow: hidden;
+    border: 0px solid rgba(150, 150, 150, 1);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.13371394574642181);
+    overflow: hidden;
 }
 
 .card2 {
-  width: 336px;
-  height: 418px;
-  background: rgba(255, 255, 255, 1);
-  opacity: 1;
-  position: absolute;
-  width: 336px;
-  height: 418px;
-  left: 367px;
-  top: 146px;
-  overflow: hidden;
-  border: 0px solid rgba(150,150,150,1);
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.13371394574642181);
-  overflow: hidden;
+    width: 336px;
+    height: 418px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    width: 336px;
+    height: 418px;
+    left: 367px;
+    top: 146px;
+    overflow: hidden;
+    border: 0px solid rgba(150, 150, 150, 1);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.13371394574642181);
+    overflow: hidden;
 }
+
 .card3 {
-  width: 336px;
-  height: 418px;
-  background: rgba(255, 255, 255, 1);
-  opacity: 1;
-  position: absolute;
-  width: 336px;
-  height: 418px;
-  left: 744px;
-  top: 146px;
-  overflow: hidden;
-  border: 0px solid rgba(150,150,150,1);
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.13371394574642181);
-  overflow: hidden;
+    width: 336px;
+    height: 418px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    width: 336px;
+    height: 418px;
+    left: 744px;
+    top: 146px;
+    overflow: hidden;
+    border: 0px solid rgba(150, 150, 150, 1);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.13371394574642181);
+    overflow: hidden;
 }
+
 .card4 {
-  width: 336px;
-  height: 418px;
-  background: rgba(255, 255, 255, 1);
-  opacity: 1;
-  position: absolute;
-  width: 336px;
-  height: 418px;
-  left: 1101px;
-  top: 146px;
-  overflow: hidden;
-  border: 0px solid rgba(150,150,150,1);
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.13371394574642181);
-  overflow: hidden;
+    width: 336px;
+    height: 418px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    width: 336px;
+    height: 418px;
+    left: 1101px;
+    top: 146px;
+    overflow: hidden;
+    border: 0px solid rgba(150, 150, 150, 1);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.13371394574642181);
+    overflow: hidden;
 }
 
 .v0_701 {
-  width: 36px;
-  height: 22px;
-  background: rgba(255, 255, 255, 1);
-  opacity: 1;
-  position: absolute;
-  top: 376px;
-  left: 258px;
-  overflow: hidden;
+    width: 36px;
+    height: 22px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 376px;
+    left: 258px;
+    overflow: hidden;
 }
+
 .v0_702 {
-  width: 16px;
-  height: 16px;
-  background: url("../images/Size.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 3px;
-  left: 0px;
-  overflow: hidden;
+    width: 16px;
+    height: 16px;
+    background: url("../images/Size.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    overflow: hidden;
 }
+
 .v0_714 {
-  width: 10px;
-  color: rgba(0, 0, 0, 1);
-  position: absolute;
-  top: 0px;
-  left: 26px;
-  font-family: DM Sans;
-  font-weight: Bold;
-  font-size: 17px;
-  opacity: 1;
-  text-align: left;
+    width: 10px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0px;
+    left: 26px;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 17px;
+    opacity: 1;
+    text-align: left;
 }
+
 .v0_715 {
-  width: 35px;
-  height: 22px;
-  background: rgba(255, 255, 255, 1);
-  opacity: 1;
-  position: absolute;
-  top: 376px;
-  left: 39px;
-  overflow: hidden;
+    width: 35px;
+    height: 22px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 376px;
+    left: 39px;
+    overflow: hidden;
 }
+
 .v0_716 {
-  width: 14px;
-  height: 12px;
-  background: url("../images/Bed.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 5px;
-  left: 0px;
-  overflow: hidden;
+    width: 14px;
+    height: 12px;
+    background: url("../images/Bed.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    overflow: hidden;
 }
+
 .v0_719 {
-  width: 11px;
-  color: rgba(0, 0, 0, 1);
-  position: absolute;
-  top: 0px;
-  left: 24px;
-  font-family: DM Sans;
-  font-weight: Bold;
-  font-size: 17px;
-  opacity: 1;
-  text-align: left;
+    width: 11px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 17px;
+    opacity: 1;
+    text-align: left;
 }
+
 .v0_720 {
-  width: 36px;
-  height: 22px;
-  background: rgba(255, 255, 255, 1);
-  opacity: 1;
-  position: absolute;
-  top: 376px;
-  left: 150px;
-  overflow: hidden;
+    width: 36px;
+    height: 22px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 376px;
+    left: 150px;
+    overflow: hidden;
 }
+
 .v0_721 {
-  width: 10px;
-  color: rgba(0, 0, 0, 1);
-  position: absolute;
-  top: 0px;
-  left: 26px;
-  font-family: DM Sans;
-  font-weight: Bold;
-  font-size: 17px;
-  opacity: 1;
-  text-align: left;
+    width: 10px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0px;
+    left: 26px;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 17px;
+    opacity: 1;
+    text-align: left;
 }
+
 .v0_722 {
-  width: 16px;
-  height: 16px;
-  background: url("../images/Shower.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 2px;
-  left: 0px;
-  overflow: hidden;
+    width: 16px;
+    height: 16px;
+    background: url("../images/Shower.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    overflow: hidden;
 }
+
 .v0_729 {
-  width: 139px;
-  color: rgba(0, 0, 0, 1);
-  position: absolute;
-  top: 296px;
-  left: 30px;
-  font-family: DM Sans;
-  font-weight: Bold;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
+    width: 139px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 296px;
+    left: 30px;
+    font-family: DM Sans;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
 }
+
 .photo_house1 {
-  width: 336px;
-  height: 266px;
-  background: url("../images/House\ Example\ 1.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border: 0px solid rgba(150, 150, 150, 1);
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  overflow: hidden;
+    width: 336px;
+    height: 266px;
+    background: url("../images/House\ Example\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 0px solid rgba(150, 150, 150, 1);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    overflow: hidden;
 }
+
 .photo_house2 {
-  width: 336px;
-  height: 266px;
-  background: url("../images/House\ Example\ 2.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border: 0px solid rgba(150, 150, 150, 1);
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  overflow: hidden;
+    width: 336px;
+    height: 266px;
+    background: url("../images/House\ Example\ 2.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 0px solid rgba(150, 150, 150, 1);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    overflow: hidden;
 }
+
 .photo_house3 {
-  width: 336px;
-  height: 266px;
-  background: url("../images/House\ Example\ 3.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border: 0px solid rgba(150, 150, 150, 1);
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  overflow: hidden;
+    width: 336px;
+    height: 266px;
+    background: url("../images/House\ Example\ 3.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 0px solid rgba(150, 150, 150, 1);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    overflow: hidden;
 }
+
 .photo_house4 {
-  width: 336px;
-  height: 266px;
-  background: url("../images/House\ Example\ 4.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border: 0px solid rgba(150, 150, 150, 1);
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  overflow: hidden;
+    width: 336px;
+    height: 266px;
+    background: url("../images/House\ Example\ 4.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 0px solid rgba(150, 150, 150, 1);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    overflow: hidden;
 }
+
 .v0_731 {
-  width: 336px;
-  height: 1px;
-  background: rgba(227, 227, 227, 1);
-  opacity: 1;
-  position: absolute;
-  top: 357px;
-  left: 0px;
-  border: 0px solid rgba(150, 150, 150, 1);
-  overflow: hidden;
+    width: 336px;
+    height: 1px;
+    background: rgba(227, 227, 227, 1);
+    opacity: 1;
+    position: absolute;
+    top: 357px;
+    left: 0px;
+    border: 0px solid rgba(150, 150, 150, 1);
+    overflow: hidden;
 }
+
 .v0_732 {
-  width: 1px;
-  height: 60px;
-  background: rgba(227, 227, 227, 1);
-  opacity: 1;
-  position: absolute;
-  top: 358px;
-  left: 112px;
-  border: 0px solid rgba(150, 150, 150, 1);
-  overflow: hidden;
+    width: 1px;
+    height: 60px;
+    background: rgba(227, 227, 227, 1);
+    opacity: 1;
+    position: absolute;
+    top: 358px;
+    left: 112px;
+    border: 0px solid rgba(150, 150, 150, 1);
+    overflow: hidden;
 }
+
 .v0_733 {
-  width: 1px;
-  height: 60px;
-  background: rgba(227, 227, 227, 1);
-  opacity: 1;
-  position: absolute;
-  top: 358px;
-  left: 225px;
-  border: 0px solid rgba(150, 150, 150, 1);
-  overflow: hidden;
+    width: 1px;
+    height: 60px;
+    background: rgba(227, 227, 227, 1);
+    opacity: 1;
+    position: absolute;
+    top: 358px;
+    left: 225px;
+    border: 0px solid rgba(150, 150, 150, 1);
+    overflow: hidden;
 }

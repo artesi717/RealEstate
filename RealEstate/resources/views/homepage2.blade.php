@@ -16,19 +16,25 @@
 <script src="bower_components/aos/dist/aos.js"></script>
 <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
 </head>
 <body>
+
+
+  <br><br><br><br>
+
   <div class="div1234" data-aos="fade-up">
     <img class="foto1" src="http://holtzmanpartners.com/wp-content/uploads/2021/06/Advisory.jpg" alt="">
 
     <div class="divi11">
     <hr>
     <h1 class="emri1">You're in good hands</h1>
-    <p class="text2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
-    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-    It has survived not only five centuries,</p>
+    <p class="text2">Built on centuries of tradition and dedicated to innovating the luxury real estate industry, OpenDoor's International Realty offers
+       transformative experiences through a global network of exceptional agents.
+
+</p>
     <br><br>
     <a href="#" class="myButton">Learn more    <i class="fas fa-long-arrow-alt-right"></i></a>
 

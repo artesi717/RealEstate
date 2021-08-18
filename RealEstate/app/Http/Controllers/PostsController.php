@@ -68,7 +68,7 @@ class PostsController extends Controller
 
         return view('search',compact('posts'));
     }
-
+    
    
 
 

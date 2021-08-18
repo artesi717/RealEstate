@@ -1,109 +1,108 @@
-body  {
+body {
     font-family: 'DM Sans' sans-serif;
-    margin-top:600px;
+    margin-top: 600px;
     margin-top: 80%;
-
 }
 
 @media only screen and (min-width: 2238px) {
     /* For tablets: */
-    .emri1 {margin-left:21.5%;}
+    .emri1 {
+        margin-left: 21.5%;
+    }
 }
 
 @media only screen and (max-width: 375px) {
     /* For tablets: */
-    .foto1 {width:100%;margin-left:0%;}
+    .foto1 {
+        width: 100%;
+        margin-left: 0%;
+    }
 }
 
 @media only screen and (max-width: 375px) {
     /* For tablets: */
     .emri1 {
-        font-size:85px;
-        margin-top:45%;
-        margin-left:0%;
+        font-size: 85px;
+        margin-top: 45%;
+        margin-left: 0%;
     }
-
 }
 
 @media only screen and (max-width: 375px) {
     /* For tablets: */
     .text2 {
-        padding:5px;
-        margin-left:1%;
-        font-size:40px;
+        padding: 5px;
+        margin-left: 1%;
+        font-size: 40px;
     }
-
 }
 
 @media only screen and (max-width: 375px) {
     /* For tablets: */
     .myButton {
-    font-size:40px;
-    margin-left:5%;
-    border-radius:0px 16px 0px   0px;
+        font-size: 40px;
+        margin-left: 5%;
+        border-radius: 0px 16px 0px 0px;
     }
-
 }
 
-
-
-.emri1{
+.emri1 {
     font-weight: 10;
     font-family: 'DM Sans' sans-serif;
-    color:black;
-    text-align:center;
-    font-size:45px;
-    margin-top:60px;
-    margin-left:56%;
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 60px;
+    margin-left: 56%;
     padding-bottom: 30px;
 }
+
 hr {
     left: 0%;
     right: 64.35%;
     top: 50%;
-
     background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
     border-radius: 2px;
 }
+
 .text2 {
-    margin-left:63%;
-    padding-right:120px;
-    font-size:16px;
-    font-weight:normal;
+    margin-left: 63%;
+    padding-right: 120px;
+    font-size: 16px;
+    font-weight: normal;
     font-family: 'Inter', sans-serif;
-    color: #797979;;
-    
+    color: #797979;
+    ;
 }
 
 .myButton {
-    background-color:#000000;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
+    background-color: #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
     font-family: 'Manrope', sans-serif;
-    font-size:16px;
-    padding:19px 31px;
-    margin-left:63%;
-    border-radius:0px 16px 0px   0px;
+    font-size: 16px;
+    padding: 19px 31px;
+    margin-left: 63%;
+    border-radius: 0px 16px 0px 0px;
 }
 
 i {
-    padding-left:14px;
-    color:orange;
+    padding-left: 14px;
+    color: orange;
 }
 
-.divi11{
+.divi11 {
     margin-top: -38%;
 }
 
 .foto1 {
-    width:704px;
-    margin-left:50px;
-    margin-top:13%;
-    border-radius:0px 50px 0px   0px;
+    width: 704px;
+    margin-left: 50px;
+    margin-top: 13%;
+    border-radius: 0px 50px 0px 0px;
     border: 3px solid #18a0fb;
-    box-shadow: 0px 48px 35px 1px rgba(0,0,0,0.28);
-    -webkit-box-shadow: 0px 48px 35px 1px rgba(0,0,0,0.28);
-    -moz-box-shadow: 0px 48px 35px 1px rgba(0,0,0,0.28);
-
+    box-shadow: 0px 48px 35px 1px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 0px 48px 35px 1px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 48px 35px 1px rgba(0, 0, 0, 0.28);
 }
