@@ -17,7 +17,20 @@ class Post extends Model
         if(request('location')){
             $query
                 ->where('location','like', '%' .request('location'). '%')
-                ->Where('property_type','like', '%' .request('property_type'). '%');
+                ->Where('property_type','like', '%' .request('property_type'). '%')
+                ->Where('rental','like', '%' .request('rental'). '%');
+        }
+        elseif(request('rental')){
+            $query
+                ->where('location','like', '%' .request('location'). '%')
+                ->Where('property_type','like', '%' .request('property_type'). '%')
+                ->Where('rental','like', '%' .request('rental'). '%');
+        }
+        elseif(request('property_type')){
+            $query
+                ->where('location','like', '%' .request('location'). '%')
+                ->Where('property_type','like', '%' .request('property_type'). '%')
+                ->Where('rental','like', '%' .request('rental'). '%');
         }
     }
 

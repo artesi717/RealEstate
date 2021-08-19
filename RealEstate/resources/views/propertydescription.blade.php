@@ -24,25 +24,25 @@
     <hr style="color:#e4e4e4" class="hr1"> <br>
   </div>
   <div class="column">
-    <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-    <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-    <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-    <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-    <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+    <p><i style="color:orange;" class="fas fa-check-circle"></i> Air Conditioning</p>
+    <p><i style="color:orange;" class="fas fa-check-circle"></i> Air Conditioning</p>
+    <p><i style="color:orange;" class="fas fa-check-circle"></i> Air Conditioning</p>
+    <p><i style="color:orange;" class="fas fa-check-circle"></i> Air Conditioning</p>
+    <p><i style="color:orange;" class="fas fa-check-circle"></i> Air Conditioning</p>
   </div>
   <div class="column">
-    <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-    <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-    <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-    <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-    <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+    <p><i style="color:orange;" class="fas fa-check-circle"></i> Air Conditioning</p>
+    <p><i style="color:orange;" class="fas fa-check-circle"></i> Air Conditioning</p>
+    <p><i style="color:orange;" class="fas fa-check-circle"></i> Air Conditioning</p>
+    <p><i style="color:orange;" class="fas fa-check-circle"></i> Air Conditioning</p>
+    <p><i style="color:orange;" class="fas fa-check-circle"></i> Air Conditioning</p>
   </div>
   <div class="column">
-    <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-    <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-    <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-    <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
-    <p><i class="fas fa-check-circle"></i> Air Conditioning</p>
+    <p><i style="color:orange;" class="fas fa-check-circle"></i> Air Conditioning</p>
+    <p><i style="color:orange;" class="fas fa-check-circle"></i> Air Conditioning</p>
+    <p><i style="color:orange;" class="fas fa-check-circle"></i> Air Conditioning</p>
+    <p><i style="color:orange;" class="fas fa-check-circle"></i> Air Conditioning</p>
+    <p><i style="color:orange;" class="fas fa-check-circle"></i> Air Conditioning</p>
   </div>
 
 

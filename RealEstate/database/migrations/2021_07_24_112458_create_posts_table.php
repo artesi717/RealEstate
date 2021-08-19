@@ -27,15 +27,14 @@ class CreatePostsTable extends Migration
             $table->integer('price');
             $table->string('image');
             $table->integer('year');
+            $table->string('rental');
             $table->string('address');
             $table->string('description');
-            
             $table->timestamps();
-
             $table->index('user_id');
         });
     }
-
+    
     /**
      * Reverse the migrations.
      *

@@ -27,27 +27,26 @@
     <div class="navtext">
       <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent absolute-top">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="http://127.0.0.1:8000">
             <img class="logo1" src="https://i.ibb.co/nfWM2ML/output-onlinepngtools-9.png" alt="" style="width:100%;">
           </a>
           <div>
             <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav ml-auto" style="margin: 31px; margin-left: 23px;">
-
                 <li class="nav-item">
-                  <a target="_blank" class="nav-link" href="/p/create">Sell</a>
+                  <a style="background-color:transparent; opacity:1;" target="_blank" class="nav-link" href="search">FIND A HOME</a>
                 </li>
 
                 <li class="nav-item">
-                  <a target="_blank" class="nav-link" href="search">Buy</a>
+                  <a style="background-color:transparent; opacity:1;" target="_blank" class="nav-link" href="/p/create">SELL A HOME</a>
                 </li>
 
                 <li class="nav-item">
-                  <a target="_blank" class="nav-link" href="#">Post Gallery</a>
+                  <a style="background-color:transparent; opacity:1;" target="_blank" class="nav-link" href="#">POST GALLERY</a>
                 </li>
 
                 <li class="nav-item">
-                  <a target="_blank" class="nav-link" href="/contactus">Contact Us</a>
+                  <a style="background-color:transparent; opacity:1;" target="_blank" class="nav-link" href="/contactus">CONTACT US</a>
                 </li>
 
               </ul>

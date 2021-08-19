@@ -239,7 +239,7 @@ th {
 
 label {
     display: inline-block;
-    margin-bottom: 0.5rem;
+    margin-bottom: -20px;
 }
 
 button {
@@ -3387,7 +3387,7 @@ input[type=button].btn-block {
     padding: 0.25rem 1.5rem;
     clear: both;
     font-weight: 400;
-    color: #212529;
+    color: white;
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;
@@ -3398,7 +3398,8 @@ input[type=button].btn-block {
 .dropdown-item:focus {
     color: #16181b;
     text-decoration: none;
-    background-color: #e9ecef;
+    background-color: gray;
+    border-radius: 10px;
 }
 
 .dropdown-item.active,
@@ -4354,8 +4355,13 @@ input[type=button].btn-block {
 }
 
 .navbar-nav .nav-link {
-    padding-right: 0;
-    padding-left: 0;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 5px;
+    width: auto;
+    color: white;
+    font-weight: 800;
 }
 
 .navbar-nav .dropdown-menu {
@@ -8226,7 +8232,7 @@ button.bg-dark:focus {
 
 .pb-4,
 .py-4 {
-    padding-bottom: 1.5rem !important;
+    padding-bottom: 0;
 }
 
 .pl-4,

@@ -2,6 +2,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <style>
   .myButton {
@@ -93,7 +94,7 @@
     height: 228px;
     left: 0px;
     top: 0px;
-    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+    background: linear-gradient(225.52deg, #271A00 1%, rgba(0, 0, 0, 0.982162) 100.47%);
     ;
   }
 
@@ -355,12 +356,22 @@
   .dropdown-menu>li>a:hover {
     background-color: rgb(78, 75, 75);
   }
+
+  .caramba {
+    background-color: black;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+  }
 </style>
 <div>
   <div class="head">
   </div>
   <nav class="navbar navbar-light navbar-expand-md ">
-    <img class="logo1" src="https://i.ibb.co/QHzJFmg/logobardh.png" alt=""></a>
+    <a href="{{ url('/') }}"><img style="width:60%;" class="logo1" src="https://i.ibb.co/QHzJFmg/logobardh.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
       <span class="navbar-icon"><i class="fas fa-bars"></i></span>
     </button>
@@ -368,62 +379,42 @@
       <ul class="navbar-nav " style="
     margin-left: 315px;">
         <li class="nav-item active">
-          <a class="nav-link" href="#">NavLink</a>
+          <a style="background-color:transparent; opacity:1;font-size:14px;" target="_blank" class="nav-link" href="search">FIND A HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">NavLink</a>
+          <a style="background-color:transparent; opacity:1;font-size:14px;" target="_blank" class="nav-link" href="/p/create">SELL A HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">NavLink</a>
+          <a style="background-color:transparent; opacity:1;font-size:14px;" target="_blank" class="nav-link" href="#">POST GALLERY</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">NavLink</a>
+          <a style="background-color:transparent; opacity:1; font-size:14px;" target="_blank" class="nav-link" href="/contactus">CONTACT US</a>
         </li>
       </ul>
-      @if(auth()->check())
-      @if(auth()->user()->hasRole('admin'))
 
-      <div class="user">
-        <div class="container1">
-          <div class="dropdown">
-            <button id="butoni11" class="btn btn-primary butoni1" type="button" data-toggle="dropdown"><i style="color:orange;" class="fas fa-user-shield"></i>{{auth()->user()->name}}
-              <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-              <li><a class="a1" href="/profile/{{auth()->user()->id}}">Profile</a></li>
-              <li><a class="a1" href="/admindashboard">Dashboard</a></li>
+      <div class="dropdown">
 
-              <li><a class="a1">
-                  <form action="/logout" method="POST">
-                    @csrf
-                    <button class="a12" type="submit">Log Out</button>
-                  </form>
-                </a></li>
-            </ul>
-          </div>
+        @if(auth()->check())
+        @if(auth()->user()->hasRole('admin'))
+        <button class="btn btn-secondary dropdown-toggle caramba" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i style="color:orange;" class="far fa-user-shield"></i> &nbsp;{{auth()->user()->name}}
+        </button>
+
+        @elseif(auth()->user()->hasRole('user'))
+        <button class="btn btn-secondary dropdown-toggle caramba" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="far fa-user"></i> &nbsp;{{auth()->user()->name}}
+        </button>
+        @endif @endif
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </div>
-
-      @elseif(auth()->user()->hasRole('user'))
-      <div class="user">
-        <div class="container1">
-          <div class="dropdown">
-            <button id="butoni11" class="btn btn-primary butoni1" type="button" data-toggle="dropdown"><i class="far fa-user"></i>{{auth()->user()->name}}
-              <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-              <li><a class="a1" href="/profile/{{auth()->user()->id}}">Profile</a></li>
-              <li><a class="a1">
-                  <form action="/logout" method="POST">
-                    @csrf
-                    <button class="a12" type="submit">Log Out</button>
-                  </form>
-                </a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      @endif
-      @endif
     </div>
+
+    
     <!-- <div class="navtext"> 
 	<nav class="navbar navbar-expand-lg navbar-transparent bg-transparent static-top">
   <div class="container">

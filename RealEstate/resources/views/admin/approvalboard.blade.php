@@ -70,36 +70,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./welcome">
-                <img src="https://i.ibb.co/QHzJFmg/logobardh.png" style="width:30%;" alt="LOGO">
+            <a class="navbar-brand" href="{{ url('/') }}">
+                <img src="https://i.ibb.co/QHzJFmg/logobardh.png" style="width:30%;margin-left:-190%;" alt="LOGO">
             </a>
         </div>
-        <!-- Top Menu Items -->
-        <ul class="nav navbar-right top-nav">
-            @if(auth()->check())
-            @if(auth()->user()->hasRole('admin'))
-
-            <div class="user">
-                <div class="container1">
-                    <div class="dropdown">
-                        <button id="butoni11" class="btn btn-primary butoni1" type="button" data-toggle="dropdown"><i style="color:orange;" class="fas fa-user-shield"></i>{{auth()->user()->name}}
-                            <span class="caret"></span></button>
-                        <ul class="dropdown-menu">
-                            <li><a class="a1" href="/profile/{{auth()->user()->id}}">Profile</a></li>
-                            <li><a class="a1" href="/admindashboard">Dashboard</a></li>
-
-                            <li><a class="a1">
-                                    <form action="/logout" method="POST">
-                                        @csrf
-                                        <button class="a12" type="submit">Log Out</button>
-                                    </form>
-                                </a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            @endif @endif
-        </ul>
         <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
@@ -112,6 +86,15 @@
                 </li>
                 <li>
                     <a href="/admindashboard/pending"><i class="fas fa-eye-slash"></i> Pending Posts</a>
+                </li>  
+                <li>
+                    <a href="{{ url('/') }}"><i class="fas fa-backspace"></i> Homepage</a>
+                </li>
+                <li>
+                    <a href="/p/create"><i class="fas fa-plus-circle"></i> Create post</a>
+                </li>
+                <li>
+                    <a href="search"><i class="fas fa-users"></i> All posts</a>
                 </li>
             </ul>
         </div>
