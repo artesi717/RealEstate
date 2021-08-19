@@ -22,6 +22,7 @@ Route::get('/','HomeController@index');
 Route::get('/contactus','HomeController@view');
 
 
+
 Route::get('/p/create','PostsController@create');
 Route::post('/p','PostsController@store');
 Route::get('/propertypage/{post}','PostsController@show');

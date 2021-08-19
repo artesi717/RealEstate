@@ -51,7 +51,7 @@
             <button type="submit" class="myButton1">
                                     {{ __('Login') }}
                                 </button>
-            <a href="/resetpassword" class="forgotpass">Reset password</a>
+            <a href="{{route('password.request')}}" class="forgotpass"> Forgot Password</a>
 
 
         </div>

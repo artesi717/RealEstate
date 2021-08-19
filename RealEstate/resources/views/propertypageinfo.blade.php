@@ -68,6 +68,7 @@
       </div>
     </div>
         </div>
+        
         <div class="col-md-4">
           <div class="content">
         <div class="contact-form">
@@ -80,13 +81,71 @@
 
       </div>
 		</div>
-		<form action="#" method="post">
-			<input name="name" type="text" class="form-control" id="name" placeholder="Name" required />
-			<input name="conatctno" type="text" class="form-control" id="email" placeholder="Phone" required />
-			<input name="email" type="email" class="form-control" id="email" placeholder="Email" required />
-			<textarea name="message" rows="3" class="form-control" id="message" placeholder="Hello, I am interested in…" required style="width: 296px;height: 100px;"></textarea>
-			<a href="" class="myBtn"><p class="btn_p">Learn more<img src="/images/arrow.png" style="margin-left: 21px; cursor: pointer; padding-top: -77px;" alt=""></p></a>
+    
+		<form  action="{{route('contact.send')}}" method="post" enctype="multipart/form-data">
+    @csrf
+      <div class="field">
+          <div class="control">
+          <input class="form-control{{ $errors->has('name') ? ' is-danger' : '' }}" type="text" name="name" placeholder="Enter your name">
+               @if ($errors->has('name'))
+                          <span class="invalid-feedback " role="alert">
+                            <strong class="has-text-danger">{{ $errors->first('name') }}</strong>
+                          </span>
+                        @endif
+                      </div>
+                    </div>
+      <div class="field">
+              <div class="control">
+                <input class="form-control{{ $errors->has('phonenumber') ? ' is-danger' : '' }}" type="phonenumber" name="phonenumber" placeholder="Enter your phone number">
+                @if ($errors->has('phonenumber')) 
+                  <span class="" role="alert">
+                      <strong class="has-text-danger">{{ $errors->first('phonenumber') }}</strong>
+                    </span>
+                  @endif
+                </div>
+              </div>
+			
+      <div class="field">
+                      <div class="control">
+                        <input class="form-control{{ $errors->has('email') ? ' is-danger' : '' }}" type="email" name="email" placeholder="Enter your email">
+                        @if ($errors->has('email'))
+                        <span class="" role="alert">
+                            <strong class="has-text-danger">{{ $errors->first('email') }}</strong>
+                        </span>
+                        @endif
+                      </div>
+                    </div>
+                    <div class="field">
+                      
+                      <div class="control">
+                        <textarea class="form-control{{ $errors->has('message') ? ' is-danger' : '' }}" id="message" rows="4" name="message" placeholder="Hello, I am interested in…" required style="width: 296px;height: 100px;"></textarea>
+                        @if ($errors->has('message'))
+                          <span class="" role="alert">
+                            <strong class="has-text-danger">{{ $errors->first('message') }}</strong>
+                          </span>
+                        @endif
+                      </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary float-right"> Submit
+                         
+                         </button>
+			
 		</form>
+    {{-- Photo Frame Section --}}
+    <div class="columns">
+        <div class="column coloredback">
+                <br>
+                <br>
+                  <div class="title has-text-white has-text-centered">
+                    Drop Us A Message!
+                  </div>
+            <div class="insidemoved">
+              @if(Session::has('message_sent'))
+                  <div class="alert alert-success" role="alert">
+                     {{Session::get('message_sent')}}
+                  </div>
+              @endif
 	</div>
 </div>
 </div>

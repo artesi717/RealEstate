@@ -27,7 +27,7 @@
     <div class="navtext">
       <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent absolute-top">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="http://127.0.0.1:8000">
             <img class="logo1" src="https://i.ibb.co/nfWM2ML/output-onlinepngtools-9.png" alt="" style="width:100%;">
           </a>
           <div>

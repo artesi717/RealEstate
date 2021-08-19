@@ -360,7 +360,8 @@
   <div class="head">
   </div>
   <nav class="navbar navbar-light navbar-expand-md ">
-    <img class="logo1" src="https://i.ibb.co/QHzJFmg/logobardh.png" alt=""></a>
+    
+    <img class="logo1" src="https://i.ibb.co/QHzJFmg/logobardh.png" alt="" ></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
       <span class="navbar-icon"><i class="fas fa-bars"></i></span>
     </button>
