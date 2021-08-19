@@ -31,6 +31,7 @@ class PostsController extends Controller
             'year' => 'required',
             'address' => 'required',
             'description' => 'required',
+            'rental' => 'required',
             'image'=>['required','image'],
         ]);
         $imagePath= request('image')->store('uploads','public');
@@ -47,6 +48,7 @@ class PostsController extends Controller
                 'price'=>$data['price'],
                 'year'=>$data['year'],
                 'address'=>$data['address'],
+                'rental'=>$data['rental'],
                 'description'=>$data['description'],
                 'image'=>$imagePath,
             ]);
@@ -58,8 +60,6 @@ class PostsController extends Controller
     }
 
 
-
-
     public function view()
     {   
 
@@ -69,8 +69,6 @@ class PostsController extends Controller
         return view('search',compact('posts'));
     }
     
-   
-
 
     public function update(Post $post)
     {

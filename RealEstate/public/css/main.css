@@ -18,6 +18,30 @@ body {
     box-sizing: border-box;
 }
 
+.hero-p1 {
+    position: absolute;
+    width: 1066px;
+    height: 100px;
+    left: 154px;
+    background: rgb(255, 102, 0);
+    background: linear-gradient(90deg, rgba(255, 102, 0, 1) 0%, rgba(227, 174, 58, 1) 58%, rgba(251, 200, 140, 1) 100%);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    padding-left: 45px;
+    border-radius: 10px;
+    padding-top: 35px;
+    top: 80px;
+    padding-bottom: 5px;
+    letter-spacing: -0.502564px;
+    color: white;
+}
+
+.hero-p1:hover {
+    color: #D0D3D4;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;

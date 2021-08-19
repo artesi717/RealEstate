@@ -365,6 +365,10 @@ i {
     opacity: 0.6;
 }
 
+.itemnav {
+    background-color: none;
+}
+
 .hero-p {
     position: absolute;
     width: 1199px;

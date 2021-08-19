@@ -13,7 +13,7 @@
         <p class="card-text pershkrimi">Find your place with an immersive photo experience and the most listings, including things you won’t find anywhere else.</p>
       </div>
       <div class="card-footer">
-	  <button mx-auto d-block type="button" class="btn btn-primary butoni121">Search homes</button>
+        <a href="/search" mx-auto d-block type="button" class="btn btn-primary butoni121">Search homes</a>
       </div>
     </div>
   </div>
@@ -25,7 +25,8 @@
         <p class="card-text pershkrimi">Whether you get a cash offer through Zillow Offers® or choose to sell traditionally, we can help you navigate a successful sale.</p>
       </div>
       <div class="card-footer">
-	  <button type="button" class="btn btn-primary butoni121">See your options</button>
+        <a href="/p/create" mx-auto d-block type="button" class="btn btn-primary butoni121">See your options</a>
+
       </div>
     </div>
   </div>
@@ -37,31 +38,32 @@
         <p class="card-text pershkrimi">We’re creating a seamless online experience – from shopping on the largest rental network, to applying, to paying rent.</p>
       </div>
       <div class="card-footer">
-	  <button type="button" class="btn btn-primary butoni121">Find rentals</button>
+        <a href="/search?rental=Rent&filter=#" type="button" class="btn btn-primary butoni121">Find rentals</a>
       </div>
     </div>
   </div>
 </div>
 
 
+
 <div class="pjesa2" data-aos="fade-down">
-	<hr class="amell2"> <br>
-	<p class="evga11">
-		"Never make your home in a place. Make a home for yourself inside your own head. You'll find what you need to furnish it -
-		memory, friends you can trust, love of learning, and other such things. That way it will go with you wherever you journey."</p>
+  <hr class="amell2"> <br>
+  <p class="evga11">
+    "Never make your home in a place. Make a home for yourself inside your own head. You'll find what you need to furnish it -
+    memory, friends you can trust, love of learning, and other such things. That way it will go with you wherever you journey."</p>
 </div>
 
 
 <script>
-	AOS.init({
-		duration: 1500
-	});
-	AOS.init();
+  AOS.init({
+    duration: 1500
+  });
+  AOS.init();
 
-	// AOS.init({
-	//    offset: 200,
-	//    duration: 600,
-	//    easing: 'ease-in-sine',
-	//    delay: 100,
-	//  });
+  // AOS.init({
+  //    offset: 200,
+  //    duration: 600,
+  //    easing: 'ease-in-sine',
+  //    delay: 100,
+  //  });
 </script>

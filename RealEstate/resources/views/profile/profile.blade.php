@@ -76,10 +76,11 @@
     }
 
     .profilepic {
-        width: 15%;
+        width: 12%;
         display: block;
-        border-radius: 80%;
-        margin-left: 15%;
+        border-radius: 50%;
+        margin-left: 17%;
+
     }
 
     .emriwelcome {
@@ -106,7 +107,6 @@
 
     .pagination {
         display: inline-block;
-        float: center;
         text-align: center;
         font-weight: 800;
         font-family: 'DM Sans'sans-serif;
@@ -118,6 +118,21 @@
         padding: 8px 16px;
         text-decoration: none;
     }
+
+    .descriptioni {
+        margin-left: 32%;
+    }
+
+    footer {
+        width: 175.7%;
+        margin-left: -40%;
+        margin-top: 10%;
+        bottom: 0;
+        padding-bottom: 0;
+    }
+
+    
+
 </style>
 
 
@@ -130,103 +145,97 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 
+<body>
+    @section('content')
+    <div class="profileinfo">
 
-@section('content')
-<div class="profileinfo">
-    <img class="profilepic" src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?size=626&ext=jpg" alt=""> <br>
+        @if(auth()->check())
+        @if(auth()->user()->hasRole('admin'))
+        <img class="profilepic" src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt=""> <br>
+        @elseif(auth()->user()->hasRole('user'))
+        <img class="profilepic" src="https://www.kindpng.com/picc/m/78-786207_user-avatar-png-user-avatar-icon-png-transparent.png" alt=""> <br>
+        @endif @endif
 
-    <div class="emriwelcome">
-        <div style="color:black;" class="h1">{{ $user->name ?? 'Nuk ka te dhena' }}</div>
+        <div class="emriwelcome">
+            <div style="color:black;" class="h1">{{ $user->name ?? 'Nuk ka te dhena' }}</div>
+        </div>
+        <div style="color:black;text-align:left; margin-left:32%;" class="pr-5"><strong>{{$user->posts->count()}}</strong> posts</div> <br>
+        <div class="descriptioni">Description: {{$user->profile->description}}</div> <br>
+
+        <div class="butonat">
+            @can('update',$user->profile)
+            <a class="editprofil" href="/profile/{{$user->id}}/edit">Edit Profile</a>
+            @endcan
+
+            @can('update',$user->profile)
+            <a class="addpost" href="/p/create">Add New Post</a>
+            @endcan
+        </div>
     </div>
-    <div style="color:black;text-align:left; margin-left:32%;" class="pr-5"><strong>{{$user->posts->count()}}</strong> posts</div> <br>
-    <div>{{$user->profile->description}}</div> <br>
-
-    <div class="butonat">
-        @can('update',$user->profile)
-        <a class="editprofil" href="/profile/{{$user->id}}/edit">Edit Profile</a>
-        @endcan
-
-        @can('update',$user->profile)
-        <a class="addpost" href="/p/create">Add New Post</a>
-        @endcan
-    </div>
-</div>
-<div class="container">
-    <br><br><br><br><br>
+    <div class="container">
+        <br><br><br><br><br>
 
 
-    <!--<h5 class="quotepeek">“Home is where our story begins…”</h5> -->
 
-    <div class="row">
-        <div class="col-9 pt-5">
-            <div class="d-flex justify-content-between align-items-baseline">
-                <div class="d-flex align-items-center pb-3">
-                    <!--     <h3 style="color:black;font-size: 2.25rem;" class="welcome11">Welcome&nbsp;</h3> <b> <div class="h1">{{ $user->name ?? 'Nuk ka te dhena' }}</div></b>
--->
+        <div class="row">
+            <div class="col-9 pt-5">
+                <div class="d-flex justify-content-between align-items-baseline">
+                    <div class="d-flex align-items-center pb-3">
+
+                    </div>
+
                 </div>
-                <!--
-                @can('update',$user->profile)
-                <a class="addpost" href="/p/create">Add New Post</a>
-                @endcan
--->
+
+
             </div>
 
 
+            <div class="postimet">
+                <div class="row pt-4 ">
+                    @foreach($user->posts as $post)
+                    <div class="row pl-5 pt-4">
+                        <a href="/propertypage/{{$post->id}}">
+                            <div class="card">
+                                <div> <img class="v0_226" src="/storage/{{$post->image}}" alt=""></div>
+                                <p class="v0_225">{{$post->name}}</p>
+                                <div class="v0_227">
+                                    <div class="v0_246">
+                                        <div class="v0_247"> </div>
+                                        <span class="v0_250">{{$post->bed}}</span>
+                                    </div>
+                                </div>
+                                <div class="v0_228">
+                                    <div class="v0_251"><span class="v0_252">{{$post->showers}}</span>
+                                        <div class="v0_253"></div>
+                                    </div>
+                                </div>
+                                <div class="v0_229">
+                                    <div class="v0_232">
+                                        <div class="v0_233"></div>
+                                        <span class="v0_245">{{$post->size}}m2</span>
+                                    </div>
+                                </div>
+                            </div>
 
-
-
-
-            <!--      <div class="d-flex">
-                <div class="pr-5"><strong>{{$user->posts->count()}}</strong> posts</div>
+                        </a>
+                    </div>
+                    @endforeach
+                </div>
             </div>
-            <div>{{$user->profile->description}}</div>
-        </div> -->
+        </div>
+
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a class="active" href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
         </div>
 
 
-        <div class="postimet">
-            <div class="row pt-4 ">
-                @foreach($user->posts as $post)
-                <div class="row pl-5 pt-4">
-                    <a href="/propertypage/{{$post->id}}">
-                        <div class="card">
-                            <div> <img class="v0_226" src="/storage/{{$post->image}}" alt=""></div>
-                            <p class="v0_225">{{$post->name}}</p>
-                            <div class="v0_227">
-                                <div class="v0_246">
-                                    <div class="v0_247"> </div>
-                                    <span class="v0_250">{{$post->bed}}</span>
-                                </div>
-                            </div>
-                            <div class="v0_228">
-                                <div class="v0_251"><span class="v0_252">{{$post->showers}}</span>
-                                    <div class="v0_253"></div>
-                                </div>
-                            </div>
-                            <div class="v0_229">
-                                <div class="v0_232">
-                                    <div class="v0_233"></div>
-                                    <span class="v0_245">{{$post->size}}m2</span>
-                                </div>
-                            </div>
-                        </div>
-
-                    </a>
-                </div>
-                @endforeach
-            </div>
-        </div>
-    </div>
-
-    <div class="pagination">
-        <a href="#">&laquo;</a>
-        <a href="#">1</a>
-        <a class="active" href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">4</a>
-        <a href="#">5</a>
-        <a href="#">6</a>
-        <a href="#">&raquo;</a>
-    </div>
-
-    @endsection
+</body>
+@include('footer')
+@endsection

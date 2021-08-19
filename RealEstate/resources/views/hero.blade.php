@@ -33,21 +33,20 @@
           <div>
             <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav ml-auto" style="margin: 31px; margin-left: 23px;">
-
                 <li class="nav-item">
-                  <a target="_blank" class="nav-link" href="/p/create">Sell</a>
+                  <a style="background-color:transparent; opacity:1;" target="_blank" class="nav-link" href="search">FIND A HOME</a>
                 </li>
 
                 <li class="nav-item">
-                  <a target="_blank" class="nav-link" href="search">Buy</a>
+                  <a style="background-color:transparent; opacity:1;" target="_blank" class="nav-link" href="/p/create">SELL A HOME</a>
                 </li>
 
                 <li class="nav-item">
-                  <a target="_blank" class="nav-link" href="#">Post Gallery</a>
+                  <a style="background-color:transparent; opacity:1;" target="_blank" class="nav-link" href="#">POST GALLERY</a>
                 </li>
 
                 <li class="nav-item">
-                  <a target="_blank" class="nav-link" href="/contactus">Contact Us</a>
+                  <a style="background-color:transparent; opacity:1;" target="_blank" class="nav-link" href="/contactus">CONTACT US</a>
                 </li>
 
               </ul>

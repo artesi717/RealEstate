@@ -5,14 +5,10 @@
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ URL::asset('css/allposts.css') }}">
@@ -26,14 +22,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwindcss.min.css" rel="stylesheet">
-
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ URL::asset('css/allposts.css') }}">
@@ -41,18 +33,13 @@
     <script src="bower_components/aos/dist/aos.js"></script>
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css" rel="stylesheet">
-
     <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-
     <title>Listings Preview</title>
 </head>
-
-
-
 
 <body>
     <h1 class="headerquote"></h1>
@@ -66,7 +53,7 @@
 
         <form method="get" action="#">
             <div class="buttonat123">
-                <select class="form-select myButton5" aria-label="Default select example">
+                <select class="form-select myButton5" id="rental" name="rental" aria-label="Default select example">
                     <option disabled selected>Looking to</option>
                     <option value="Buy">Buy</option>
                     <option value="Rent">Rent</option>
@@ -84,11 +71,11 @@
                     <option value="Apartment">Apartment</option>
                 </select>
             </div>
-            <div class="price1">
+            <!-- <div class="price1">
                 <button class="myButton5 form-select" data-toggle="modal" data-target="#exampleModalCenter3">
                     Price <i id="iconaez" class="fas fa-sort-down"></i>
                 </button>
-            </div>
+            </div> -->
             <button type="submit" name="filter" id="filter" class="btn btn-primary myButton1">Save changes</button>
 
 
@@ -97,7 +84,7 @@
 
 
 
-    <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <!-- <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -130,7 +117,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -149,8 +136,8 @@
                     <div class="col-sm-7">
                         <div class="card-body">
                             <h5 class="card-title">{{$post->name}}</h5>
-                            <p class="card-text">Beds : {{$post->bed}}</p>
-                            <p class="card-text">Showers : {{$post->showers}}</p>
+                            <p class="card-text">Rooms : {{$post->bed}}</p>
+                            <p class="card-text">Toilets : {{$post->showers}}</p>
                             <p class="card-text">Size : {{$post->size}}m2</p>
                             <p class="card-text qmimi">${{$post->price}}</p>
 
@@ -164,8 +151,9 @@
     </div>
 
 
+
     <div id="map-container-google-3" class="z-depth-1-half map-container-3">
-        <iframe src="https://maps.google.com/maps?q=warsaw&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://maps.google.com/maps?q=prishtine&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 
     <img class="logoopen" src="https://i.ibb.co/55vQ0fL/logozi.png" alt="">
