@@ -36,6 +36,9 @@ Route::get('google-autocomplete', [GoogleController::class, 'index']);
 Route::get('/contactus', [ContactController::class, 'contact']);
 Route::post('/send-message', [ContactController::class, 'sendemail'])->name('contact.send');
 
+Route::delete('/search/{post}', 'PostsController@destroy')->name('profile.destroy');
+
+
 
 
 

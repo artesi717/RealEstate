@@ -31,4 +31,11 @@ class AdminController extends Controller
         return view('admin.approvalboard',compact('posts'));
     }
    
+    public function destroy(Post $post)
+    {
+        $post->delete();
+
+        return view('admin.approvalboard',compact('posts'));
+
+    }
 }

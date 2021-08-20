@@ -79,4 +79,11 @@ class PostsController extends Controller
         return redirect("/admindashboard");
     }
     
+    public function destroy(Post $post)
+    {
+        $post->delete();
+
+        return back();
+
+    }
 }
